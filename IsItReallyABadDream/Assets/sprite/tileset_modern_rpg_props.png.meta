@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3f2879cbf6ed6bd488a886cf2266e648
+guid: b3701c80247a1674e8f78b8c87d9adbc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -134,7 +134,1477 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 246
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb1b295fa445ca40b73cf542df33083
+      internalID: 1112154331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 210
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279316417500e6749bde0d0e0072e479
+      internalID: 1644616128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 209
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313e931a126493f468de2dffa25e4825
+      internalID: 1353014738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_4
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 210
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff1c7cf3e6a77c4299a61bb86378713
+      internalID: 1381849096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_5
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 242
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3abf97dc7e867429916218c3ad7069
+      internalID: -1772229120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_6
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 248
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f475b40fd9cd549ab21fc665d1bdc1
+      internalID: 502282237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 241
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7e7378aecaa324a9a29d6543b0ae2e
+      internalID: 1072204502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_8
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 242
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d0362978b68d14d8bc008294c276cf
+      internalID: 296681349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_9
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 226
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a61a094436f884439e42c8fea4b51db
+      internalID: 334594932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_10
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 232
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e225530f804104a40b4441b1e3a8109d
+      internalID: 1966948032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_11
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 230
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12b720569075404cbbc699290fe0889
+      internalID: 697902753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_18
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 210
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7a765147be378448c5319d52eb8752
+      internalID: -492326994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_19
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 215
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b81e48212da894c9722cfe1ac031c4
+      internalID: 1355343601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_20
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 214
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a524bf38ee3be8443b550e286a8f0470
+      internalID: -1199168811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_21
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 215
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641a099ddb754e54187293e19dd61db8
+      internalID: 742887239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_32
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 178
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece5fa82d336a3a42932f4886adfdc35
+      internalID: 565681695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 177
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1191977d2b6410046b9964b9d79ab337
+      internalID: -42016788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_34
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 177
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6137caca01fded942b08f50df4aebc7a
+      internalID: -1626257541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 166
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc6c203f8991884a82490ebcd4a2b3e
+      internalID: 1833492826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_39
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 169
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec99e22a552825429052462c1b39dcd
+      internalID: -1011201148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_40
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 171
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207e8b906413fff469a5f95874669ebf
+      internalID: 729779893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_43
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 115
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b82abda657ea640852b9352a604212
+      internalID: 1435952792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_44
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 100
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec77b93f4b4fd34ca01ee6fb76eeef3
+      internalID: -490776328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_45
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 98
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0df97edf859fd46b67b38cc94af698
+      internalID: 211377793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_46
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 101
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4235d7046d59a174cbf51a8107d3d2cd
+      internalID: -1744484578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_48
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 96
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56637d3c9c8773d41b6ef4e00bcee658
+      internalID: 2067691413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_49
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 98
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef5f27a297c4df46951204b6d948e05
+      internalID: 1995475967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_50
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 98
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570e269cbdb4d05418f06ba9374a4697
+      internalID: 594326580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_51
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 98
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01939e1d3b82c2a4eba3969d87bb2633
+      internalID: -378088675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_52
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 98
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b97da8de25ce340ae4ba24a23b4091
+      internalID: -483783535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_53
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 98
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888482dd23ee12843b62b1cbdfe51031
+      internalID: 295991120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_54
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 98
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f2dba584e2e2b4b840064076274360
+      internalID: -1912538295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_55
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 85
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb96e18a8e33504c9358ba6a1db4278
+      internalID: -465992582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_56
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 85
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f41222d0d3282948850428141c0fa60
+      internalID: -1713558081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_57
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 85
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c2d4694efa10840aee2c0bba5edb34
+      internalID: 1784001557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_58
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 81
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d97b293c7970d43b1c865f588fbf6d
+      internalID: 2051948859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_59
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 81
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60f35fd80da97f4ebc51b6c171df584
+      internalID: 1697012016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_60
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 64
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130a1f650dc45064c81b37959b70e5f5
+      internalID: 291286968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_61
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 84
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faedc12762a53d64b8bd5b028312d16f
+      internalID: -1490328006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_62
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 84
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5dfd2ae8a0a024ba5abcdf3f329ad8
+      internalID: 663529973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_63
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 82
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5506d825eb3cd804893676176645aaa2
+      internalID: -1133326183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_64
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 50
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a506f9106e925b4d8190fef6d4a975e
+      internalID: 1579659991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_65
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 65
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704cefdc9cda3ad488cae4397c6849c6
+      internalID: 476543805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_66
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 65
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfe9bf840ecfad49be81d71af1b82d9
+      internalID: 817298918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_67
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 48
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095dfea140cf53447b9a58308bfb5162
+      internalID: -1433027473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_68
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 70
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c719afc2817344bae762f4ed244089
+      internalID: 1914496596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_69
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 49
+        width: 5
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba2336f68d2b5e469ab3498d9ec1492
+      internalID: 1615226521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_70
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 65
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935b1cfc349d9fe4b98bd5effa038880
+      internalID: -1391374370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_71
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 65
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada41c29310b3454aa27d08a62fd4ac5
+      internalID: 1844013149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_72
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 32
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfcc91ad2f078a41a8c3c584eacb49e
+      internalID: 1004695004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_73
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 32
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f7ddf6d51700244bfb067650439f0b
+      internalID: 679828138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_74
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820fde53ff48ca8468c44bbe0452a60f
+      internalID: 674596585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_75
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 49
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d255555ba0cf144871a02185306f09
+      internalID: -1680527252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_76
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 49
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf84c7c928671c49af356f805c06d83
+      internalID: 1328049509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_77
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 49
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c929c4ca4b3001d44955be804c2c6a54
+      internalID: -926483400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_78
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 32
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b301c750035366449cd4a6c7ae0a823
+      internalID: 136224347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_79
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 34
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb5ab504ae68d2489bd955f95390728
+      internalID: 1533692533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_80
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 34
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c64c9705490808449da734acad84fe3
+      internalID: -1753266695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_83
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 39
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766d37f667faff644af91df7e978d323
+      internalID: 1698433271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_85
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622c3bc2940f59843af7a5ddaa5952cf
+      internalID: -697349934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_86
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332acdcad896eac4d8cd805c206f13a4
+      internalID: 1565920081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_88
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 5
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd40cb2d5159a44c9da96988a99bd00
+      internalID: 53146885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 133
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a392920b406df324b8b041df29a86d69
+      internalID: -1189295261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_89
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 133
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aceeb87ddfefc5a41aad2de3d18a9bd8
+      internalID: 393379191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_90
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 134
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97bf8919ebfe5645be70d256f456e8e
+      internalID: 367353012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_91
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 134
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21d05d06fe4eb446ae24bb3b9f559cf
+      internalID: -706025462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_92
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 112
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269fe1f1325856f488d6547d3b52e963
+      internalID: -1856755302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_93
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 114
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc99470555d31824fa576cd80f4fb75d
+      internalID: -1067480649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_94
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 115
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734ed2c9e9078a4439b99c9cc6334749
+      internalID: -996605002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_modern_rpg_props_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 114
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65808a02e29511b488ed54252a5c6cc3
+      internalID: -237609862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +1615,102 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tileset_modern_rpg_props_0: -237609862
+      tileset_modern_rpg_props_1: 1112154331
+      tileset_modern_rpg_props_10: 1966948032
+      tileset_modern_rpg_props_11: 697902753
+      tileset_modern_rpg_props_12: 56902896
+      tileset_modern_rpg_props_13: -802114991
+      tileset_modern_rpg_props_14: 2013575264
+      tileset_modern_rpg_props_15: -1350316406
+      tileset_modern_rpg_props_16: 1225362999
+      tileset_modern_rpg_props_17: -560140725
+      tileset_modern_rpg_props_18: -492326994
+      tileset_modern_rpg_props_19: 1355343601
+      tileset_modern_rpg_props_2: 1644616128
+      tileset_modern_rpg_props_20: -1199168811
+      tileset_modern_rpg_props_21: 742887239
+      tileset_modern_rpg_props_22: 2019263123
+      tileset_modern_rpg_props_23: -1302340411
+      tileset_modern_rpg_props_24: 826352761
+      tileset_modern_rpg_props_25: -1859525439
+      tileset_modern_rpg_props_26: 1657175100
+      tileset_modern_rpg_props_27: -890142957
+      tileset_modern_rpg_props_28: -524550192
+      tileset_modern_rpg_props_29: -57180492
+      tileset_modern_rpg_props_3: 1353014738
+      tileset_modern_rpg_props_30: 525441787
+      tileset_modern_rpg_props_31: 1933269204
+      tileset_modern_rpg_props_32: 565681695
+      tileset_modern_rpg_props_33: -42016788
+      tileset_modern_rpg_props_34: -1626257541
+      tileset_modern_rpg_props_35: -1102402118
+      tileset_modern_rpg_props_36: 1936006529
+      tileset_modern_rpg_props_37: -941103906
+      tileset_modern_rpg_props_38: 1833492826
+      tileset_modern_rpg_props_39: -1011201148
+      tileset_modern_rpg_props_4: 1381849096
+      tileset_modern_rpg_props_40: 729779893
+      tileset_modern_rpg_props_41: 827301318
+      tileset_modern_rpg_props_42: -1189295261
+      tileset_modern_rpg_props_43: 1435952792
+      tileset_modern_rpg_props_44: -490776328
+      tileset_modern_rpg_props_45: 211377793
+      tileset_modern_rpg_props_46: -1744484578
+      tileset_modern_rpg_props_47: -633038933
+      tileset_modern_rpg_props_48: 2067691413
+      tileset_modern_rpg_props_49: 1995475967
+      tileset_modern_rpg_props_5: -1772229120
+      tileset_modern_rpg_props_50: 594326580
+      tileset_modern_rpg_props_51: -378088675
+      tileset_modern_rpg_props_52: -483783535
+      tileset_modern_rpg_props_53: 295991120
+      tileset_modern_rpg_props_54: -1912538295
+      tileset_modern_rpg_props_55: -465992582
+      tileset_modern_rpg_props_56: -1713558081
+      tileset_modern_rpg_props_57: 1784001557
+      tileset_modern_rpg_props_58: 2051948859
+      tileset_modern_rpg_props_59: 1697012016
+      tileset_modern_rpg_props_6: 502282237
+      tileset_modern_rpg_props_60: 291286968
+      tileset_modern_rpg_props_61: -1490328006
+      tileset_modern_rpg_props_62: 663529973
+      tileset_modern_rpg_props_63: -1133326183
+      tileset_modern_rpg_props_64: 1579659991
+      tileset_modern_rpg_props_65: 476543805
+      tileset_modern_rpg_props_66: 817298918
+      tileset_modern_rpg_props_67: -1433027473
+      tileset_modern_rpg_props_68: 1914496596
+      tileset_modern_rpg_props_69: 1615226521
+      tileset_modern_rpg_props_7: 1072204502
+      tileset_modern_rpg_props_70: -1391374370
+      tileset_modern_rpg_props_71: 1844013149
+      tileset_modern_rpg_props_72: 1004695004
+      tileset_modern_rpg_props_73: 679828138
+      tileset_modern_rpg_props_74: 674596585
+      tileset_modern_rpg_props_75: -1680527252
+      tileset_modern_rpg_props_76: 1328049509
+      tileset_modern_rpg_props_77: -926483400
+      tileset_modern_rpg_props_78: 136224347
+      tileset_modern_rpg_props_79: 1533692533
+      tileset_modern_rpg_props_8: 296681349
+      tileset_modern_rpg_props_80: -1753266695
+      tileset_modern_rpg_props_81: 1600108833
+      tileset_modern_rpg_props_82: 1176789525
+      tileset_modern_rpg_props_83: 1698433271
+      tileset_modern_rpg_props_84: 1465826251
+      tileset_modern_rpg_props_85: -697349934
+      tileset_modern_rpg_props_86: 1565920081
+      tileset_modern_rpg_props_87: -238189433
+      tileset_modern_rpg_props_88: 53146885
+      tileset_modern_rpg_props_89: 393379191
+      tileset_modern_rpg_props_9: 334594932
+      tileset_modern_rpg_props_90: 367353012
+      tileset_modern_rpg_props_91: -1874923939
+      tileset_modern_rpg_props_92: -706025462
+      tileset_modern_rpg_props_93: -1856755302
+      tileset_modern_rpg_props_94: -1067480649
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

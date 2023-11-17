@@ -1,0 +1,3762 @@
+fileFormatVersion: 2
+guid: 404c53c94d38bab48ac71dcac6d10bd7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Floor_2_16x16_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe459feb29b7f7439364b04a35cfaa6
+      internalID: 1179267562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0400460cb2e958f41912344bb25b554c
+      internalID: -1575148723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4009345b62ac24a969ec67ba0b7275
+      internalID: -355061275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555ba25b5e0198e4b82a7ba3c23a5109
+      internalID: -1210796593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ce0d76d031ec144be0bf675d8247cb
+      internalID: -731922928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f835f3c829eb442a04675da8bded3d
+      internalID: -1291236437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f0a757dd6bf114c9d4127e73bedf01
+      internalID: 1765560406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27dd6f97d9c71aa4daaf6c80f2a4c817
+      internalID: 1297792929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_8
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c56c7ede103cab42978bd82e48ae8bd
+      internalID: 221923680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6846e3d9fc2ea1c46b3ddc8cf82b844c
+      internalID: -1580128528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_10
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df73b411aac6f5945910c09a3ebf9365
+      internalID: 155907001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_11
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d92ce43cc163b64baec5f9a621b4853
+      internalID: -1888729950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f9b8bb16f1e9244a59294bf5bde9b1
+      internalID: -182583676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_13
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ad0a0ffe82cb14591932e9323cc1b3
+      internalID: 553983375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_14
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0b29245d71c52428fa29fbceca25a4
+      internalID: 1863039760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_15
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac500589567d21f48859d2f803995834
+      internalID: 1921274343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_16
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b512b6305e33ff04a88b7c47b5ed5380
+      internalID: -575846269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_17
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad705bebb107e140812edd0332cd6f8
+      internalID: -2073454223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 672
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae7912afadcb114cad2f8f6f9a70d1b
+      internalID: -1692720991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 672
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f686046f3888647af5fecc470a803a
+      internalID: -2109283177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 672
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887b706e6133259449dd0f8d6bff6e64
+      internalID: -1909672580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 672
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd7b78c0e7c82744b399e0a0cc455c3
+      internalID: 531873870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_22
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 672
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f507bcada1ca53d43a447f8b378e320f
+      internalID: -749006611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c928e5c2cbef5b4e9016c78d0e3fac2
+      internalID: 690626989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_24
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 672
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8966353b5e3988c4195614b4cd6129f0
+      internalID: 1613437268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 672
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55794ad3aced4c419805e7ca7adcf26
+      internalID: 1160202199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_26
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 672
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef6d04bb26e76a44a3a548720d647e6
+      internalID: 416383685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161f5588e6dde7d4996ceea8a16bce49
+      internalID: -217671108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_28
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 672
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf83ae0ec9607b4d95f8ac7af2cb927
+      internalID: -1314206890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_29
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 672
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ecd01aad511624a99f78992476c64a
+      internalID: 627256403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 672
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29f4df8664a7954c9df15255ff1896d
+      internalID: -2002841027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_31
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 672
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98676472b749e9d4691a2ad6daa214af
+      internalID: -2074517235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_32
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd3bc5f9e5e9b449a02569a649f63e7
+      internalID: 1701437766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_33
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 672
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a62d10f2b624c47971c27a48cda84d
+      internalID: 1269079670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 672
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f00dcf09de82ba4d92416c2db3ba036
+      internalID: 1229968863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_35
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 672
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9254c7c9b390fa949a29617c6b328142
+      internalID: 366442309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 656
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fd43336c2cb6543910713858124e7e
+      internalID: 473417460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 656
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e109eb7de3972764596ec8a85d17eea9
+      internalID: 1055896124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_38
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 656
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8a5a2b6e3bd8c4993625ff684ddd51
+      internalID: 240911251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_39
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 656
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ba1c0fecf786943b53b2f9ed022688
+      internalID: -1709659589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_40
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 656
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3267ca491064f174288d597680e786de
+      internalID: 77682324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_41
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 656
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec11018df4f29948828e6ef84f44ad3
+      internalID: -1474761043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 656
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bcbb97de3d7d64db5950a6c9757f0e
+      internalID: 1010472736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_43
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 656
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df16e86dc96c62458d2da5c1494e397
+      internalID: -382299033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_44
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 656
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60719a0b161fb3419cd56f21209a4a9
+      internalID: -1847777031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_45
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 656
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d55dcc9cd57e349b774019c7792c81
+      internalID: -1586727815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_46
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 656
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d15f13753f18ed4cad39ab324a455c7
+      internalID: -1011333252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_47
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 656
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387720d06ccf0ff46bed9cd4ce899ffa
+      internalID: 150582771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_48
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 656
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80832935dc5d8b4c9b72f253ab211fc
+      internalID: -1456610052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_49
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 656
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa7df77bd74b1f43a203ac1a113a6c8
+      internalID: 1679792041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_50
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 656
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13aae12989c159b4390a649e9bb602e2
+      internalID: -529917645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_51
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 640
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b1c0292c18b4045b9f366949be47e8
+      internalID: -2050159026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_52
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 640
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7f861917a791b4c9d21ad4e17eac4a
+      internalID: 1785682660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_53
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 640
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a01ec5bdb11dee4081a86bb967cfb11
+      internalID: -109035911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df3b64cd70a75943afaf57042422198
+      internalID: -1109784741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_55
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 640
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6224dca62e5d7947802e7b3f1c4cb5c
+      internalID: 674606485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_56
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 640
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dd636f0e79cec489970c24ae19967f
+      internalID: -428214930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_57
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4389450ac814e94983b943f471994e7
+      internalID: -2055529889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_58
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 640
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8374d491a6961ab44864ca0898df85ff
+      internalID: 1403036607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_59
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 640
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a873c8a7a854b499fc932ad2f8d5e3
+      internalID: -207429168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_60
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 640
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd0fa9aead559241b9b66f0f48f33ce
+      internalID: 8729868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_61
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61e4d84963f6f24f8676166065ce311
+      internalID: -1211083197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_62
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 640
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d90da29674ed14396f49719d3d7568
+      internalID: 2086120047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_63
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 608
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db86c59153539cb409905a94003433c4
+      internalID: -90900292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_64
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 608
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2552126b0a58d814eb082bb05cd4f43f
+      internalID: -177642679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_65
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 608
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2995d381ca53404c9557f24fadcbc28
+      internalID: 310500910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 608
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67936ec799515534d9cfbaddf3a399da
+      internalID: -588483119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_67
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 608
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253db4743926fb042989d6b6a3a2ff2d
+      internalID: -945045327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_68
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 608
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa3b0ab1a20a794fbd4fbfd078977c1
+      internalID: -2481901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_69
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 608
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e33893fb282b024ab2c1c53f1922773
+      internalID: -1006024978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_70
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 608
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6d7fab9047b904bb10563b8162b31e
+      internalID: -501916455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_71
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 608
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc252012be4b4034b80f87a2990832f1
+      internalID: 289972804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 608
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a228df7df78ac4a93c023682de087f
+      internalID: 1237075678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_73
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 608
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec07a83ca15682e4dbfdaee6b1f82b37
+      internalID: 394176086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_74
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 608
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce23f3ca68fbae408897edf91a66ca3
+      internalID: 1044448116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_75
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 608
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a0874a55fced645b126eb8b83d7c3b
+      internalID: 2073529337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_76
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 608
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9544196f385bca7439449b5419afcc3c
+      internalID: -596715352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_77
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 608
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fde09b8cf14eb49810b554c62123f1
+      internalID: 1385794532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_78
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 608
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347585245b793e643b65e0d0892410a5
+      internalID: -757659171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_79
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 608
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e738c3a07c949b24aa156fd554884946
+      internalID: 638939038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_80
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 608
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a1ab21371858540b5e953e1f82df85
+      internalID: 101733050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_81
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7cff70bbd76ee45a02cb94c566dda6
+      internalID: -560147338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_82
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc9a37d129fdbb43a43149258c0dbee
+      internalID: 166740615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_83
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5062e83177dd22a41a8db07c81bf2c4d
+      internalID: 347886475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_84
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83a7ae1ad58ab94aa7541be85de1041
+      internalID: -1374533631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_85
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c9b0e82550f76498aad90c230749d1
+      internalID: 1298436238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_86
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb06dd278ca7c2e4d97e1fd187738a5e
+      internalID: -537896585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_87
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9417c8897239e964db4e2e6b09e1084f
+      internalID: -1209694085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_88
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a47abfe3c8a0c24694c7b59854d1ed0
+      internalID: -991289649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_89
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d8cdba0b209574b931a67632f9f1bc
+      internalID: -1462923050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40faab01b0db11449af2cfcfd978045c
+      internalID: 1626353103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_91
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8455a5b1c13a44446b835da38cd570f8
+      internalID: 403082658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_92
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75913c30cf9e744fbf89c017b99dd07
+      internalID: 1747166576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_93
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e559a7aa9e2cd8b40b13ba418b8c27e1
+      internalID: 1061391631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_94
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9759001cfc295434392f0c1355c43245
+      internalID: -945135128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_95
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32dc645066a32d4aa7f21a3c340d41a
+      internalID: 1518979580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_96
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681903dcd90e2f74e8ea8def09238627
+      internalID: 1961922805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_97
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302016625a94e2c4792fcdd218123751
+      internalID: 521103144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_98
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ab9a1ddea72f243910ab0db180fda6
+      internalID: -640260897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_99
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 576
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e204ce4ab1a7441abc597fde5001d0
+      internalID: -676290113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_100
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 576
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6891357b4a9014bb3903103dfd0775
+      internalID: 219895854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_101
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 576
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2029850d6449ea144a70327a9663d71f
+      internalID: -2015033855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_102
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ded0db1c3568f54bbd9d4c138836e3c
+      internalID: -253304507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_103
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 576
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b715b38ae0962479bec84be47171aa
+      internalID: -794579784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_104
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec28659db30286847a5ae3f1c8c2e029
+      internalID: 1496025338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_105
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 576
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09a8533bd44a1047a8cc3266dbfd35f
+      internalID: -373648187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_106
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 576
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827b55e9681b49242971602ae9f1bc3a
+      internalID: 477321930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_107
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 576
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c1292647892b7498294454eae3c62a
+      internalID: -96379016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_108
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0d4a1c23c7dfc479c2080dd162ab11
+      internalID: 1762012737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_109
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 576
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de44023a24832d4e951c991afb05b89
+      internalID: -1275078591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_110
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 576
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ece413bc73b26a449c15adb83d24407
+      internalID: -1348900192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_111
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920e305266f5a0742a5230b686a359f9
+      internalID: 1927844889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_112
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 576
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32a19835c357264abecf697f02d218e
+      internalID: -501159348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_113
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 576
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8ee6ce65fcd604499a29f324e450b9
+      internalID: 1776607422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_114
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 576
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff3c0fc89b11ef4eb7134c4308ca987
+      internalID: -1837671370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_115
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c8bd929f923964f8702c3563340704
+      internalID: 881875217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_116
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 576
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84427f8db73a7da46af715d0469ece48
+      internalID: 1495282105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_117
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 560
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c1c615b8d83e9469ce575576b0e466
+      internalID: 991178431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_118
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 560
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277b9d9583b8d77429bc68e6740cbbef
+      internalID: 144181951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_119
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 560
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbfa155c84ce6b49ae583a206e4b88a
+      internalID: 142350967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_120
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 560
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd0ea65069d5564695751402cccc3f8
+      internalID: 145293056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_121
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 560
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d997a715c4f552429db5e7941211505
+      internalID: -1774904057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_122
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 560
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a6511e58c5580439d8d0ddb78d5f17
+      internalID: -1348674977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_123
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 560
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9223376245c4444d8a994ae2b998095
+      internalID: -2059641886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_124
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 560
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3632ee9b9ee4d834d8751958ef7ea623
+      internalID: 551908129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_125
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 560
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdb3decc98056c47b782fa972823658
+      internalID: 425389670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_126
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 560
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c388ab3d98e104da997dedb7a189ff
+      internalID: -514996386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_127
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 560
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5cf84880ccdd345aa0dd1af1952d17
+      internalID: 1791676035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_128
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 560
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97ba649c9740c343a85676e398883ee
+      internalID: -689339218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_129
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 560
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49742c602b3710c4c839b231568941d9
+      internalID: -1434375441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_130
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 560
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4dab187134b4f749a67dd3efa421aee
+      internalID: -52776270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_131
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 560
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c17bca7db728143802373acfbe8368
+      internalID: 1377863626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_132
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 560
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e266a292b1c51439773142bbed0466
+      internalID: 352172207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_133
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 560
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6a97eec75e9e1468125f26adf9cdca
+      internalID: 1340913242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_134
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 560
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e54500357a7b948a834cabb3611b16
+      internalID: -1032601192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_161
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68d17fe1e8db464d872de8cdf065d37
+      internalID: -1161447146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_178
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26dc19deb83e6447ac826644165fe99
+      internalID: -437288357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_180
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322367a10872d1447b09742e470416a0
+      internalID: -29034680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_427
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119f9742be7e45740b97d734e54c2ae8
+      internalID: 1914310504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_501
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52c2a8163bb155478193b0300ee9b68
+      internalID: -876085516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_525
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1658dc4085d13934eb18f811d65b84ac
+      internalID: -1896621138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_526
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1616519215038a408a5c2e767a1aab5
+      internalID: -691346506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_527
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50f6585dcd54db4dbfafe06b3043e97
+      internalID: -767836994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_540
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559f97034bc05a546a00ed62a1f40926
+      internalID: 1888646593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_541
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03313c4251be81042aa1ccd43b9ddf39
+      internalID: 2031517972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_2_16x16_542
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da081100140601b4d8f240048731c2d4
+      internalID: -1854419623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Floor_2_16x16_0: 1179267562
+      Floor_2_16x16_1: -1575148723
+      Floor_2_16x16_10: 155907001
+      Floor_2_16x16_100: 219895854
+      Floor_2_16x16_101: -2015033855
+      Floor_2_16x16_102: -253304507
+      Floor_2_16x16_103: -794579784
+      Floor_2_16x16_104: 1496025338
+      Floor_2_16x16_105: -373648187
+      Floor_2_16x16_106: 477321930
+      Floor_2_16x16_107: -96379016
+      Floor_2_16x16_108: 1762012737
+      Floor_2_16x16_109: -1275078591
+      Floor_2_16x16_11: -1888729950
+      Floor_2_16x16_110: -1348900192
+      Floor_2_16x16_111: 1927844889
+      Floor_2_16x16_112: -501159348
+      Floor_2_16x16_113: 1776607422
+      Floor_2_16x16_114: -1837671370
+      Floor_2_16x16_115: 881875217
+      Floor_2_16x16_116: 1495282105
+      Floor_2_16x16_117: 991178431
+      Floor_2_16x16_118: 144181951
+      Floor_2_16x16_119: 142350967
+      Floor_2_16x16_12: -182583676
+      Floor_2_16x16_120: 145293056
+      Floor_2_16x16_121: -1774904057
+      Floor_2_16x16_122: -1348674977
+      Floor_2_16x16_123: -2059641886
+      Floor_2_16x16_124: 551908129
+      Floor_2_16x16_125: 425389670
+      Floor_2_16x16_126: -514996386
+      Floor_2_16x16_127: 1791676035
+      Floor_2_16x16_128: -689339218
+      Floor_2_16x16_129: -1434375441
+      Floor_2_16x16_13: 553983375
+      Floor_2_16x16_130: -52776270
+      Floor_2_16x16_131: 1377863626
+      Floor_2_16x16_132: 352172207
+      Floor_2_16x16_133: 1340913242
+      Floor_2_16x16_134: -1032601192
+      Floor_2_16x16_135: -602544573
+      Floor_2_16x16_136: -495726488
+      Floor_2_16x16_137: 1715176910
+      Floor_2_16x16_138: -29466125
+      Floor_2_16x16_139: 351189991
+      Floor_2_16x16_14: 1863039760
+      Floor_2_16x16_140: -1830338129
+      Floor_2_16x16_141: -1357543605
+      Floor_2_16x16_142: 731314136
+      Floor_2_16x16_143: 2113988626
+      Floor_2_16x16_144: 2146250712
+      Floor_2_16x16_145: -1241705185
+      Floor_2_16x16_146: -1096066889
+      Floor_2_16x16_147: -2095371320
+      Floor_2_16x16_148: -888940999
+      Floor_2_16x16_149: -887033475
+      Floor_2_16x16_15: 1921274343
+      Floor_2_16x16_150: -1700200510
+      Floor_2_16x16_151: -614378468
+      Floor_2_16x16_152: 30789527
+      Floor_2_16x16_153: 128442127
+      Floor_2_16x16_154: -1779323528
+      Floor_2_16x16_155: -656784125
+      Floor_2_16x16_156: 1236729434
+      Floor_2_16x16_157: 636333201
+      Floor_2_16x16_158: -2133579226
+      Floor_2_16x16_159: 182496657
+      Floor_2_16x16_16: -575846269
+      Floor_2_16x16_160: 367053914
+      Floor_2_16x16_161: -1161447146
+      Floor_2_16x16_162: 949332627
+      Floor_2_16x16_163: 402202308
+      Floor_2_16x16_164: -2003463088
+      Floor_2_16x16_165: -229970775
+      Floor_2_16x16_166: 2117004726
+      Floor_2_16x16_167: 723962418
+      Floor_2_16x16_168: -1007473087
+      Floor_2_16x16_169: 695323291
+      Floor_2_16x16_17: -2073454223
+      Floor_2_16x16_170: -330884734
+      Floor_2_16x16_171: 1532845603
+      Floor_2_16x16_172: -2052032434
+      Floor_2_16x16_173: 921443782
+      Floor_2_16x16_174: 640276513
+      Floor_2_16x16_175: 651616505
+      Floor_2_16x16_176: 1310600295
+      Floor_2_16x16_177: -1678684432
+      Floor_2_16x16_178: -437288357
+      Floor_2_16x16_179: 1885223086
+      Floor_2_16x16_18: -1692720991
+      Floor_2_16x16_180: -29034680
+      Floor_2_16x16_181: -1526689647
+      Floor_2_16x16_182: 1204685979
+      Floor_2_16x16_183: -1500122740
+      Floor_2_16x16_184: -1800252013
+      Floor_2_16x16_185: 30721417
+      Floor_2_16x16_186: 993493329
+      Floor_2_16x16_187: 622970627
+      Floor_2_16x16_188: -395362799
+      Floor_2_16x16_189: 13692414
+      Floor_2_16x16_19: -2109283177
+      Floor_2_16x16_190: -1889232126
+      Floor_2_16x16_191: 888159428
+      Floor_2_16x16_192: -1018676809
+      Floor_2_16x16_193: 970292185
+      Floor_2_16x16_194: -148259402
+      Floor_2_16x16_195: 1798167829
+      Floor_2_16x16_196: 789362733
+      Floor_2_16x16_197: 631857466
+      Floor_2_16x16_198: 106863237
+      Floor_2_16x16_199: 285966597
+      Floor_2_16x16_2: -355061275
+      Floor_2_16x16_20: -1909672580
+      Floor_2_16x16_200: 1934624463
+      Floor_2_16x16_201: -1303397408
+      Floor_2_16x16_202: -889366015
+      Floor_2_16x16_203: -6052095
+      Floor_2_16x16_204: 306359758
+      Floor_2_16x16_205: -861620403
+      Floor_2_16x16_206: -1720542485
+      Floor_2_16x16_207: 1188537287
+      Floor_2_16x16_208: 129819426
+      Floor_2_16x16_209: -843063146
+      Floor_2_16x16_21: 531873870
+      Floor_2_16x16_210: -109159464
+      Floor_2_16x16_211: -899526848
+      Floor_2_16x16_212: 1606447420
+      Floor_2_16x16_213: 1401014048
+      Floor_2_16x16_214: -498652398
+      Floor_2_16x16_215: 1082800227
+      Floor_2_16x16_216: -1484355475
+      Floor_2_16x16_217: 409136614
+      Floor_2_16x16_218: 434789953
+      Floor_2_16x16_219: 1829382676
+      Floor_2_16x16_22: -749006611
+      Floor_2_16x16_220: -1608675860
+      Floor_2_16x16_221: 733130646
+      Floor_2_16x16_222: -1666176725
+      Floor_2_16x16_223: 314426823
+      Floor_2_16x16_224: -1789657540
+      Floor_2_16x16_225: 2136794489
+      Floor_2_16x16_226: 923190362
+      Floor_2_16x16_227: -2087916409
+      Floor_2_16x16_228: 1059648579
+      Floor_2_16x16_229: -1082552411
+      Floor_2_16x16_23: 690626989
+      Floor_2_16x16_230: -669381429
+      Floor_2_16x16_231: 916129126
+      Floor_2_16x16_232: 1307831867
+      Floor_2_16x16_233: -1604524164
+      Floor_2_16x16_234: 1630460962
+      Floor_2_16x16_235: 1183070123
+      Floor_2_16x16_236: -164865858
+      Floor_2_16x16_237: 801872260
+      Floor_2_16x16_238: 1233166602
+      Floor_2_16x16_239: -1491668420
+      Floor_2_16x16_24: 1613437268
+      Floor_2_16x16_240: -137116003
+      Floor_2_16x16_241: -1662878132
+      Floor_2_16x16_242: -1702906754
+      Floor_2_16x16_243: -1557972045
+      Floor_2_16x16_244: 2085241061
+      Floor_2_16x16_245: 668345324
+      Floor_2_16x16_246: 1416621729
+      Floor_2_16x16_247: 720533977
+      Floor_2_16x16_248: 516199173
+      Floor_2_16x16_249: -446794323
+      Floor_2_16x16_25: 1160202199
+      Floor_2_16x16_250: 131793037
+      Floor_2_16x16_251: -1624546456
+      Floor_2_16x16_252: 653425790
+      Floor_2_16x16_253: -60978811
+      Floor_2_16x16_254: 1782083416
+      Floor_2_16x16_255: 1483841490
+      Floor_2_16x16_256: -1395555163
+      Floor_2_16x16_257: 224558680
+      Floor_2_16x16_258: 1747030805
+      Floor_2_16x16_259: 671551733
+      Floor_2_16x16_26: 416383685
+      Floor_2_16x16_260: -1978500563
+      Floor_2_16x16_261: 1251256147
+      Floor_2_16x16_262: -12490370
+      Floor_2_16x16_263: 1292857661
+      Floor_2_16x16_264: 638306508
+      Floor_2_16x16_265: -1634344190
+      Floor_2_16x16_266: 390641939
+      Floor_2_16x16_267: 301778290
+      Floor_2_16x16_268: -1040969197
+      Floor_2_16x16_269: 1610692072
+      Floor_2_16x16_27: -217671108
+      Floor_2_16x16_270: -1583581841
+      Floor_2_16x16_271: 119536148
+      Floor_2_16x16_272: 166370039
+      Floor_2_16x16_273: 462949683
+      Floor_2_16x16_274: 872023674
+      Floor_2_16x16_275: 2043044685
+      Floor_2_16x16_276: 287692373
+      Floor_2_16x16_277: -1621657660
+      Floor_2_16x16_278: -1582276846
+      Floor_2_16x16_279: 589128662
+      Floor_2_16x16_28: -1314206890
+      Floor_2_16x16_280: -126361645
+      Floor_2_16x16_281: 1752049068
+      Floor_2_16x16_282: -533837948
+      Floor_2_16x16_283: -139812771
+      Floor_2_16x16_284: -2137040626
+      Floor_2_16x16_285: -1218008650
+      Floor_2_16x16_286: -1891325460
+      Floor_2_16x16_287: -1456708475
+      Floor_2_16x16_288: 2135256529
+      Floor_2_16x16_289: 1674806799
+      Floor_2_16x16_29: 627256403
+      Floor_2_16x16_290: 1925167190
+      Floor_2_16x16_291: 645735445
+      Floor_2_16x16_292: 1264256834
+      Floor_2_16x16_293: -793010298
+      Floor_2_16x16_294: 945325324
+      Floor_2_16x16_295: 1313700972
+      Floor_2_16x16_296: -915951253
+      Floor_2_16x16_297: -195843464
+      Floor_2_16x16_298: 1858401949
+      Floor_2_16x16_299: -985613635
+      Floor_2_16x16_3: -1210796593
+      Floor_2_16x16_30: -2002841027
+      Floor_2_16x16_300: 623122040
+      Floor_2_16x16_301: -1039559521
+      Floor_2_16x16_302: 1876047961
+      Floor_2_16x16_303: -460118751
+      Floor_2_16x16_304: -1925263283
+      Floor_2_16x16_305: -142966633
+      Floor_2_16x16_306: -1111062792
+      Floor_2_16x16_307: 530710886
+      Floor_2_16x16_308: 1125653040
+      Floor_2_16x16_309: 1920303237
+      Floor_2_16x16_31: -2074517235
+      Floor_2_16x16_310: 177486189
+      Floor_2_16x16_311: 405324902
+      Floor_2_16x16_312: -1967069865
+      Floor_2_16x16_313: 301390992
+      Floor_2_16x16_314: -1846231737
+      Floor_2_16x16_315: -1280909556
+      Floor_2_16x16_316: 1564688811
+      Floor_2_16x16_317: 1512356322
+      Floor_2_16x16_318: -130804503
+      Floor_2_16x16_319: -2095372214
+      Floor_2_16x16_32: 1701437766
+      Floor_2_16x16_320: -145610297
+      Floor_2_16x16_321: -2107516368
+      Floor_2_16x16_322: -2099701675
+      Floor_2_16x16_323: 1390056054
+      Floor_2_16x16_324: 569405368
+      Floor_2_16x16_325: -1850541162
+      Floor_2_16x16_326: 342009803
+      Floor_2_16x16_327: 1922731002
+      Floor_2_16x16_328: -1988987476
+      Floor_2_16x16_329: -1750728372
+      Floor_2_16x16_33: 1269079670
+      Floor_2_16x16_330: 1657168990
+      Floor_2_16x16_331: 1363602848
+      Floor_2_16x16_332: 760892258
+      Floor_2_16x16_333: 1828895607
+      Floor_2_16x16_334: -1214638522
+      Floor_2_16x16_335: 105854287
+      Floor_2_16x16_336: 357999238
+      Floor_2_16x16_337: 630672731
+      Floor_2_16x16_338: 1748717720
+      Floor_2_16x16_339: -187964190
+      Floor_2_16x16_34: 1229968863
+      Floor_2_16x16_340: -1555049829
+      Floor_2_16x16_341: 1458016651
+      Floor_2_16x16_342: 941173727
+      Floor_2_16x16_343: 805889641
+      Floor_2_16x16_344: -961981574
+      Floor_2_16x16_345: -998480359
+      Floor_2_16x16_346: -1491073514
+      Floor_2_16x16_347: -1233822037
+      Floor_2_16x16_348: 681736155
+      Floor_2_16x16_349: 1213325933
+      Floor_2_16x16_35: 366442309
+      Floor_2_16x16_350: -854698029
+      Floor_2_16x16_351: 477573208
+      Floor_2_16x16_352: -1215084056
+      Floor_2_16x16_353: -1174744048
+      Floor_2_16x16_354: -1065739024
+      Floor_2_16x16_355: 357077357
+      Floor_2_16x16_356: 1997325716
+      Floor_2_16x16_357: 287367634
+      Floor_2_16x16_358: -934637958
+      Floor_2_16x16_359: 1297912393
+      Floor_2_16x16_36: 473417460
+      Floor_2_16x16_360: -764240860
+      Floor_2_16x16_361: 21932966
+      Floor_2_16x16_362: -921731246
+      Floor_2_16x16_363: -22342373
+      Floor_2_16x16_364: -2102167866
+      Floor_2_16x16_365: -2111408435
+      Floor_2_16x16_366: 983653569
+      Floor_2_16x16_367: -845598827
+      Floor_2_16x16_368: 1827311581
+      Floor_2_16x16_369: -1122112443
+      Floor_2_16x16_37: 1055896124
+      Floor_2_16x16_370: -1919178535
+      Floor_2_16x16_371: -971952600
+      Floor_2_16x16_372: 1820183991
+      Floor_2_16x16_373: -680448231
+      Floor_2_16x16_374: 1074952337
+      Floor_2_16x16_375: -799512096
+      Floor_2_16x16_376: 459792585
+      Floor_2_16x16_377: 547195721
+      Floor_2_16x16_378: 672226425
+      Floor_2_16x16_379: 1934693673
+      Floor_2_16x16_38: 240911251
+      Floor_2_16x16_380: 1476227704
+      Floor_2_16x16_381: 1415671737
+      Floor_2_16x16_382: 819136942
+      Floor_2_16x16_383: 85520784
+      Floor_2_16x16_384: -532317996
+      Floor_2_16x16_385: -1394795402
+      Floor_2_16x16_386: -1664321724
+      Floor_2_16x16_387: 1619451530
+      Floor_2_16x16_388: 1986902275
+      Floor_2_16x16_389: -942167808
+      Floor_2_16x16_39: -1709659589
+      Floor_2_16x16_390: 150254125
+      Floor_2_16x16_391: -1516201595
+      Floor_2_16x16_392: -716893765
+      Floor_2_16x16_393: 368495287
+      Floor_2_16x16_394: -962224669
+      Floor_2_16x16_395: 487608906
+      Floor_2_16x16_396: -1871128895
+      Floor_2_16x16_397: 1167925743
+      Floor_2_16x16_398: -1484125301
+      Floor_2_16x16_399: -122698773
+      Floor_2_16x16_4: -731922928
+      Floor_2_16x16_40: 77682324
+      Floor_2_16x16_400: -698981317
+      Floor_2_16x16_401: -1079376303
+      Floor_2_16x16_402: -1367888991
+      Floor_2_16x16_403: 1069238985
+      Floor_2_16x16_404: -773804503
+      Floor_2_16x16_405: 1722465497
+      Floor_2_16x16_406: 903913519
+      Floor_2_16x16_407: 783509340
+      Floor_2_16x16_408: -822827055
+      Floor_2_16x16_409: -1810039276
+      Floor_2_16x16_41: -1474761043
+      Floor_2_16x16_410: 1775294197
+      Floor_2_16x16_411: -1646456969
+      Floor_2_16x16_412: -2042360753
+      Floor_2_16x16_413: 1079788571
+      Floor_2_16x16_414: 532205654
+      Floor_2_16x16_415: -373374901
+      Floor_2_16x16_416: 1164892102
+      Floor_2_16x16_417: -494972780
+      Floor_2_16x16_418: 75309910
+      Floor_2_16x16_419: -435196311
+      Floor_2_16x16_42: 1010472736
+      Floor_2_16x16_420: -1165753620
+      Floor_2_16x16_421: 50600645
+      Floor_2_16x16_422: -1140220134
+      Floor_2_16x16_423: 49724932
+      Floor_2_16x16_424: 2024352353
+      Floor_2_16x16_425: -1204334667
+      Floor_2_16x16_426: 764391881
+      Floor_2_16x16_427: 1914310504
+      Floor_2_16x16_428: 1652828259
+      Floor_2_16x16_429: 1215605807
+      Floor_2_16x16_43: -382299033
+      Floor_2_16x16_430: -112061288
+      Floor_2_16x16_431: -108784720
+      Floor_2_16x16_432: 1913166425
+      Floor_2_16x16_433: -183351830
+      Floor_2_16x16_434: -1048258124
+      Floor_2_16x16_435: -1490455407
+      Floor_2_16x16_436: 171010401
+      Floor_2_16x16_437: -810174753
+      Floor_2_16x16_438: 216307678
+      Floor_2_16x16_439: 2113237826
+      Floor_2_16x16_44: -1847777031
+      Floor_2_16x16_440: 774193533
+      Floor_2_16x16_441: 829960288
+      Floor_2_16x16_442: -124320348
+      Floor_2_16x16_443: -530426955
+      Floor_2_16x16_444: -358570714
+      Floor_2_16x16_445: 983010188
+      Floor_2_16x16_446: -1182757066
+      Floor_2_16x16_447: -92233439
+      Floor_2_16x16_448: -276552721
+      Floor_2_16x16_449: 1870223560
+      Floor_2_16x16_45: -1586727815
+      Floor_2_16x16_450: -112771250
+      Floor_2_16x16_451: 1768534242
+      Floor_2_16x16_452: -516767828
+      Floor_2_16x16_453: 1679883310
+      Floor_2_16x16_454: 1979898252
+      Floor_2_16x16_455: 553675297
+      Floor_2_16x16_456: 725988122
+      Floor_2_16x16_457: 590824411
+      Floor_2_16x16_458: 675027230
+      Floor_2_16x16_459: -678032092
+      Floor_2_16x16_46: -1011333252
+      Floor_2_16x16_460: 1078456410
+      Floor_2_16x16_461: 1664988060
+      Floor_2_16x16_462: 770700935
+      Floor_2_16x16_463: -543594283
+      Floor_2_16x16_464: 296584534
+      Floor_2_16x16_465: -1779110162
+      Floor_2_16x16_466: 1780586742
+      Floor_2_16x16_467: 1974300918
+      Floor_2_16x16_468: 1120982010
+      Floor_2_16x16_469: -121327104
+      Floor_2_16x16_47: 150582771
+      Floor_2_16x16_470: -1155607615
+      Floor_2_16x16_471: 1269255404
+      Floor_2_16x16_472: -1562384755
+      Floor_2_16x16_473: 955073645
+      Floor_2_16x16_474: 165056526
+      Floor_2_16x16_475: -1333699710
+      Floor_2_16x16_476: 2143645456
+      Floor_2_16x16_477: 1823323440
+      Floor_2_16x16_478: -1900995564
+      Floor_2_16x16_479: 1304965321
+      Floor_2_16x16_48: -1456610052
+      Floor_2_16x16_480: -372833500
+      Floor_2_16x16_481: 1555259005
+      Floor_2_16x16_482: 957064132
+      Floor_2_16x16_483: -1262895350
+      Floor_2_16x16_484: 778710971
+      Floor_2_16x16_485: -820089196
+      Floor_2_16x16_486: 1958954746
+      Floor_2_16x16_487: 42084519
+      Floor_2_16x16_488: 1750886358
+      Floor_2_16x16_489: -412654547
+      Floor_2_16x16_49: 1679792041
+      Floor_2_16x16_490: -644656754
+      Floor_2_16x16_491: 1548742405
+      Floor_2_16x16_492: -1585421286
+      Floor_2_16x16_493: -946446008
+      Floor_2_16x16_494: -1465124202
+      Floor_2_16x16_495: 370023998
+      Floor_2_16x16_496: -1290327454
+      Floor_2_16x16_497: -714000340
+      Floor_2_16x16_498: -1202932662
+      Floor_2_16x16_499: -1622978719
+      Floor_2_16x16_5: -1291236437
+      Floor_2_16x16_50: -529917645
+      Floor_2_16x16_500: 2018345274
+      Floor_2_16x16_501: -876085516
+      Floor_2_16x16_502: 2048205796
+      Floor_2_16x16_503: 2072216647
+      Floor_2_16x16_504: -327683071
+      Floor_2_16x16_505: -617298378
+      Floor_2_16x16_506: 521738222
+      Floor_2_16x16_507: 1384696599
+      Floor_2_16x16_508: -1026409007
+      Floor_2_16x16_509: 1001623770
+      Floor_2_16x16_51: -2050159026
+      Floor_2_16x16_510: 779225099
+      Floor_2_16x16_511: 1737151415
+      Floor_2_16x16_512: 1116979078
+      Floor_2_16x16_513: 1201073896
+      Floor_2_16x16_514: 1795788449
+      Floor_2_16x16_515: -529121982
+      Floor_2_16x16_516: -1873029968
+      Floor_2_16x16_517: 847110786
+      Floor_2_16x16_518: -1411838994
+      Floor_2_16x16_519: -414974745
+      Floor_2_16x16_52: 1785682660
+      Floor_2_16x16_520: -1400149055
+      Floor_2_16x16_521: 1125948923
+      Floor_2_16x16_522: 313898832
+      Floor_2_16x16_523: 1614198659
+      Floor_2_16x16_524: 963775771
+      Floor_2_16x16_525: -1896621138
+      Floor_2_16x16_526: -691346506
+      Floor_2_16x16_527: -767836994
+      Floor_2_16x16_528: 2102288350
+      Floor_2_16x16_529: -1668178091
+      Floor_2_16x16_53: -109035911
+      Floor_2_16x16_530: -1369233637
+      Floor_2_16x16_531: -1498200761
+      Floor_2_16x16_532: -1791469275
+      Floor_2_16x16_533: 769332787
+      Floor_2_16x16_534: -752214674
+      Floor_2_16x16_535: -815954747
+      Floor_2_16x16_536: -482779217
+      Floor_2_16x16_537: 199182721
+      Floor_2_16x16_538: 1730769362
+      Floor_2_16x16_539: -1173094290
+      Floor_2_16x16_54: -1109784741
+      Floor_2_16x16_540: 1888646593
+      Floor_2_16x16_541: 2031517972
+      Floor_2_16x16_542: -1854419623
+      Floor_2_16x16_55: 674606485
+      Floor_2_16x16_56: -428214930
+      Floor_2_16x16_57: -2055529889
+      Floor_2_16x16_58: 1403036607
+      Floor_2_16x16_59: -207429168
+      Floor_2_16x16_6: 1765560406
+      Floor_2_16x16_60: 8729868
+      Floor_2_16x16_61: -1211083197
+      Floor_2_16x16_62: 2086120047
+      Floor_2_16x16_63: -90900292
+      Floor_2_16x16_64: -177642679
+      Floor_2_16x16_65: 310500910
+      Floor_2_16x16_66: -588483119
+      Floor_2_16x16_67: -945045327
+      Floor_2_16x16_68: -2481901
+      Floor_2_16x16_69: -1006024978
+      Floor_2_16x16_7: 1297792929
+      Floor_2_16x16_70: -501916455
+      Floor_2_16x16_71: 289972804
+      Floor_2_16x16_72: 1237075678
+      Floor_2_16x16_73: 394176086
+      Floor_2_16x16_74: 1044448116
+      Floor_2_16x16_75: 2073529337
+      Floor_2_16x16_76: -596715352
+      Floor_2_16x16_77: 1385794532
+      Floor_2_16x16_78: -757659171
+      Floor_2_16x16_79: 638939038
+      Floor_2_16x16_8: 221923680
+      Floor_2_16x16_80: 101733050
+      Floor_2_16x16_81: -560147338
+      Floor_2_16x16_82: 166740615
+      Floor_2_16x16_83: 347886475
+      Floor_2_16x16_84: -1374533631
+      Floor_2_16x16_85: 1298436238
+      Floor_2_16x16_86: -537896585
+      Floor_2_16x16_87: -1209694085
+      Floor_2_16x16_88: -991289649
+      Floor_2_16x16_89: -1462923050
+      Floor_2_16x16_9: -1580128528
+      Floor_2_16x16_90: 1626353103
+      Floor_2_16x16_91: 403082658
+      Floor_2_16x16_92: 1747166576
+      Floor_2_16x16_93: 1061391631
+      Floor_2_16x16_94: -945135128
+      Floor_2_16x16_95: 1518979580
+      Floor_2_16x16_96: 1961922805
+      Floor_2_16x16_97: 521103144
+      Floor_2_16x16_98: -640260897
+      Floor_2_16x16_99: -676290113
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
