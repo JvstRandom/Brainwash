@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2060859160689050620}
   m_Layer: 0
   m_Name: Frey
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,9 +123,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState: 0
   anim: {fileID: 8711092960492351564}
-  speed: 90
+  speed: 110
   x: 0
   y: 0
+  masukScenePos: {fileID: 11400000, guid: dca479449dea3cc44ac37ac2f50ce9c1, type: 2}
 --- !u!50 &993399337055047050
 Rigidbody2D:
   serializedVersion: 4

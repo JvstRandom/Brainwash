@@ -18,11 +18,13 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isWalking;
     private Vector3 moveDirection;
+    public VectorValue masukScenePos;
 
     private void Start()
     {
         currentState = PlayerState.walk;
         rb = GetComponent<Rigidbody2D>();
+        transform.position = masukScenePos.initialValue;
     }
 
     private void Update()
