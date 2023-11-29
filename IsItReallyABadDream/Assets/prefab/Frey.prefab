@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 3720324723304111589}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.0088496, y: -0.15044248, z: 0}
+  m_LocalPosition: {x: 1.97, y: -0.12, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState: 0
   anim: {fileID: 8711092960492351564}
-  speed: 110
+  speed: 200
   x: 0
   y: 0
   masukScenePos: {fileID: 11400000, guid: dca479449dea3cc44ac37ac2f50ce9c1, type: 2}
