@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerManager : MonoBehaviour
 {
     public int keyCount;
+    public int key;
 
     public void PickUpKey()
     {
