@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 220302532589141780}
   - component: {fileID: 4943846377402655934}
   - component: {fileID: 6595798372263632726}
+  - component: {fileID: 4958533030102676866}
   m_Layer: 0
   m_Name: laci
-  m_TagString: Untagged
+  m_TagString: laci
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,6 +154,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.25, y: 0.9600344}
   m_EdgeRadius: 0
+--- !u!114 &4958533030102676866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7226879287353939950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53732eb414060e847be13d5dcc13db46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsOpen: 0
+  animator: {fileID: 4943846377402655934}
 --- !u!1001 &3839016386369971214
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -208,10 +223,59 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9021221780292067283, guid: d5cf8e5a4ee2c734f8aa786079ce0049, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9112122633765742282}
   m_SourcePrefab: {fileID: 100100000, guid: d5cf8e5a4ee2c734f8aa786079ce0049, type: 3}
 --- !u!4 &497338450686766090 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3719986210029930500, guid: d5cf8e5a4ee2c734f8aa786079ce0049, type: 3}
   m_PrefabInstance: {fileID: 3839016386369971214}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5221708785934875613 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9021221780292067283, guid: d5cf8e5a4ee2c734f8aa786079ce0049, type: 3}
+  m_PrefabInstance: {fileID: 3839016386369971214}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9112122633765742282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5221708785934875613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c0054b1493b47542ae2e93012ca1ce1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInRange: 0
+  TombolInteract: 9
+  InteractAction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4958533030102676866}
+        m_TargetAssemblyTypeName: LaciController, Assembly-CSharp
+        m_MethodName: LaciDibuka
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
+        m_MethodName: PickUpKey
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
