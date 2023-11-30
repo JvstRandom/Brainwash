@@ -127,6 +127,7 @@ MonoBehaviour:
   x: 0
   y: 0
   masukScenePos: {fileID: 11400000, guid: dca479449dea3cc44ac37ac2f50ce9c1, type: 2}
+  TombolInteract: 304
 --- !u!50 &993399337055047050
 Rigidbody2D:
   serializedVersion: 4
