@@ -16,15 +16,19 @@ public class PlayerMovement : MonoBehaviour
     public Animator anim;
     public float speed, x, y;
 
+    float kecepatanLari;
+
     private bool isWalking;
     private Vector3 moveDirection;
     public VectorValue masukScenePos;
+    public KeyCode TombolInteract;
 
     private void Start()
     {
         currentState = PlayerState.walk;
         rb = GetComponent<Rigidbody2D>();
         transform.position = masukScenePos.initialValue;
+        kecepatanLari = speed *2;
     }
 
     private void Update()
@@ -62,7 +66,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.velocity = moveDirection * speed * Time.deltaTime;
+        if(Input.GetKey(TombolInteract))
+            {
+                rb.velocity = moveDirection * kecepatanLari * Time.deltaTime;
+            }else {
+                rb.velocity = moveDirection * speed * Time.deltaTime;
+            }
     }
 
     private void StopMoving()

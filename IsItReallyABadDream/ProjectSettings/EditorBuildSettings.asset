@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/kamar1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/hallway.unity
+    guid: bcba6775b02f3de448dcfacf4de3cfec
   m_configObjects: {}
