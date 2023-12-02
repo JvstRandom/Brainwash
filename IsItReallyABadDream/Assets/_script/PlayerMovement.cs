@@ -23,12 +23,16 @@ public class PlayerMovement : MonoBehaviour
     public VectorValue masukScenePos;
     public KeyCode TombolInteract;
 
+    [SerializeField]
+    GameObject CodePanel;
+
     private void Start()
     {
         currentState = PlayerState.walk;
         rb = GetComponent<Rigidbody2D>();
         transform.position = masukScenePos.initialValue;
         kecepatanLari = speed *2;
+        CodePanel.SetActive (false);
     }
 
     private void Update()
