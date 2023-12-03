@@ -26,6 +26,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     GameObject CodePanel;
 
+    public static bool isSafeOpened = false;
+
     private void Start()
     {
         currentState = PlayerState.walk;
@@ -66,6 +68,10 @@ public class PlayerMovement : MonoBehaviour
         }
 
         moveDirection = new Vector3(x, y).normalized;
+
+        if (isSafeOpened) {
+            CodePanel.SetActive (false);
+        }
     }
 
     private void FixedUpdate()
@@ -81,6 +87,19 @@ public class PlayerMovement : MonoBehaviour
     private void StopMoving()
     {
         rb.velocity = Vector3.zero;
+    }
+
+    void OnTriggerEnter2D(Collider2D col) {
+        if(col.gameObject.CompareTag("brankas") && !isSafeOpened) {
+            Debug.Log("Player is in range");
+            CodePanel.SetActive (true);
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D col) {
+        if(col.gameObject.CompareTag("brankas")) {
+            CodePanel.SetActive (false);
+        }
     }
 
 }

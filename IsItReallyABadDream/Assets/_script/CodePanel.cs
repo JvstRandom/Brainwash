@@ -15,7 +15,7 @@ public class CodePanel : MonoBehaviour
         CodeText.text = KodeBrankas;
 
         if (KodeBrankas == "7315") {
-
+            PlayerMovement.isSafeOpened = true;
         }
 
         if (KodeBrankas.Length >= 4) {
@@ -25,5 +25,9 @@ public class CodePanel : MonoBehaviour
 
     public void AddNum(string num) {
         KodeBrankas += num;
+    }
+
+    public void hapus(){
+        KodeBrankas = "";
     }
 }
