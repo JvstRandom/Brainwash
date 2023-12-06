@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/gudang.unity
     guid: b57ca9e34d98fb74d939905cd45b2096
+  - enabled: 1
+    path: Assets/Scenes/dapur 1.unity
+    guid: 142a51be826eef54aa87ef8515ebcda6
   m_configObjects: {}
