@@ -5,22 +5,23 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int health;
     public int jmlHearts;
 
     public Image[] hearts;
     public Sprite fullHeart;
     public Sprite emptyHeart;
 
+    public healthSystem playerHealth;
+
     void Update() {
 
-        if(health>jmlHearts) {
-            health = jmlHearts;
+        if(playerHealth.health>jmlHearts) {
+            playerHealth.health = jmlHearts;
         }
 
         for(int i = 0; i < hearts.Length; i++) {
 
-            if(i < health) {
+            if(i < playerHealth.health) {
                 hearts[i].sprite = fullHeart;
             } else {
                 hearts[i].sprite = emptyHeart;

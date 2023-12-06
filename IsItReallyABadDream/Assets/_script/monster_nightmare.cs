@@ -9,6 +9,8 @@ public class monster_nightmare : monster
     public float attackRadius;
     public Transform spawnPoint;
 
+    public healthSystem  playerHealth;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +29,13 @@ public class monster_nightmare : monster
         && Vector3.Distance(target.position, transform.position) > attackRadius)
         {
             transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.tag == "Player"){
+            playerHealth.TakeDamage(baseAttack);
         }
     }
 }

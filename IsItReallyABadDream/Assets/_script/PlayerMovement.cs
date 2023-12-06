@@ -28,6 +28,10 @@ public class PlayerMovement : MonoBehaviour
 
     public static bool isSafeOpened = false;
 
+    public float KnockForce;
+    public float KBCounter;
+    public float KnockDurasi;
+
     private void Start()
     {
         currentState = PlayerState.walk;
@@ -76,12 +80,20 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(Input.GetKey(TombolInteract))
+        if(KBCounter <= 0)
+        {
+            if(Input.GetKey(TombolInteract))
             {
                 rb.velocity = moveDirection * kecepatanLari * Time.deltaTime;
             }else {
                 rb.velocity = moveDirection * speed * Time.deltaTime;
             }
+        } else {
+            rb.velocity = new Vector3((x-KnockForce), (y-KnockForce));
+
+            KBCounter -= Time.deltaTime;
+        }
+        
     }
 
     private void StopMoving()
