@@ -7,6 +7,14 @@ public class LaciController : MonoBehaviour
     public bool IsOpen;
     public Animator animator;
 
+    [SerializeField]
+    GameObject SceneTransition;
+
+    private void Start()
+    {
+        SceneTransition.SetActive (false);
+    }
+
     public void LaciDibuka()
     {
         if(!IsOpen) 
@@ -14,6 +22,7 @@ public class LaciController : MonoBehaviour
             IsOpen = true;
             Debug.Log("Laci Dibuka");
             animator.SetBool("isOpen", IsOpen);
+            SceneTransition.SetActive (true);
         }else
         {
             IsOpen = false;

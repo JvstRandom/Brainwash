@@ -13,30 +13,38 @@ public class dialogWhenInteract : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        dialogBox.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space) && PlayerInRange){
-            if(dialogBox.activeInHierarchy) {
+        if (Input.GetKeyDown(KeyCode.Space) && PlayerInRange)
+        {
+            if (dialogBox.activeInHierarchy)
+            {
                 dialogBox.SetActive(false);
-            } else {
+            }
+            else
+            {
                 dialogBox.SetActive(true);
                 dialogText.text = dialog;
             }
         }
     }
 
-    void OnTriggerEnter2D(Collider2D col) {
-        if(col.CompareTag("Player")){
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.CompareTag("Player"))
+        {
             PlayerInRange = true;
         }
     }
 
-    void OnTriggerExit2D(Collider2D col){
-        if(col.CompareTag("Player")){
+    void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.CompareTag("Player"))
+        {
             PlayerInRange = false;
             dialogBox.SetActive(false);
         }

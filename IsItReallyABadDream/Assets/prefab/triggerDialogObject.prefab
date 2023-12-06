@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2233429191872248174
+--- !u!1 &3411648262771274701
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,38 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 460060211847334238}
-  - component: {fileID: 6126597573098228943}
-  - component: {fileID: 4229744220315421651}
+  - component: {fileID: 1225267803705814301}
+  - component: {fileID: 668967022848323081}
+  - component: {fileID: 1909409067331432569}
   m_Layer: 0
-  m_Name: SceneTransition
+  m_Name: triggerDialogObject
   m_TagString: Untagged
-  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &460060211847334238
+--- !u!4 &1225267803705814301
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2233429191872248174}
+  m_GameObject: {fileID: 3411648262771274701}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.65, y: 1.83, z: -0.22263849}
+  m_LocalPosition: {x: -1.4008367, y: 0.35179022, z: 13.64278}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &6126597573098228943
+--- !u!61 &668967022848323081
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2233429191872248174}
+  m_GameObject: {fileID: 3411648262771274701}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -65,7 +65,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.14181185, y: 0.19255626}
+  m_Offset: {x: 1.4918189, y: -2.6454923}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -76,20 +76,21 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9989481, y: 0.6979852}
+  m_Size: {x: 2.9493103, y: 1.9945464}
   m_EdgeRadius: 0
---- !u!114 &4229744220315421651
+--- !u!114 &1909409067331432569
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2233429191872248174}
+  m_GameObject: {fileID: 3411648262771274701}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38f61f8bb0d434b4a9925b75961e4127, type: 3}
+  m_Script: {fileID: 11500000, guid: 53885f00e59f0374e8264cfb25544756, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: kamar1
-  playerPos: {x: 4.5, y: -3}
-  playerMemory: {fileID: 11400000, guid: dca479449dea3cc44ac37ac2f50ce9c1, type: 2}
+  dialogBox: {fileID: 0}
+  dialogText: {fileID: 0}
+  dialog: kenapa ada kasur disini?
+  PlayerInRange: 0

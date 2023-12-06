@@ -9,9 +9,12 @@ public class SceneTransition : MonoBehaviour
     public Vector2 playerPos;
     public VectorValue playerMemory;
 
+    // LaciController controller;
+
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player") && !other.isTrigger)
+        // bool trigger = controller.IsOpen;
+        if (other.CompareTag("Player") && !other.isTrigger)
         {
             playerMemory.initialValue = playerPos;
             SceneManager.LoadScene(sceneToLoad);

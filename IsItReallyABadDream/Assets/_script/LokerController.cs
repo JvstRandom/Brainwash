@@ -28,7 +28,6 @@ public class LokerController : MonoBehaviour
             {
                 playerSpriteRenderer.enabled = false;
             }
-            Debug.Log("Laci Dibuka");
             anim.SetBool("isOpen", IsOpen);
         }else
         {
