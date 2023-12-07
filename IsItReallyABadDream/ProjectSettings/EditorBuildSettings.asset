@@ -9,8 +9,23 @@ EditorBuildSettings:
     path: Assets/Scenes/kamar1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/kamar1 NM.unity
+    guid: 33d1fb187a82e5346b19728f4a64e08d
+  - enabled: 1
+    path: Assets/Scenes/kamar2.unity
+    guid: cd2ed654333dd0e4c861280307159461
+  - enabled: 1
+    path: Assets/Scenes/kamar2 NM.unity
+    guid: d4cc2712e419ce9488cb5731450cbce7
+  - enabled: 1
     path: Assets/Scenes/hallway.unity
     guid: bcba6775b02f3de448dcfacf4de3cfec
+  - enabled: 1
+    path: Assets/Scenes/hallwayNM.unity
+    guid: d240b7a2b55b1cf40bad8ad291d53b5c
+  - enabled: 1
+    path: Assets/Scenes/RuangSuster.unity
+    guid: 407e6dff030c4a742914b6289889a525
   - enabled: 1
     path: Assets/Scenes/RuangSuster NM.unity
     guid: a6829bef924df5545ab6e8c0925afe50
@@ -18,18 +33,30 @@ EditorBuildSettings:
     path: Assets/Scenes/tempatBermain.unity
     guid: e7972178b0c774849b85e63050931568
   - enabled: 1
+    path: Assets/Scenes/tempatBermain NM.unity
+    guid: 9a824f05c7dc92f4c99fbde671161e22
+  - enabled: 1
+    path: Assets/Scenes/jalanKeRR.unity
+    guid: 339b3febe361192478203612357e665b
+  - enabled: 1
     path: Assets/Scenes/jalanKeRR MN.unity
     guid: 1ae5b79ee5f690949a944698b8ef1be4
   - enabled: 1
     path: Assets/Scenes/jalanKeG.unity
     guid: 1b636e82f24bced40abbcc1131aaa2b2
   - enabled: 1
+    path: Assets/Scenes/jalanKeG_NM.unity
+    guid: ac559ac0af1eb7240a80a0bb0b6e8dbe
+  - enabled: 1
     path: Assets/Scenes/gudang.unity
     guid: b57ca9e34d98fb74d939905cd45b2096
   - enabled: 1
-    path: Assets/Scenes/dapurNM.unity
-    guid: 142a51be826eef54aa87ef8515ebcda6
-  - enabled: 1
     path: Assets/Scenes/gudangNM.unity
     guid: 72b50ad67e10b1c4aa6be3ccbf98aee3
+  - enabled: 1
+    path: Assets/Scenes/dapur.unity
+    guid: 5dbb64ccc7039dc4b90fa50fdd9005b3
+  - enabled: 1
+    path: Assets/Scenes/dapurNM.unity
+    guid: 142a51be826eef54aa87ef8515ebcda6
   m_configObjects: {}
