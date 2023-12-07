@@ -848,6 +848,14 @@ PrefabInstance:
       value: SceneTransition (6)
       objectReference: {fileID: 0}
     - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
+      propertyPath: playerPos.x
+      value: 4.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
+      propertyPath: playerPos.y
+      value: 0.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
       propertyPath: sceneToLoad
       value: kamarMandi
       objectReference: {fileID: 0}
@@ -1115,6 +1123,14 @@ PrefabInstance:
       value: SceneTransition (5)
       objectReference: {fileID: 0}
     - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
+      propertyPath: playerPos.x
+      value: 5.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
+      propertyPath: playerPos.y
+      value: 5.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
       propertyPath: sceneToLoad
       value: tempatBermain
       objectReference: {fileID: 0}
@@ -1174,6 +1190,14 @@ PrefabInstance:
     - target: {fileID: 2233429191872248174, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
       propertyPath: m_Name
       value: SceneTransition (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
+      propertyPath: playerPos.x
+      value: 4.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
+      propertyPath: playerPos.y
+      value: -8.35
       objectReference: {fileID: 0}
     - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
       propertyPath: sceneToLoad
@@ -1248,6 +1272,18 @@ PrefabInstance:
       propertyPath: SceneTransition
       value: 
       objectReference: {fileID: 1727999452}
+    - target: {fileID: 3078692834903363649, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
+      propertyPath: InteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 896500314}
+    - target: {fileID: 3078692834903363649, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
+      propertyPath: InteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PintuDibuka
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078692834903363649, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
+      propertyPath: InteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: sceneController, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1335,11 +1371,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
       propertyPath: playerPos.x
-      value: -5.5
+      value: -5.47
       objectReference: {fileID: 0}
     - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
       propertyPath: playerPos.y
-      value: -4.5
+      value: -3.74
       objectReference: {fileID: 0}
     - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
       propertyPath: sceneToLoad
@@ -1511,6 +1547,14 @@ PrefabInstance:
     - target: {fileID: 2233429191872248174, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
       propertyPath: m_Name
       value: SceneTransition (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
+      propertyPath: playerPos.x
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
+      propertyPath: playerPos.y
+      value: 10.83
       objectReference: {fileID: 0}
     - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
       propertyPath: sceneToLoad
@@ -6430,6 +6474,18 @@ PrefabInstance:
       propertyPath: SceneTransition
       value: 
       objectReference: {fileID: 1556751358}
+    - target: {fileID: 3078692834903363649, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
+      propertyPath: InteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1141045302}
+    - target: {fileID: 3078692834903363649, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
+      propertyPath: InteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PintuDibuka
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078692834903363649, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
+      propertyPath: InteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: sceneController, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7072,7 +7128,7 @@ Transform:
   m_GameObject: {fileID: 1464269571}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30.85, y: 2.45, z: -0.060474545}
+  m_LocalPosition: {x: 14.34, y: 1.54, z: -0.060474545}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11037,6 +11093,14 @@ PrefabInstance:
       value: SceneTransition (3)
       objectReference: {fileID: 0}
     - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
+      propertyPath: playerPos.x
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
+      propertyPath: playerPos.y
+      value: -9.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
       propertyPath: sceneToLoad
       value: jalanKeRR
       objectReference: {fileID: 0}
@@ -11172,6 +11236,18 @@ PrefabInstance:
       propertyPath: SceneTransition
       value: 
       objectReference: {fileID: 951694583}
+    - target: {fileID: 3078692834903363649, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
+      propertyPath: InteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1806118556}
+    - target: {fileID: 3078692834903363649, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
+      propertyPath: InteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PintuDibuka
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078692834903363649, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
+      propertyPath: InteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: sceneController, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11572,6 +11648,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneTransition
       objectReference: {fileID: 0}
+    - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
+      propertyPath: playerPos.x
+      value: 4.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
+      propertyPath: playerPos.y
+      value: -3.07
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11632,6 +11716,14 @@ PrefabInstance:
     - target: {fileID: 3078692834903363649, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
       propertyPath: InteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 8866543228174634007}
+    - target: {fileID: 3078692834903363649, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
+      propertyPath: InteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PintuDibuka
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078692834903363649, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
+      propertyPath: InteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: sceneController, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
