@@ -2,8 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum EnemyState{
+    idle, walk, 
+}
+
 public class monster : MonoBehaviour
 {
+    public EnemyState currentState;
     public string monsterName;
     public int baseAttack;
     public float moveSpeed;

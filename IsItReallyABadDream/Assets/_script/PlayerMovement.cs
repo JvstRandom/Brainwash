@@ -32,6 +32,8 @@ public class PlayerMovement : MonoBehaviour
     public float KBCounter;
     public float KnockDurasi;
 
+    public bool knockKanan;
+
     private void Start()
     {
         currentState = PlayerState.walk;
@@ -89,8 +91,12 @@ public class PlayerMovement : MonoBehaviour
                 rb.velocity = moveDirection * speed * Time.deltaTime;
             }
         } else {
-            rb.velocity = new Vector3((x-KnockForce), (y-KnockForce));
 
+            if(!knockKanan){
+            rb.velocity = new Vector3((x+KnockForce), (y-KnockForce/2));
+            } else {
+                rb.velocity = new Vector3((x-KnockForce), (KnockForce/2));
+            }
             KBCounter -= Time.deltaTime;
         }
         

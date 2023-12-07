@@ -2,18 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LaciController : MonoBehaviour
+public class sceneController : MonoBehaviour
 {
     public bool IsOpen;
     public Animator animator;
 
-    public void LaciDibuka()
+    [SerializeField]
+    GameObject SceneTransition;
+
+    private void Start()
+    {
+        SceneTransition.SetActive (false);
+    }
+
+    public void PintuDibuka()
     {
         if(!IsOpen) 
         {
             IsOpen = true;
-            Debug.Log("Laci Dibuka");
+            Debug.Log("Pintu Dibuka");
             animator.SetBool("isOpen", IsOpen);
+            SceneTransition.SetActive (true);
         }else
         {
             IsOpen = false;

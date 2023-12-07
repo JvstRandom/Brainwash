@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/dapurNM.unity
     guid: 142a51be826eef54aa87ef8515ebcda6
+  - enabled: 1
+    path: Assets/Scenes/gudangNM.unity
+    guid: 72b50ad67e10b1c4aa6be3ccbf98aee3
   m_configObjects: {}
