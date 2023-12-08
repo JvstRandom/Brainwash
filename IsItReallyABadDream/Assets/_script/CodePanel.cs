@@ -15,7 +15,7 @@ public class CodePanel : MonoBehaviour
         CodeText.text = KodeBrankas;
 
         if (KodeBrankas == "7315") {
-            PlayerMovement.isSafeOpened = true;
+            brankasController.isSafeOpened = true;
         }
 
         if (KodeBrankas.Length >= 4) {

@@ -23,10 +23,7 @@ public class PlayerMovement : MonoBehaviour
     public VectorValue masukScenePos;
     public KeyCode TombolInteract;
 
-    [SerializeField]
-    GameObject CodePanel;
 
-    public static bool isSafeOpened = false;
 
     public float KnockForce;
     public float KBCounter;
@@ -40,7 +37,6 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         transform.position = masukScenePos.initialValue;
         kecepatanLari = speed *2;
-        CodePanel.SetActive (false);
     }
 
     private void Update()
@@ -74,10 +70,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
         moveDirection = new Vector3(x, y).normalized;
-
-        if (isSafeOpened) {
-            CodePanel.SetActive (false);
-        }
     }
 
     private void FixedUpdate()
@@ -105,19 +97,6 @@ public class PlayerMovement : MonoBehaviour
     private void StopMoving()
     {
         rb.velocity = Vector3.zero;
-    }
-
-    void OnTriggerEnter2D(Collider2D col) {
-        if(col.gameObject.CompareTag("brankas") && !isSafeOpened) {
-            Debug.Log("Player is in range");
-            CodePanel.SetActive (true);
-        }
-    }
-
-    void OnTriggerExit2D(Collider2D col) {
-        if(col.gameObject.CompareTag("brankas")) {
-            CodePanel.SetActive (false);
-        }
     }
 
 }

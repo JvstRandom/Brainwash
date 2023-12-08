@@ -44,6 +44,7 @@ public class monster_nightmare : monster
 
             // rbm.MovePosition(temp);
             ChangeState(EnemyState.walk);
+            anim.SetBool("isJalan", true);
             changeAnim(transform.position);
 
             // cam shake
@@ -52,6 +53,7 @@ public class monster_nightmare : monster
         } else {
             camShake.CamStop();
             ChangeState(EnemyState.idle);
+            anim.SetBool("isJalan", false);
         }
 
     }
