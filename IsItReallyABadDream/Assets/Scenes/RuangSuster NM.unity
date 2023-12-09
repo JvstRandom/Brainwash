@@ -2288,11 +2288,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
       propertyPath: playerPos.y
-      value: 2.4
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
       propertyPath: sceneToLoad
-      value: hallway
+      value: hallway NM
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
