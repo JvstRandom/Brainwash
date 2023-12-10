@@ -3073,13 +3073,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10cb3efbcfb50c94db48307b62e8472c, type: 3}
+  m_Script: {fileID: 11500000, guid: 182e718b330c373449b9ba4deb4de230, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1853388079}
-  smooth: 0.25
-  maxPos: {x: 0, y: 0}
-  minPos: {x: 0, y: 0}
+  player: {fileID: 1853388066}
 --- !u!1 &545727636
 GameObject:
   m_ObjectHideFlags: 0
@@ -3750,11 +3747,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keyCount: 0
   key: 0
---- !u!4 &1853388079 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6938265738200693157, guid: 714d700da1e714d4abd8bb83d57acbc3, type: 3}
-  m_PrefabInstance: {fileID: 4194816039385031291}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1903154256
 PrefabInstance:
   m_ObjectHideFlags: 0
