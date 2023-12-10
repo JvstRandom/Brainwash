@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class ZachManager : MonoBehaviour
 {
-    public Transform Frey;
+    public Transform frey;
     private Rigidbody2D rb;
     public Animator anim_z;
     public float radius;
     public KeyCode TombolFollow;
     public float speed;
-
+    public bool isFollow;
     public bool isInRange_z;
 
     // Start is called before the first frame update
@@ -18,27 +18,34 @@ public class ZachManager : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim_z = GetComponent<Animator>();
-        Frey = GameObject.FindWithTag("Player").transform;
+        frey = GameObject.FindWithTag("Player").transform;
+    }
+
+    void Update(){
+        if(Input.GetKeyDown(TombolFollow))
+            {
+                isFollow = true;
+                Debug.Log("Player folow");
+            }
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        if(isInRange_z)
+        
+        if(isInRange_z && isFollow)
         {
-            if(Input.GetKeyDown(TombolFollow))
-            {
-                Debug.Log("TombolFollow");
-                if(Vector3.Distance(Frey.position, transform.position) > radius)
+                if(Vector3.Distance(frey.position, transform.position) > radius)
                 {
-                    transform.position = Vector3.MoveTowards(transform.position, Frey.position, speed * Time.deltaTime);
+                    Vector3 temp = Vector3.MoveTowards(transform.position, frey.position, speed * Time.deltaTime);
+                    rb.MovePosition(temp);
                     anim_z.SetBool("isMoving", true);
-                    changeAnimation(transform.position);
+                    changeAnimation(temp - transform.position);
 
                 } else {
                     anim_z.SetBool("isMoving", false);
                 }
-            }
+            
         }
         
     }
@@ -75,6 +82,9 @@ public class ZachManager : MonoBehaviour
         {
             isInRange_z = true;
             Debug.Log("Player is in zach's range");
+            
         }
     }
+
+    
 }

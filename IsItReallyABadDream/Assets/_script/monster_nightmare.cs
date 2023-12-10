@@ -21,7 +21,7 @@ public class monster_nightmare : monster
     // Start is called before the first frame update
     void Start()
     {
-        currentState = EnemyState.idle;
+        // currentState = EnemyState.idle;
         rbm = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         camShake = GameObject.FindGameObjectWithTag("screenShake").GetComponent<shake>();
@@ -39,20 +39,20 @@ public class monster_nightmare : monster
         if (Vector3.Distance(target.position, transform.position) <= chaseRadius
         && Vector3.Distance(target.position, transform.position) > attackRadius)
         {
-            transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+            Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
 
 
-            // rbm.MovePosition(temp);
-            ChangeState(EnemyState.walk);
+            rbm.MovePosition(temp);
+            // ChangeState(EnemyState.walk);
             anim.SetBool("isJalan", true);
-            changeAnim(transform.position);
+            changeAnim(temp - transform.position);
 
             // cam shake
             camShake.CamShake(); 
             
         } else {
             camShake.CamStop();
-            ChangeState(EnemyState.idle);
+            // ChangeState(EnemyState.idle);
             anim.SetBool("isJalan", false);
         }
 
