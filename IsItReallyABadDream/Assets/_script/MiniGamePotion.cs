@@ -3,95 +3,150 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using System.Linq;
 
 public class MiniGamePotion : MonoBehaviour
 {
     public Text hasilTxt;
-    public float num1 = 0f;
-    public float num2 = 0f;
-    public string operation;
-    public Sprite rightPotion;
-    public Sprite emptyPotion;
-    public Sprite wrongPotion;
+    public float ketentuanHasil;
+    // public Sprite rightPotion;
+    // public Sprite emptyPotion;
+    // public Sprite wrongPotion;
 
+    private string expression;
+    private float result;
+    // private string[] elements;
 
-    public void i_pertambahan()
+    void Start()
     {
-        num1 = float.Parse(hasilTxt.text);
-        operation = ("+");
-        hasilTxt.text = float.Parse(hasilTxt.text) + (" + ");
+        expression = "0";
     }
 
-    public void i_pengurangan()
+    void Update()
     {
-        num1 = float.Parse(hasilTxt.text);
-        operation = ("-");
-        hasilTxt.text = float.Parse(hasilTxt.text) + (" - ");
-    }
-
-    public void i_pembagian()
-    {
-        num1 = float.Parse(hasilTxt.text);
-        operation = ("/");
-        hasilTxt.text = float.Parse(hasilTxt.text) + (" / ");
-    }
-
-    public void i_perkalian()
-    {
-        num1 = float.Parse(hasilTxt.text);
-        operation = ("*");
-        hasilTxt.text = float.Parse(hasilTxt.text) + (" * ");
-    }
-
-    // public void AddNumPotion(float num) {
-    //     KodeBrankas += num;
-    // }
-
-    public void potionMerah()
-    {
-        if (hasilTxt.text == Convert.ToString("0"))
+        
+        if( result == ketentuanHasil && AllChecked(expression))
         {
-            hasilTxt.text = "2";
-        }
-        else
-        {
-            hasilTxt.text = hasilTxt.text + "2";
+            brankasController.isGotRightPotion = true;
+            Debug.Log("Found");
         }
     }
 
-    public void potionKuning()
+    public void submitAnswer()
     {
-        if (hasilTxt.text == Convert.ToString("0"))
+        expression = hasilTxt.text;
+        result = EvaluateExpression(expression);
+    }
+
+    public void AddOperation(string operation){
+        hasilTxt.text += " " + operation + " ";
+    }
+
+    public void AddNumPotion(string num)
+    {
+        if(hasilTxt.text == Convert.ToString(num))
         {
-            hasilTxt.text = "5";
-        }
-        else
+            hasilTxt.text = num;
+        } else 
         {
-            hasilTxt.text = hasilTxt.text + "5";
+            hasilTxt.text = hasilTxt.text + num;
         }
     }
 
-    public void potionBiru()
-    {
-        if (hasilTxt.text == Convert.ToString("0"))
-        {
-            hasilTxt.text = "10";
-        }
-        else
-        {
-            hasilTxt.text = hasilTxt.text + "10";
-        }
+    public void delete(){
+        hasilTxt.text = "";
     }
 
-    public void potionHijau()
+    static float EvaluateExpression(string expression)
     {
-        if (hasilTxt.text == Convert.ToString("0"))
+        // Split the input string into numbers and operators
+        string[] elements = expression.Split(' ');
+
+        // Separate numbers and operators
+        List<float> numbers = new List<float>();
+        List<char> operators = new List<char>();
+
+        foreach (string element in elements)
         {
-            hasilTxt.text = "20";
+            if (float.TryParse(element, out float number))
+            {
+                numbers.Add(number);
+            }
+            else if (IsOperator(element))
+            {
+                operators.Add(element[0]);
+            }
+            else
+            {
+                Debug.Log("Invalid input: " + element);
+            }
         }
-        else
+
+        // Perform calculations based on mathematical rules
+        for (int i = 0; i < operators.Count; i++)
         {
-            hasilTxt.text = hasilTxt.text + "20";
+            if (operators[i] == '*' || operators[i] == '/')
+            {
+                float operand1 = numbers[i];
+                float operand2 = numbers[i + 1];
+
+                float result = operators[i] == '*' ? operand1 * operand2 : operand1 / operand2;
+
+                // Replace the two operands and the operator with the result
+                numbers[i] = result;
+                numbers.RemoveAt(i + 1);
+                operators.RemoveAt(i);
+                i--; // Adjust the loop index after removing an operator
+            }
         }
+
+        // Perform addition and subtraction
+        float finalResult = numbers[0];
+        for (int i = 0; i < operators.Count; i++)
+        {
+            if (operators[i] == '+')
+            {
+                finalResult += numbers[i + 1];
+            }
+            else if (operators[i] == '-')
+            {
+                finalResult -= numbers[i + 1];
+            }
+        }
+
+        return finalResult;
+    }
+
+    static bool IsOperator(string value)
+    {
+        return value.Length == 1 && "+-*/".Contains(value[0]);
+    }
+
+    private bool AllChecked(string perhitungan)
+    {
+        string[] elements = expression.Split(' ');
+
+        // Separate numbers and operators
+        List<float> numbers = new List<float>();
+        List<char> operators = new List<char>();
+        char[] requiredOperators = { '+', '-', '*', '/' };
+
+        foreach (string element in elements)
+        {
+            if (float.TryParse(element, out float number))
+            {
+                numbers.Add(number);
+            }
+            else if (IsOperator(element))
+            {
+                operators.Add(element[0]);
+            }
+            else
+            {
+                Debug.Log("Invalid input: " + element);
+            }
+        }
+
+        return requiredOperators.All(op => operators.Contains(op));
     }
 }

@@ -9,6 +9,7 @@ TagManager:
   - brankas
   - screenShake
   - Zach
+  - MiniGame
   layers:
   - Default
   - TransparentFX
