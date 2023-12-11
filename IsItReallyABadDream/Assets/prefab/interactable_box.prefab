@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3719986210029930500}
   - component: {fileID: 5976403549743531195}
+  - component: {fileID: 4057664606500650227}
   m_Layer: 0
   m_Name: interactable_box
   m_TagString: Untagged
@@ -77,3 +78,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1825604, y: 1.8285433}
   m_EdgeRadius: 0
+--- !u!114 &4057664606500650227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9021221780292067283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c0054b1493b47542ae2e93012ca1ce1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInRange: 0
+  TombolInteract: 0
+  InteractAction:
+    m_PersistentCalls:
+      m_Calls: []

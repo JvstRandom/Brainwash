@@ -10,6 +10,7 @@ TagManager:
   - screenShake
   - Zach
   - MiniGame
+  - bendaMemori
   layers:
   - Default
   - TransparentFX
