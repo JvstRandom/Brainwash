@@ -6,8 +6,7 @@ public class monster_nightmare : monster
 {
     private Rigidbody2D rbm;
     public Transform target;
-    public float chaseRadius;
-    public float attackRadius;
+    
     public Transform spawnPoint;
 
     public Animator anim;

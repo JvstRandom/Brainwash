@@ -13,6 +13,9 @@ public class monster : MonoBehaviour
     public int baseAttack;
     public float moveSpeed;
 
+    public float chaseRadius;
+    public float attackRadius;
+
     // Start is called before the first frame update
     void Start()
     {

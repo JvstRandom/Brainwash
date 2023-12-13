@@ -65,4 +65,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/kamarMandi NM.unity
     guid: c170d639188227047a0a364a9870b3d8
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: b8dd7227c1b44be449f7ba7ed3327307
   m_configObjects: {}

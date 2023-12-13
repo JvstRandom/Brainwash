@@ -3904,7 +3904,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: dialogs.Array.data[0]
-      value: waw mantabb gilak
+      value: waw mantabb gilak hehe
       objectReference: {fileID: 0}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: dialogs.Array.data[1]
@@ -3934,6 +3934,14 @@ PrefabInstance:
       propertyPath: imageList.Array.data[3]
       value: 
       objectReference: {fileID: 21300000, guid: 1a3f9cb0a5b2344489db6a08c54d8d7b, type: 3}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: imageList.Array.data[4]
+      value: 
+      objectReference: {fileID: 1148133815, guid: 25770be591ded3c42a5886b68b2ee18c, type: 3}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: imageList.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7f9d6561e3427824686b92a47da4bdc5, type: 3}
     - target: {fileID: 7604122203463961312, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1

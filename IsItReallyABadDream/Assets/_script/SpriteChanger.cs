@@ -100,6 +100,7 @@ public class SpriteChanger : MonoBehaviour
             if (currentIndex == imageList.Length)
             {
                 Debug.Log("End of image sequence");
+                spriteRenderer.sprite = newSprite;
                 // You can perform any actions here when the sequence ends
             }
         }
