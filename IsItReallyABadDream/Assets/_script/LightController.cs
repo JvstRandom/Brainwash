@@ -15,7 +15,7 @@ public class LightController : MonoBehaviour
     public float currentBatteryEnergy;
 
     // Energy consumption rate
-    public float energyConsumptionRate = 5f;
+    public float energyConsumptionRate = 2f;
 
     void Start()
     {

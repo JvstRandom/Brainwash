@@ -139,6 +139,258 @@ TextureImporter:
       name: mejakursidapur2_0
       rect:
         serializedVersion: 2
+        x: 4
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa5c99a39b6b8e488096abef381b6f4
+      internalID: -546565273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mejakursidapur2_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e8e24fad1f43c41b3735d662773d68
+      internalID: -2138794548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mejakursidapur2_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93c565b6c413774c98c807bd4ad61ba
+      internalID: -9785877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mejakursidapur2_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 76
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d96d50061bbcd34f981eca8caef11c9
+      internalID: -1841061660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mejakursidapur2_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 76
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add56f95a7e58da4da75ccef5f03d80f
+      internalID: -450136876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mejakursidapur2_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b947965d3c64446b6e657582253ad3
+      internalID: -1878330461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mejakursidapur2_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a201c5ae8c94d4abaac83f4278d4be
+      internalID: 505841929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mejakursidapur2_7
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a887b81715cca9c40b9b7364f31b02b3
+      internalID: 885686500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mejakursidapur2_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6a0eaa21891ea4d864f3c15bb6dcaa
+      internalID: 948386683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mejakursidapur2_9
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8758cd140b5606d4997aaac75c51aafe
+      internalID: -1062439272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mejakursidapur2_10
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9742edf76d006b4f9af1793a7012fd8
+      internalID: -785963935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mejakursidapur2_11
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 21
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229bba2317a9b364392d12e8fa3c306b
+      internalID: -192813565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mejakursidapur2_12
+      rect:
+        serializedVersion: 2
         x: 23
         y: 21
         width: 16
@@ -150,8 +402,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: faa5c99a39b6b8e488096abef381b6f4
-      internalID: -546565273
+      spriteID: 5b32f8d83e612d64696fb34009607782
+      internalID: 817265436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mejakursidapur2_13
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 21
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00762965920e17249aec81e0022e4be5
+      internalID: 374099756
       vertices: []
       indices: 
       edges: []
@@ -168,6 +441,19 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       mejakursidapur2_0: -546565273
+      mejakursidapur2_1: -2138794548
+      mejakursidapur2_10: -785963935
+      mejakursidapur2_11: -192813565
+      mejakursidapur2_12: 817265436
+      mejakursidapur2_13: 374099756
+      mejakursidapur2_2: -9785877
+      mejakursidapur2_3: -1841061660
+      mejakursidapur2_4: -450136876
+      mejakursidapur2_5: -1878330461
+      mejakursidapur2_6: 505841929
+      mejakursidapur2_7: 885686500
+      mejakursidapur2_8: 948386683
+      mejakursidapur2_9: -1062439272
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

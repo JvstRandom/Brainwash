@@ -7,8 +7,7 @@ using UnityEngine.UI;
 public class ItemSO : ScriptableObject
 {
     public string itemName;
-    public Image imageMuncul;
-    public Sprite Imagebetul;
+
     public functionalityType tipeFungsi = new functionalityType();
 
     public bool imageaktif = false;
@@ -19,18 +18,10 @@ public class ItemSO : ScriptableObject
         {
             GameObject.Find("Frey").GetComponent<healthSystem>().Healed(1);
         }
-        if(tipeFungsi == functionalityType.imageDuar)
-        {
-            imageMuncul.sprite = Imagebetul;
-             if(!imageaktif)
-            {
-                imageMuncul.enabled = true;
-                imageaktif = true;
-            } else if (imageaktif){
-                imageMuncul.enabled = false;
-                imageaktif = false;
-            }
-        }
+        // if(tipeFungsi == functionalityType.map)
+        // {
+        //     GameObject.Find("Frey").GetComponent<PlayerManager>().BukaMap();
+        // }
         if(tipeFungsi == functionalityType.key)
         {
             GameObject.Find("Frey").GetComponent<PlayerManager>().PickUpKey();
@@ -45,7 +36,7 @@ public class ItemSO : ScriptableObject
     public enum functionalityType
     {
         craft,
-        imageDuar,
+        map,
         heal,
         batre,
         key,
