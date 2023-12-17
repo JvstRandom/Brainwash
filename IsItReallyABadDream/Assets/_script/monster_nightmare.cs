@@ -36,7 +36,8 @@ public class monster_nightmare : monster
     void CheckRadius()
     {
         if (Vector3.Distance(target.position, transform.position) <= chaseRadius
-        && Vector3.Distance(target.position, transform.position) > attackRadius)
+        && Vector3.Distance(target.position, transform.position) > attackRadius
+        && !LokerController.isHiding)
         {
             Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
 
@@ -49,10 +50,19 @@ public class monster_nightmare : monster
             // cam shake
             camShake.CamShake(); 
             
-        } else {
+        } else if (transform.position == spawnPoint.position){
             camShake.CamStop();
             // ChangeState(EnemyState.idle);
             anim.SetBool("isJalan", false);
+        } else {
+            camShake.CamStop();
+            Vector3 temp = Vector3.MoveTowards(transform.position, spawnPoint.position, moveSpeed * Time.deltaTime);
+
+
+            rbm.MovePosition(temp);
+            // ChangeState(EnemyState.walk);
+            anim.SetBool("isJalan", true);
+            changeAnim(temp - transform.position);
         }
 
     }

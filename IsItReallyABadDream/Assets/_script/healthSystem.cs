@@ -20,4 +20,12 @@ public class healthSystem : MonoBehaviour
             // Destroy(gameObject);
         }
     }
+
+    public void Healed(int heal)
+    {
+        health += heal;
+        if(health > maxHealth) {
+            health = maxHealth;
+        }
+    }
 }

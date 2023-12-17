@@ -27,7 +27,8 @@ public class suster : monster
     {
         if(Vector3.Distance(player.position, transform.position) <= chaseRadius 
         && Vector3.Distance(player.position, transform.position) > attackRadius 
-        && !isPlayerHit)
+        && !isPlayerHit
+        && !LokerController.isHiding)
         {
             Vector3 temp = Vector3.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime);
 

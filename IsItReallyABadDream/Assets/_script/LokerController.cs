@@ -10,10 +10,8 @@ public class LokerController : MonoBehaviour
     public bool IsOpen;
     public Animator anim;
 
-    bool isHiding = false;
+    public static bool isHiding = false;
 
-    [SerializeField]
-    GameObject monster_nightmare;
 
     public void LokerDibuka()
     {
@@ -21,7 +19,6 @@ public class LokerController : MonoBehaviour
         {
             IsOpen = true;
             isHiding = true;
-            monster_nightmare.SetActive(false);
 
             // Move player behind or inside the locker (adjust the position accordingly)
             player.transform.position = new Vector3(locker.transform.position.x, locker.transform.position.y, player.transform.position.z);
@@ -38,7 +35,6 @@ public class LokerController : MonoBehaviour
         {
             IsOpen = false;
             isHiding = false;
-            monster_nightmare.SetActive(true);
 
             // Reset player's position to its original position
             double new_y_pos = locker.transform.position.y - 0.90;

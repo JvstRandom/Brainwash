@@ -12,6 +12,7 @@ TagManager:
   - MiniGame
   - bendaMemori
   - suster
+  - PlayerLight
   layers:
   - Default
   - TransparentFX
