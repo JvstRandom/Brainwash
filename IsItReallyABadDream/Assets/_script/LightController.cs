@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
 
-public class LightController : MonoBehaviour
+public class lightController : MonoBehaviour
 {
     public Light2D light2D;
     public bool lampunyala;

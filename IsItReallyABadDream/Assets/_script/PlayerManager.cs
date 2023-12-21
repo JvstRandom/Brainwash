@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Microsoft.Unity.VisualStudio.Editor;
@@ -14,7 +15,7 @@ public class PlayerManager : MonoBehaviour
     public static bool haveMapLabirin = false;
 
     public bool mapOpen= false;
-    public static LightController lightController;
+    // public static LightController lightController;
 
     public void Start()
     {
@@ -29,13 +30,13 @@ public class PlayerManager : MonoBehaviour
         haveKey = true;
     }
 
-    public void NambahDayaLampu()
-    {
-        if(haveBattery)
-        {
-           lightController.setBattery();
-        }
-    }
+    // public void NambahDayaLampu()
+    // {
+    //     if(haveBattery)
+    //     {
+    //        lightController.setBattery();
+    //     }
+    // }
 
     public void BukaMap()
     {
@@ -51,3 +52,4 @@ public class PlayerManager : MonoBehaviour
 
 
 }
+

@@ -26,11 +26,11 @@ public class ItemSO : ScriptableObject
         {
             GameObject.Find("Frey").GetComponent<PlayerManager>().PickUpKey();
         }
-        if(tipeFungsi == functionalityType.batre)
-        {
-            PlayerManager.haveBattery = true;
-            GameObject.Find("Frey").GetComponent<PlayerManager>().NambahDayaLampu();
-        }
+        // if(tipeFungsi == functionalityType.batre)
+        // {
+        //     PlayerManager.haveBattery = true;
+        //     GameObject.Find("Frey").GetComponent<PlayerManager>().NambahDayaLampu();
+        // }
     }
 
     public enum functionalityType

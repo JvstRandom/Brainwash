@@ -68,8 +68,12 @@ public class InventoryManager : MonoBehaviour
             if(itemSOs[i].itemName == namaitem)
             {
                 itemSOs[i].UseItem();
+                Debug.Log("ketemu");
             }
+            Debug.Log(itemSOs[i].itemName);
         }
+        Debug.Log("ini nama item "+namaitem);
+        Debug.Log("gaknemu");
     }
 
     public void CraftItem()

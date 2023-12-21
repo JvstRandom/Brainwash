@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum PlayerState {
+public enum PlayerState
+{
     walk,
-    interact, 
+    interact,
     hurt
 }
 
@@ -31,12 +32,17 @@ public class PlayerMovement : MonoBehaviour
 
     public bool knockKanan;
 
+    public AudioClip newClip;
+
+    public AudioSource newSource;
     private void Start()
     {
         currentState = PlayerState.walk;
         rb = GetComponent<Rigidbody2D>();
         transform.position = masukScenePos.initialValue;
-        kecepatanLari = speed *2;
+        kecepatanLari = speed * 2;
+        newSource = GetComponent<AudioSource>();
+        newSource.clip = newClip;
     }
 
     private void Update()
@@ -57,6 +63,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 isWalking = true;
                 anim.SetBool("isMoving", isWalking);
+                newSource.Play();
             }
         }
         else
@@ -64,6 +71,7 @@ public class PlayerMovement : MonoBehaviour
             if (isWalking)
             {
                 isWalking = false;
+                newSource.Stop();
                 anim.SetBool("isMoving", isWalking);
                 StopMoving();
             }
@@ -74,24 +82,31 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(KBCounter <= 0)
+        if (KBCounter <= 0)
         {
-            if(Input.GetKey(TombolInteract))
+            if (Input.GetKey(TombolInteract))
             {
                 rb.velocity = moveDirection * kecepatanLari * Time.deltaTime;
-            }else {
+            }
+            else
+            {
                 rb.velocity = moveDirection * speed * Time.deltaTime;
             }
-        } else {
+        }
+        else
+        {
 
-            if(!knockKanan){
-            rb.velocity = new Vector3((x+KnockForce), (y-KnockForce/2));
-            } else {
-                rb.velocity = new Vector3((x-KnockForce), (KnockForce/2));
+            if (!knockKanan)
+            {
+                rb.velocity = new Vector3((x + KnockForce), (y - KnockForce / 2));
+            }
+            else
+            {
+                rb.velocity = new Vector3((x - KnockForce), (KnockForce / 2));
             }
             KBCounter -= Time.deltaTime;
         }
-        
+
     }
 
     private void StopMoving()

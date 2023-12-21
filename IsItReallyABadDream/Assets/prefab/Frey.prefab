@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3821314679598227353}
   - component: {fileID: 993399337055047050}
   - component: {fileID: 2060859160689050620}
+  - component: {fileID: 7515703506066441342}
   m_Layer: 0
   m_Name: Frey
   m_TagString: Player
@@ -220,6 +221,14 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.14028996, y: 0.15207183}
   m_EdgeRadius: 0
+--- !u!81 &7515703506066441342
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3720324723304111589}
+  m_Enabled: 1
 --- !u!1 &8163618177287512951
 GameObject:
   m_ObjectHideFlags: 0
