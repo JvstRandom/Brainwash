@@ -68,4 +68,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: b8dd7227c1b44be449f7ba7ed3327307
+  - enabled: 1
+    path: Assets/Scenes/Labirin.unity
+    guid: c930678fa94394846ada214260971616
+  - enabled: 1
+    path: Assets/Scenes/CutsceneFNH.unity
+    guid: 532b1d4ffe6ccd34e8899e5ed2aaf36d
   m_configObjects: {}

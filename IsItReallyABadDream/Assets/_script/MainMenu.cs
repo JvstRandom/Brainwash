@@ -7,6 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     [SerializeField]
     GameObject setting;
+    public static bool level1;
 
     void Start()
     {
@@ -15,7 +16,7 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         SceneManager.LoadScene("kamar1");
-
+        level1 = true;
     }
 
     public void QuitGame()
