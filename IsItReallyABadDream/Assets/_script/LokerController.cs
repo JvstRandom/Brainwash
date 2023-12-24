@@ -11,14 +11,19 @@ public class LokerController : MonoBehaviour
     public Animator anim;
 
     public static bool isHiding = false;
+    public AudioSource audioSource;
 
-
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
     public void LokerDibuka()
     {
         if(!IsOpen && !isHiding) 
         {
             IsOpen = true;
             isHiding = true;
+            audioSource.Play();
 
             // Move player behind or inside the locker (adjust the position accordingly)
             player.transform.position = new Vector3(locker.transform.position.x, locker.transform.position.y, player.transform.position.z);

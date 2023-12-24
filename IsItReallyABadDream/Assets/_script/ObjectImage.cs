@@ -5,22 +5,32 @@ using UnityEngine.UI;
 
 public class ObjectImage : MonoBehaviour
 {
-    public Image imageToShow;
+    public GameObject place;
+    public Image PlaceImageToShow;
     public bool UiAktif;
+    public AudioSource audioSource;
+
+    public Sprite ImageYoShow;
 
     private void Start(){
-        imageToShow.enabled = false;
+        place.SetActive(false);
+        PlaceImageToShow.enabled = false;
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void imageDilihatin()
     {
         if(!UiAktif)
         {
-            imageToShow.enabled = true;
+            place.SetActive(true);
+            PlaceImageToShow.sprite = ImageYoShow;
+            PlaceImageToShow.enabled = true;
             UiAktif = true;
+            audioSource.Play();
         } else if (UiAktif){
-            imageToShow.enabled = false;
+            PlaceImageToShow.enabled = false;
             UiAktif = false;
+            place.SetActive(false);
         }
         
     }

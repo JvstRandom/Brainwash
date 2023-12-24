@@ -5,8 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class faithnhopeCutsceneTrigger : MonoBehaviour
 {
+    public GameObject faith;
+    public GameObject hope;
+    public GameObject suster;
     public string sceneToLoad;
-    
     public static bool hasLoadedScene = false;
     public static bool sdhBerubah = false;
     public static bool FaithnHopeHilang = false;
@@ -22,7 +24,6 @@ public class faithnhopeCutsceneTrigger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("hasLoadedScene: " + hasLoadedScene);
         Debug.Log("FaithnHopeHilang: " + FaithnHopeHilang);
         Debug.Log("ngomongKeNPC.jmlhPerkenalan: " + ngomongKeNPC.jmlhPerkenalan);
        if (ngomongKeNPC.jmlhPerkenalan == 5 && !hasLoadedScene && !sdhBerubah)
@@ -35,10 +36,12 @@ public class faithnhopeCutsceneTrigger : MonoBehaviour
 
         if(FaithnHopeHilang)
         {
-            characterSpriteRenderer.enabled = false;
+            if (hope != null) Destroy(hope);
+            if (faith != null) Destroy(faith);
+            if (suster != null) Destroy(suster);
         }
         else if (MainMenu.level1 && SceneT4Bermain1.sceneMulai){
-             characterSpriteRenderer.enabled = true;
+            characterSpriteRenderer.enabled = true;
         }
     }
 }

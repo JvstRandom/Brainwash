@@ -22,7 +22,7 @@ public class items : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        invenManager = GameObject.Find("Inventory").GetComponent<InventoryManager>();
+        
     }
 
     // Update is called once per frame

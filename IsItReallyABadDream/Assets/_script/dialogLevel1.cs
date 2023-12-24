@@ -5,61 +5,46 @@ using UnityEngine.UI;
 
 public class dialogLevel1 : MonoBehaviour
 {
-
-    public GameObject dialogBox;
-    public Text dialogTexts;
-    public string[] dialogs;
-    public Text namaCharacter;
-    public string[] namaYgNgomong;
-
+    // INSTRUKSI
     public Text instruksi;
     public GameObject intruksiBox;
     public string instruksiIsi;
+    // private bool instructionDisplayed = false;
+    public dialog percakapan1;
 
-    public Image imageDisplay; // Reference to the Image UI object
-    public Sprite[] imageList; // List of sprites/images to display
-    private int currentIndex = 0;
     public PlayerMovement playerMovement;
 
     // Start is called before the first frame update
     void Start()
     {
-        imageDisplay.enabled = false;
-        dialogBox.SetActive(false);
-        
+        intruksiBox.SetActive(true);
+        instruksi.text = instruksiIsi;
+
+        // Start the dialog when the scene starts
+        StartDialog();
+    }
+
+    // Method to start the dialog
+    void StartDialog()
+    {
+        // instructionDisplayed = true; // Set the instruction displayed to true
+        intruksiBox.SetActive(false); // Hide instruction box
+        FindObjectOfType<DialogManager>().StartDialog(percakapan1);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(MainMenu.level1)
+        if (MainMenu.level1 && !faithnhopeCutsceneTrigger.FaithnHopeHilang)
         {
-            imageDisplay.enabled = true;
-            instruksi.text = instruksiIsi;
-            intruksiBox.SetActive(true);
-            if(Input.GetKeyDown(KeyCode.Space))
+            // Check if the dialog is still active in the DialogManager
+            if (FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
             {
-                intruksiBox.SetActive(false);
-                dialogBox.SetActive(true);
-                DisplayNextImage();
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    FindObjectOfType<DialogManager>().DisplayNextSentences();
+                }
             }
-        }
-    }
-
-     public void DisplayNextImage()
-    {
-        if (currentIndex < imageList.Length)
-        {
-            // Display the next image
-            imageDisplay.sprite = imageList[currentIndex];
-            dialogTexts.text = dialogs[currentIndex];
-            namaCharacter.text = namaYgNgomong[currentIndex];
-            currentIndex++;
-        } else {
-            imageDisplay.enabled = false;
-                dialogBox.SetActive(false);
-                Debug.Log("End of image sequence");
-                // You can perform any actions here when the sequence ends
         }
     }
 }

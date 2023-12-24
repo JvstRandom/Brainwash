@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dialogPanel
       objectReference: {fileID: 0}
+    - target: {fileID: 2672420467658487233, guid: 6a8800b3c8ab0c24f8ac1c0631fd934d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2776795805228200114, guid: 6a8800b3c8ab0c24f8ac1c0631fd934d, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -215,10 +219,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7948819885551744633, guid: 6a8800b3c8ab0c24f8ac1c0631fd934d, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7948819885551744633, guid: 6a8800b3c8ab0c24f8ac1c0631fd934d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1144446156, guid: 292e7ddcd183aea43befad6c3693d6b1, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1667273100596857344, guid: 6a8800b3c8ab0c24f8ac1c0631fd934d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1085259374}
   m_SourcePrefab: {fileID: 100100000, guid: 6a8800b3c8ab0c24f8ac1c0631fd934d, type: 3}
 --- !u!224 &49827101 stripped
 RectTransform:
@@ -258,11 +273,208 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &49827105 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1900256534764842187, guid: 6a8800b3c8ab0c24f8ac1c0631fd934d, type: 3}
+--- !u!95 &49827105 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6595396058689581850, guid: 6a8800b3c8ab0c24f8ac1c0631fd934d, type: 3}
   m_PrefabInstance: {fileID: 49827100}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &114264104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 114264106}
+  - component: {fileID: 114264105}
+  - component: {fileID: 114264107}
+  - component: {fileID: 114264108}
+  m_Layer: 0
+  m_Name: triggerWalkie
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &114264105
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114264104}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.06155598, y: 0.36933565}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.8617833, y: 1.7386713}
+  m_EdgeRadius: 0
+--- !u!4 &114264106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114264104}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.86, y: -2.93, z: 0.09662128}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114264107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114264104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c1caf5d063c0ec489efc32c29a541d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkietalkie: {fileID: 220209620}
+  walkitalkiedialog:
+    sentences:
+    - Wah ini bisa digunakan untuk membuat alat pendengar
+    name:
+    - Frey
+    image:
+    - {fileID: 21300000, guid: 9e6f8aa9b7433794e8e79b79839c184e, type: 3}
+  notifikasi: tekan C untuk collect Walkie Talkie
+  audioSource: {fileID: 114264108}
+--- !u!82 &114264108
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114264104}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: cfaf6dd9a62cf0e40865167fb6a954ed, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &143116433
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,12 +555,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 143116433}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.12538, y: -4.021765, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.013895, y: -6.8932495, z: 0.07579429}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 459678613}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &143116436
 CircleCollider2D:
@@ -397,28 +609,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6093c8207271bd54985809647f96c7c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogTexts: {fileID: 49827102}
-  dialogs:
-  - Hai aku baru disini, namaku Frey. Kalau kamu?
-  - Haii aku Faith.
-  - Salam kenal Faithh..
-  - Uhuk.. uhuk.. *terlihat lemas*
-  - Tidak tahu.. aku merasa tidak enak badan.
-  namaCharacter: {fileID: 49827103}
-  namaYgNgomong:
-  - Frey
-  - Faith
-  - Frey
-  - Faith
-  - Faith
-  dialogBox: {fileID: 49827105}
-  imageDisplay: {fileID: 49827104}
-  imageList:
-  - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
-  - {fileID: 21300000, guid: 50d3a94347f23fc48ad9e29c1f1950b9, type: 3}
-  - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
-  - {fileID: 21300000, guid: 50d3a94347f23fc48ad9e29c1f1950b9, type: 3}
-  - {fileID: 21300000, guid: 50d3a94347f23fc48ad9e29c1f1950b9, type: 3}
+  percakapanNpc:
+    sentences:
+    - ehddf
+    - sbdsdb
+    name:
+    - Frey
+    - Faith
+    image:
+    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
+    - {fileID: 21300000, guid: 50d3a94347f23fc48ad9e29c1f1950b9, type: 3}
   characterSpriteRenderer: {fileID: 143116434}
 --- !u!114 &143116438
 MonoBehaviour:
@@ -512,12 +712,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162212469}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.575478, y: -3.729216, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.463993, y: -6.6007004, z: 0.07579429}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 459678613}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &162212472
 MonoBehaviour:
@@ -531,25 +731,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6093c8207271bd54985809647f96c7c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogTexts: {fileID: 49827102}
-  dialogs:
-  - Hai aku baru disini, namaku Frey. kalau kamu?
-  - HAII AKU HOPE, KEMBARANNYA FAITH hehe
-  - Salam kenal HOPEE..
-  - :D *terlihat agak lemas seperti Faith*
-  namaCharacter: {fileID: 49827103}
-  namaYgNgomong:
-  - Frey
-  - Hope
-  - Frey
-  - Hope
-  dialogBox: {fileID: 49827105}
-  imageDisplay: {fileID: 49827104}
-  imageList:
-  - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
-  - {fileID: 21300000, guid: 181da1dbef5f8254ba39086d3c18d6fd, type: 3}
-  - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
-  - {fileID: 21300000, guid: 181da1dbef5f8254ba39086d3c18d6fd, type: 3}
+  percakapanNpc:
+    sentences:
+    - tn
+    - tmrr
+    name:
+    - Frey
+    - Hope
+    image:
+    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
+    - {fileID: 21300000, guid: 181da1dbef5f8254ba39086d3c18d6fd, type: 3}
   characterSpriteRenderer: {fileID: 162212470}
 --- !u!58 &162212473
 CircleCollider2D:
@@ -598,6 +789,214 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c515d29333d84e54aa1adb6f3f258e0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &211029537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 211029539}
+  - component: {fileID: 211029538}
+  m_Layer: 0
+  m_Name: walkietalkie
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &211029538
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211029537}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 1945038033, guid: 72f5a33d3205d0c42acce9b5dc72fe74, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.4375, y: 0.875}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &211029539
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211029537}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.8663204, y: -1.16, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 220209622}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &220209620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 220209622}
+  - component: {fileID: 220209621}
+  m_Layer: 0
+  m_Name: walkieItem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &220209621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220209620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6922672b4f936844975b46f0a496b24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i_Name: walkietalkie
+  i_quantity: 1
+  i_sprite: {fileID: 1945038033, guid: 72f5a33d3205d0c42acce9b5dc72fe74, type: 3}
+  i_Desc: 'Dapat digunakan menjadi bahan dasar membuat alat pendengar
+
+'
+--- !u!4 &220209622
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220209620}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 211029539}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &329857952
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1659504952508729151, guid: f09761af1cd500e4dbb2c7afd0314acb, type: 3}
+      propertyPath: m_Name
+      value: dialogManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 2289099864702825837, guid: f09761af1cd500e4dbb2c7afd0314acb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.31143254
+      objectReference: {fileID: 0}
+    - target: {fileID: 2289099864702825837, guid: f09761af1cd500e4dbb2c7afd0314acb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.12959048
+      objectReference: {fileID: 0}
+    - target: {fileID: 2289099864702825837, guid: f09761af1cd500e4dbb2c7afd0314acb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3247422
+      objectReference: {fileID: 0}
+    - target: {fileID: 2289099864702825837, guid: f09761af1cd500e4dbb2c7afd0314acb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2289099864702825837, guid: f09761af1cd500e4dbb2c7afd0314acb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2289099864702825837, guid: f09761af1cd500e4dbb2c7afd0314acb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2289099864702825837, guid: f09761af1cd500e4dbb2c7afd0314acb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2289099864702825837, guid: f09761af1cd500e4dbb2c7afd0314acb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2289099864702825837, guid: f09761af1cd500e4dbb2c7afd0314acb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2289099864702825837, guid: f09761af1cd500e4dbb2c7afd0314acb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321944097447018702, guid: f09761af1cd500e4dbb2c7afd0314acb, type: 3}
+      propertyPath: nameTxt
+      value: 
+      objectReference: {fileID: 49827103}
+    - target: {fileID: 5321944097447018702, guid: f09761af1cd500e4dbb2c7afd0314acb, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 49827105}
+    - target: {fileID: 5321944097447018702, guid: f09761af1cd500e4dbb2c7afd0314acb, type: 3}
+      propertyPath: dialogTxt
+      value: 
+      objectReference: {fileID: 49827102}
+    - target: {fileID: 5321944097447018702, guid: f09761af1cd500e4dbb2c7afd0314acb, type: 3}
+      propertyPath: imageChara
+      value: 
+      objectReference: {fileID: 49827104}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f09761af1cd500e4dbb2c7afd0314acb, type: 3}
 --- !u!1 &334160509
 GameObject:
   m_ObjectHideFlags: 0
@@ -1999,6 +2398,42 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!1 &459678612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 459678613}
+  m_Layer: 0
+  m_Name: chara
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &459678613
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459678612}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.8885148, y: 2.871484, z: -0.07579429}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1222668438}
+  - {fileID: 1445362743}
+  - {fileID: 162212471}
+  - {fileID: 143116435}
+  - {fileID: 2007838400}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &467665433
 GameObject:
   m_ObjectHideFlags: 0
@@ -2375,9 +2810,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 4958533030102676866, guid: ed10eddae83918c498c2537a5fb13d30, type: 3}
+      propertyPath: notif
+      value: 
+      objectReference: {fileID: 1085259371}
+    - target: {fileID: 4958533030102676866, guid: ed10eddae83918c498c2537a5fb13d30, type: 3}
       propertyPath: bukaLaci
       value: 
       objectReference: {fileID: 8300000, guid: ed229ef12e6a1fc40b5faeb42dedd4c8, type: 3}
+    - target: {fileID: 4958533030102676866, guid: ed10eddae83918c498c2537a5fb13d30, type: 3}
+      propertyPath: notifbox
+      value: 
+      objectReference: {fileID: 1085259372}
     - target: {fileID: 4958533030102676866, guid: ed10eddae83918c498c2537a5fb13d30, type: 3}
       propertyPath: nutupLaci
       value: 
@@ -2386,6 +2829,10 @@ PrefabInstance:
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 666004291}
+    - target: {fileID: 4958533030102676866, guid: ed10eddae83918c498c2537a5fb13d30, type: 3}
+      propertyPath: itemsToCollect.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5988720242597747743, guid: ed10eddae83918c498c2537a5fb13d30, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.2460318
@@ -3128,15 +3575,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e89c21af47b255242ae6a80ee8253a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogTexts: {fileID: 49827102}
-  dialogs:
-  - Karena kalian sudah makan, kalian boleh  bersantai dan bermain disini.
-  - Wah! ini mungkin kesempatan yang tepat untuk  berkenalan dengan yang lain disini.
-  namaCharacter: {fileID: 49827103}
-  namaYgNgomong:
-  - Suster
-  - Frey
-  dialogBox: {fileID: 49827105}
+  percakapanMasukT4Bermain:
+    sentences:
+    - rshbb
+    - bewh
+    name:
+    - Suster
+    - Frey
+    image:
+    - {fileID: 21300000, guid: 50d3a94347f23fc48ad9e29c1f1950b9, type: 3}
+    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
 --- !u!61 &939329010
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3197,11 +3645,159 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1011182303
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1011182304}
+  m_Layer: 0
+  m_Name: triggersetalahCutscene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1011182304
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011182303}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.7772472, y: 0.4963491, z: 0.077563524}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1064575592 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3720324723304111589, guid: 714d700da1e714d4abd8bb83d57acbc3, type: 3}
   m_PrefabInstance: {fileID: 1490416916}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1085259370 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1667273100596857344, guid: 6a8800b3c8ab0c24f8ac1c0631fd934d, type: 3}
+  m_PrefabInstance: {fileID: 49827100}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1085259371 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4735924833579606157, guid: 6a8800b3c8ab0c24f8ac1c0631fd934d, type: 3}
+  m_PrefabInstance: {fileID: 49827100}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085259370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1085259372 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2672420467658487233, guid: 6a8800b3c8ab0c24f8ac1c0631fd934d, type: 3}
+  m_PrefabInstance: {fileID: 49827100}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1085259374
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085259370}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: cfaf6dd9a62cf0e40865167fb6a954ed, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1129110397
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3303,25 +3899,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6093c8207271bd54985809647f96c7c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogTexts: {fileID: 49827102}
-  dialogs:
-  - Hai aku baru disini, namaku Frey.  Kalau kamu?
-  - Iya.. aku.. Darla.. *pandangan kosong*
-  - Salam kenal Darlaa..
-  - ...
-  namaCharacter: {fileID: 49827103}
-  namaYgNgomong:
-  - Frey
-  - Darla
-  - Frey
-  - Darla
-  dialogBox: {fileID: 49827105}
-  imageDisplay: {fileID: 49827104}
-  imageList:
-  - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
-  - {fileID: 21300000, guid: bf5ab5026292ae2459b63d7a9228b96e, type: 3}
-  - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
-  - {fileID: 21300000, guid: bf5ab5026292ae2459b63d7a9228b96e, type: 3}
+  percakapanNpc:
+    sentences:
+    - halo
+    - halojuga
+    name:
+    - Frey
+    - Darla
+    image:
+    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
+    - {fileID: 21300000, guid: bf5ab5026292ae2459b63d7a9228b96e, type: 3}
   characterSpriteRenderer: {fileID: 1222668437}
 --- !u!58 &1222668435
 CircleCollider2D:
@@ -3463,44 +4050,115 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1222668433}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.8353066, y: -2.5955842, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.053208113, y: -5.467068, z: 0.07579429}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 459678613}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1264455784
-GameObject:
+--- !u!1001 &1308870366
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1264455785}
-  m_Layer: 0
-  m_Name: TriggerCutsceneFaithnHope
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1264455785
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1264455784}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.65, y: 2.3685935, z: -0.06874163}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1145949964195130251, guid: d239843e1b4368b4384d7140871895c7, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1145949964195130251, guid: d239843e1b4368b4384d7140871895c7, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1145949964195130251, guid: d239843e1b4368b4384d7140871895c7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1145949964195130251, guid: d239843e1b4368b4384d7140871895c7, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1145949964195130251, guid: d239843e1b4368b4384d7140871895c7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1145949964195130251, guid: d239843e1b4368b4384d7140871895c7, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1145949964195130251, guid: d239843e1b4368b4384d7140871895c7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1145949964195130251, guid: d239843e1b4368b4384d7140871895c7, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1145949964195130251, guid: d239843e1b4368b4384d7140871895c7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1145949964195130251, guid: d239843e1b4368b4384d7140871895c7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1145949964195130251, guid: d239843e1b4368b4384d7140871895c7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1145949964195130251, guid: d239843e1b4368b4384d7140871895c7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1145949964195130251, guid: d239843e1b4368b4384d7140871895c7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1145949964195130251, guid: d239843e1b4368b4384d7140871895c7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1145949964195130251, guid: d239843e1b4368b4384d7140871895c7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1145949964195130251, guid: d239843e1b4368b4384d7140871895c7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1145949964195130251, guid: d239843e1b4368b4384d7140871895c7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1145949964195130251, guid: d239843e1b4368b4384d7140871895c7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1145949964195130251, guid: d239843e1b4368b4384d7140871895c7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1145949964195130251, guid: d239843e1b4368b4384d7140871895c7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6113662955026942604, guid: d239843e1b4368b4384d7140871895c7, type: 3}
+      propertyPath: m_Name
+      value: Inventory
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d239843e1b4368b4384d7140871895c7, type: 3}
+--- !u!95 &1441132450 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1893979409688639288, guid: 6a8800b3c8ab0c24f8ac1c0631fd934d, type: 3}
+  m_PrefabInstance: {fileID: 49827100}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1445362741
 GameObject:
   m_ObjectHideFlags: 0
@@ -3580,12 +4238,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1445362741}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.345896, y: -5.045683, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.457381, y: -7.9171667, z: 0.07579429}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 459678613}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1445362744
 CircleCollider2D:
@@ -3634,25 +4292,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6093c8207271bd54985809647f96c7c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogTexts: {fileID: 49827102}
-  dialogs:
-  - Hey aku baru disini, namaku Frey.  Apa yang sedang kamu lakukan?
-  - Mengamati.. box.. aku.. Calvin.
-  - (kenapa semua orang terlihat bengong ya) .
-  - Ok, senang berkenalan denganmu
-  namaCharacter: {fileID: 49827103}
-  namaYgNgomong:
-  - Frey
-  - Calvin
-  - Frey
-  - Frey
-  dialogBox: {fileID: 49827105}
-  imageDisplay: {fileID: 49827104}
-  imageList:
-  - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
-  - {fileID: 21300000, guid: 1962c51b3ac01344b89c0b2cb7f847d1, type: 3}
-  - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
-  - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
+  percakapanNpc:
+    sentences:
+    - aha
+    - jj
+    name:
+    - Frey
+    - Calvin
+    image:
+    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
+    - {fileID: 21300000, guid: 1962c51b3ac01344b89c0b2cb7f847d1, type: 3}
   characterSpriteRenderer: {fileID: 1445362742}
 --- !u!1001 &1490416916
 PrefabInstance:
@@ -3764,6 +4413,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c018016d5a2ad94f8a5b11d47e84152, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  faith: {fileID: 143116433}
+  hope: {fileID: 162212469}
+  suster: {fileID: 1508484472}
   sceneToLoad: CutsceneFNH
   characterSpriteRenderer: {fileID: 1508484476}
 --- !u!61 &1508484474
@@ -3907,7 +4559,7 @@ Transform:
   m_GameObject: {fileID: 1508484472}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.768769, y: 4.486322, z: 0}
+  m_LocalPosition: {x: 6.768769, y: 3.55, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7213,6 +7865,7 @@ GameObject:
   - component: {fileID: 2007838399}
   - component: {fileID: 2007838402}
   - component: {fileID: 2007838401}
+  - component: {fileID: 2007838403}
   m_Layer: 0
   m_Name: Zach
   m_TagString: Untagged
@@ -7280,12 +7933,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2007838398}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.57777166, y: 0.78, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.310743, y: -2.091484, z: 0.07579429}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 459678613}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &2007838401
 CircleCollider2D:
@@ -7334,23 +7987,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6093c8207271bd54985809647f96c7c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogTexts: {fileID: 49827102}
-  dialogs:
-  - Ada apa?
-  - oh.. tidak papa hanya ingin menyapa
-  - oh oke
-  namaCharacter: {fileID: 49827103}
-  namaYgNgomong:
-  - Zach
-  - Frey
-  - Zach
-  dialogBox: {fileID: 49827105}
-  imageDisplay: {fileID: 49827104}
-  imageList:
-  - {fileID: 21300000, guid: c0f03d262c997b94e9162ee1c1e9804e, type: 3}
-  - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
-  - {fileID: 21300000, guid: c0f03d262c997b94e9162ee1c1e9804e, type: 3}
+  percakapanNpc:
+    sentences:
+    - wbnr
+    - ntrk
+    name:
+    - Frey
+    - Zach
+    image:
+    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
+    - {fileID: 21300000, guid: c0f03d262c997b94e9162ee1c1e9804e, type: 3}
   characterSpriteRenderer: {fileID: 2007838399}
+--- !u!114 &2007838403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007838398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 332a3de3d28bc26489f9544439f7c9e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogT4: {fileID: 1085259372}
+  dialogtext: {fileID: 1085259371}
+  percakapanZ:
+    sentences:
+    - Zach apa yang terjadi?
+    - tataula saya
+    name:
+    - Frey
+    - Zach
+    image:
+    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
+    - {fileID: 21300000, guid: c0f03d262c997b94e9162ee1c1e9804e, type: 3}
 --- !u!1 &2012371817
 GameObject:
   m_ObjectHideFlags: 0
@@ -7400,6 +8071,71 @@ Transform:
   - {fileID: 878226870}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2069516299
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 360602629838336291, guid: 8fed6381de63d9b48b2fb0a9e9d38778, type: 3}
+      propertyPath: notificationText
+      value: 
+      objectReference: {fileID: 1085259371}
+    - target: {fileID: 360602629838336291, guid: 8fed6381de63d9b48b2fb0a9e9d38778, type: 3}
+      propertyPath: notificationAnimator
+      value: 
+      objectReference: {fileID: 1441132450}
+    - target: {fileID: 7553468531220523405, guid: 8fed6381de63d9b48b2fb0a9e9d38778, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.169384
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553468531220523405, guid: 8fed6381de63d9b48b2fb0a9e9d38778, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.0438547
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553468531220523405, guid: 8fed6381de63d9b48b2fb0a9e9d38778, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0051716305
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553468531220523405, guid: 8fed6381de63d9b48b2fb0a9e9d38778, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553468531220523405, guid: 8fed6381de63d9b48b2fb0a9e9d38778, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553468531220523405, guid: 8fed6381de63d9b48b2fb0a9e9d38778, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553468531220523405, guid: 8fed6381de63d9b48b2fb0a9e9d38778, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553468531220523405, guid: 8fed6381de63d9b48b2fb0a9e9d38778, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553468531220523405, guid: 8fed6381de63d9b48b2fb0a9e9d38778, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553468531220523405, guid: 8fed6381de63d9b48b2fb0a9e9d38778, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8809543544101985835, guid: 8fed6381de63d9b48b2fb0a9e9d38778, type: 3}
+      propertyPath: m_Name
+      value: notifManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8fed6381de63d9b48b2fb0a9e9d38778, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -7410,14 +8146,15 @@ SceneRoots:
   - {fileID: 1707981291}
   - {fileID: 666004290}
   - {fileID: 1129110397}
-  - {fileID: 1222668438}
-  - {fileID: 1445362743}
-  - {fileID: 162212471}
-  - {fileID: 143116435}
-  - {fileID: 2007838400}
-  - {fileID: 939329011}
+  - {fileID: 459678613}
   - {fileID: 804914666}
   - {fileID: 692713872}
   - {fileID: 1517056105}
-  - {fileID: 1264455785}
   - {fileID: 1508484477}
+  - {fileID: 211029539}
+  - {fileID: 114264106}
+  - {fileID: 939329011}
+  - {fileID: 329857952}
+  - {fileID: 1011182304}
+  - {fileID: 1308870366}
+  - {fileID: 2069516299}

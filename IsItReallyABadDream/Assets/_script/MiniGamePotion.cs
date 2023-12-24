@@ -126,7 +126,6 @@ public class MiniGamePotion : MonoBehaviour
     {
         string[] elements = expression.Split(' ');
 
-        // Separate numbers and operators
         List<float> numbers = new List<float>();
         List<char> operators = new List<char>();
         char[] requiredOperators = { '+', '-', '*', '/' };

@@ -6,75 +6,52 @@ public class FollowerTrigger : MonoBehaviour
     public Transform player; // Reference to the player's Transform
     public Transform follower; // Reference to the character to become the follower
 
-    private bool isFollowing = false;
+    public static bool ZachisFollowing = false;
     private bool dialogueCompleted = false; // Flag to track if dialogue is completed
 
-    public GameObject dialogBox;
-    public Text dialogTexts;
-    public string[] dialogs;
-    public Text namaCharacter;
-    public string[] namaYgNgomong;
-
-    public Image imageDisplay; // Reference to the Image UI object
-    public Sprite[] imageList; // List of sprites/images to display
-    private int currentIndex = 0;
+    public dialog ZachikutDialog;
     public GameObject npcSprite;
+    public bool percakapanzachikut = false;
 
     void Start()
     {
         npcSprite.SetActive(false);
-        dialogBox.SetActive(false);
+        
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && !dialogueCompleted) // Check if the player enters the trigger and dialogue is not completed
+        if (other.CompareTag("Player") && !dialogueCompleted && MainMenu.level1 && faithnhopeCutsceneTrigger.FaithnHopeHilang && !percakapanzachikut)
         {
-            StartDialogue();
+            Debug.Log("player memenuhi syarat");
+            percakapanzachikut = true;
+            npcSprite.SetActive(true);
+            FindObjectOfType<DialogManager>().StartDialog(ZachikutDialog);
         }
     }
 
     private void Update()
     {
-        if (isFollowing && MainMenu.level1 && !isFollowing)
+        if (Input.GetKeyDown(KeyCode.Space) && percakapanzachikut)
         {
-            // Make the follower follow the player's position
-            follower.position = player.position;
+            FindObjectOfType<DialogManager>().DisplayNextSentences();  
         }
-    }
-
-    void StartDialogue()
-    {
-        npcSprite.SetActive(true);
-        dialogBox.SetActive(true); // Show the dialog box UI
-
-        // Set the text and character's name based on currentIndex
-        dialogTexts.text = dialogs[currentIndex];
-        namaCharacter.text = namaYgNgomong[currentIndex];
-        imageDisplay.sprite = imageList[currentIndex];
-
-        // Increment the currentIndex to progress through the dialogue
-        currentIndex++;
-
-        // Check if the dialogue is completed
-        if (currentIndex >= dialogs.Length)
+        if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
         {
-            dialogueCompleted = true;
-            dialogBox.SetActive(false); // Hide the dialog box UI after dialogue completion
-            StartFollowing(); // Start following the player after dialogue
+            StartFollowing();
+            
         }
     }
 
     void StartFollowing()
     {
-        isFollowing = true;
-        Debug.Log(follower.name + " is now following " + player.name);
-        // Add any additional logic here if needed when the follower starts following
+        ZachisFollowing = true;
     }
 
     public void StopFollowing()
     {
-        isFollowing = false;
+        ZachisFollowing = false;
         Debug.Log(follower.name + " is now not following " + player.name);
     }
 }
+

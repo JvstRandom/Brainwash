@@ -57,7 +57,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -168,11 +168,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 4943846377402655934}
-  itemsToCollect: []
+  itemsToCollect:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   isItemCollected: 0
-  bukaLaci: {fileID: 0}
-  nutupLaci: {fileID: 0}
-  audioSource: {fileID: 0}
+  bukaLaci: {fileID: 8300000, guid: ed229ef12e6a1fc40b5faeb42dedd4c8, type: 3}
+  nutupLaci: {fileID: 8300000, guid: 1de6cb978eef9d741bb2aa0a7efe6006, type: 3}
+  audioSource: {fileID: 3800760948384302961}
 --- !u!82 &3800760948384302961
 AudioSource:
   m_ObjectHideFlags: 0

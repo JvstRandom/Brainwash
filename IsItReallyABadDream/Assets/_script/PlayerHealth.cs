@@ -11,7 +11,23 @@ public class PlayerHealth : MonoBehaviour
     public Sprite fullHeart;
     public Sprite emptyHeart;
 
-    public healthSystem playerHealth;
+    private healthSystem playerHealth;
+
+    void Start()
+    {
+        // Find the player GameObject using its tag
+        GameObject playerObject = GameObject.FindWithTag("Player");
+
+        if (playerObject != null)
+        {
+            // Get the healthSystem component from the player GameObject
+            playerHealth = playerObject.GetComponent<healthSystem>();
+        }
+        else
+        {
+            Debug.LogError("Player GameObject not found!");
+        }
+    }
 
     void Update() {
 

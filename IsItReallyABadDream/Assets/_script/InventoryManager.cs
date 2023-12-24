@@ -146,7 +146,7 @@ public class InventoryManager : MonoBehaviour
         {
             if (ItemSlot[i].itemName == itemName)
             {
-                ItemSlot[i].quantity--; // Decrease quantity of the item
+                ItemSlot[i].quantity--; 
                 if (ItemSlot[i].quantity <= 0)
                 {
                     ItemSlot[i].isFull = false;
@@ -161,7 +161,7 @@ public class InventoryManager : MonoBehaviour
 
     public void DeselectAllSlot()
     {
-        for(int i = 0; i <  ItemSlot.Length; i++)
+        for(int i = 0; i < ItemSlot.Length; i++)
         {
             ItemSlot[i].Selected.SetActive(false);
             ItemSlot[i].isSelected = false;

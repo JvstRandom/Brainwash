@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7f9d6561e3427824686b92a47da4bdc5, type: 3}
+  m_Sprite: {fileID: -1144446156, guid: 292e7ddcd183aea43befad6c3693d6b1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -223,8 +223,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e37277c758cd648a6da85370da8f6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imageToShow: {fileID: 5710409407645456926}
+  place: {fileID: 8108839400107076421}
+  PlaceImageToShow: {fileID: 5710409407645456926}
   UiAktif: 0
+  audioSource: {fileID: 0}
+  ImageYoShow: {fileID: 21300000, guid: 7f9d6561e3427824686b92a47da4bdc5, type: 3}
 --- !u!1001 &2047144848505317925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -328,47 +331,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 9021221780292067283, guid: d5cf8e5a4ee2c734f8aa786079ce0049, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1854744004808336925}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5cf8e5a4ee2c734f8aa786079ce0049, type: 3}
 --- !u!4 &3443249146608329249 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3719986210029930500, guid: d5cf8e5a4ee2c734f8aa786079ce0049, type: 3}
   m_PrefabInstance: {fileID: 2047144848505317925}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &7014701722597422582 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9021221780292067283, guid: d5cf8e5a4ee2c734f8aa786079ce0049, type: 3}
-  m_PrefabInstance: {fileID: 2047144848505317925}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1854744004808336925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7014701722597422582}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c0054b1493b47542ae2e93012ca1ce1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isInRange: 0
-  TombolInteract: 113
-  InteractAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4630679214336309688}
-        m_TargetAssemblyTypeName: ObjectImage, Assembly-CSharp
-        m_MethodName: imageDitutu
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2

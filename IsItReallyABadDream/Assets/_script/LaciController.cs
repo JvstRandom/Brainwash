@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LaciController : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class LaciController : MonoBehaviour
     public bool isItemCollected = false;
 
     private InventoryManager inventoryManager;
+    public GameObject notifbox;
+    public Text notif;
 
     public AudioClip bukaLaci;
     public AudioClip nutupLaci;
@@ -23,6 +26,7 @@ public class LaciController : MonoBehaviour
         inventoryManager = GameObject.Find("Inventory").GetComponent<InventoryManager>();
         audioSource = GetComponent<AudioSource>();
     }
+    
 
     public void LaciDibuka()
     {
@@ -50,7 +54,7 @@ public class LaciController : MonoBehaviour
 
     public void ItemPicked()
     {
-        if(!isItemCollected)
+        if(!isItemCollected && itemsToCollect.Count > 0)
         {
             int randomIndex = Random.Range(0, itemsToCollect.Count);
             GameObject randomItem = itemsToCollect[randomIndex];
@@ -61,6 +65,12 @@ public class LaciController : MonoBehaviour
             randomItem.SetActive(false);
             itemsToCollect.RemoveAt(randomIndex);
             isItemCollected = true;
+
+            if (itemsToCollect.Count == 0)
+            {
+                // Display a notification when the list becomes empty
+                ShowEmptyNotification();
+            }
 
             // int randomIndex = Random.Range(0, itemsToCollect.Count);
             // GameObject randomItem = itemsToCollect[randomIndex];
@@ -81,5 +91,14 @@ public class LaciController : MonoBehaviour
             // }
             // isItemCollected = true;
         }
+    }
+
+    void ShowEmptyNotification()
+    {
+        if(FindObjectOfType<NotificationManager>().notificationAnimator.GetBool("IsOpen"))
+        {
+            FindObjectOfType<NotificationManager>().StartNotification("Tidak ada item untuk diambil disini");
+        }
+        Debug.Log("ga ada notif");
     }
 }

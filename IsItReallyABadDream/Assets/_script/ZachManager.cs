@@ -33,7 +33,7 @@ public class ZachManager : MonoBehaviour
     void FixedUpdate()
     {
         
-        if(isInRange_z && isFollow)
+        if((isInRange_z && isFollow) || FollowerTrigger.ZachisFollowing)
         {
                 if(Vector3.Distance(frey.position, transform.position) > radius)
                 {
@@ -47,7 +47,6 @@ public class ZachManager : MonoBehaviour
                 }
             
         }
-        
     }
 
     void setFloatAnim(Vector2 setvector){
