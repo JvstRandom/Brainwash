@@ -29,6 +29,7 @@ public class DialogManager : MonoBehaviour
         sentences.Clear();
         names.Clear();
         images.Clear();
+        Debug.Log("start");
 
         foreach(string sentence in percakapan.sentences)
         {

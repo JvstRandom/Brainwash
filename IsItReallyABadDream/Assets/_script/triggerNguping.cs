@@ -16,6 +16,7 @@ public class triggerNguping : MonoBehaviour
     public static bool sceneEavesdrop;
     private bool isDialogActive = false;
     public static bool buatAlatPendengar;
+    private static bool sdhmemilih=false;
 
     // BUAT NGATUR CHOICE
     // public Button optionAButton;
@@ -31,7 +32,7 @@ public class triggerNguping : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && isDialogActive)
         {
-            
+            FindObjectOfType<DialogManager>().DisplayNextSentences();
         }
         if (!FindObjectOfType<DialogManager>().animator.GetBool("isOpen") && isDialogActive)
         {
@@ -58,7 +59,7 @@ public class triggerNguping : MonoBehaviour
         {
             Debug.Log("HAOAOAO");
             if (MainMenu.level1 && faithnhopeCutsceneTrigger.FaithnHopeHilang && FollowerTrigger.ZachisFollowing
-            && !isDialogActive)
+            && !isDialogActive && !sdhmemilih)
             {
                 Debug.Log("sudah memenuhi");
                 sceneEavesdrop = true;
@@ -75,6 +76,7 @@ public class triggerNguping : MonoBehaviour
         {
             case "lanjut":
                 buatAlatPendengar = false;
+                sdhmemilih=true;
                 Debug.Log("Pressed A - Status: " + buatAlatPendengar);
                 dialoggbox.SetActive(false);
                 break;
@@ -82,6 +84,7 @@ public class triggerNguping : MonoBehaviour
                 buatAlatPendengar = true;
                 Debug.Log("Pressed B - Status: " + buatAlatPendengar);
                 dialoggbox.SetActive(false);
+                sdhmemilih=true;
                 break;
             default:
             

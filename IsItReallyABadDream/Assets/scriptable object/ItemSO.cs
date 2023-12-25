@@ -16,7 +16,7 @@ public class ItemSO : ScriptableObject
     {
         if(tipeFungsi == functionalityType.heal)
         {
-            GameObject.Find("Frey").GetComponent<healthSystem>().Healed(1);
+            healthSystem.Healed(1);
         }
         // if(tipeFungsi == functionalityType.map)
         // {

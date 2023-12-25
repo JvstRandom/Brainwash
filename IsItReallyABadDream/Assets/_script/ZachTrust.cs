@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class ZachTrust : MonoBehaviour
 {
-    public Image Zachtrust;
-    public float TotalTrust;
+    public static Image Zachtrust;
+    public static float TotalTrust;
 
     // Start is called before the first frame update
     void Start()
@@ -18,13 +18,13 @@ public class ZachTrust : MonoBehaviour
     void Update()
     {
         // if kondisi zach naik jadi nanti dipanggil sesui if banyak
-        if(Input.GetKeyDown(KeyCode.Z))
+        if(triggerSetelahAlatPendengar.sdhNguping)
         {
             AddTrust(20);
         }
     }
 
-    public void AddTrust(float amount)
+    public static void AddTrust(float amount)
     {
         TotalTrust += amount;
         Zachtrust.fillAmount = TotalTrust / 100f;

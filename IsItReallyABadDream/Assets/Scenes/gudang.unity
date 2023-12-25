@@ -149,12 +149,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4958533030102676866, guid: ed10eddae83918c498c2537a5fb13d30, type: 3}
       propertyPath: itemsToCollect.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4958533030102676866, guid: ed10eddae83918c498c2537a5fb13d30, type: 3}
       propertyPath: itemsToCollect.Array.data[0]
       value: 
-      objectReference: {fileID: 1029097645}
+      objectReference: {fileID: 1029097644}
     - target: {fileID: 4958533030102676866, guid: ed10eddae83918c498c2537a5fb13d30, type: 3}
       propertyPath: itemsToCollect.Array.data[1]
       value: 
@@ -2490,11 +2490,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 714d700da1e714d4abd8bb83d57acbc3, type: 3}
---- !u!1 &819084634 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3720324723304111589, guid: 714d700da1e714d4abd8bb83d57acbc3, type: 3}
-  m_PrefabInstance: {fileID: 819084633}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &914676359
 GameObject:
   m_ObjectHideFlags: 0
@@ -2859,11 +2854,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5488967571854923335, guid: 53b68e53f9328864e93e91a540acd54f, type: 3}
   m_PrefabInstance: {fileID: 1029097643}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1029097645 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7803171105341511276, guid: 53b68e53f9328864e93e91a540acd54f, type: 3}
-  m_PrefabInstance: {fileID: 1029097643}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1284945310
 GameObject:
   m_ObjectHideFlags: 0
@@ -2961,7 +2951,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 182e718b330c373449b9ba4deb4de230, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 819084634}
 --- !u!114 &1284945315
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -163,8 +163,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3103165}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.29, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.28999996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -194,10 +194,6 @@ PrefabInstance:
     - target: {fileID: 3720324723304111589, guid: 714d700da1e714d4abd8bb83d57acbc3, type: 3}
       propertyPath: m_Name
       value: Frey
-      objectReference: {fileID: 0}
-    - target: {fileID: 4216784283416594028, guid: 714d700da1e714d4abd8bb83d57acbc3, type: 3}
-      propertyPath: maplabirin
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6938265738200693157, guid: 714d700da1e714d4abd8bb83d57acbc3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -251,7 +247,7 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6938265738200693157, guid: 714d700da1e714d4abd8bb83d57acbc3, type: 3}
-      insertIndex: -1
+      insertIndex: 1
       addedObject: {fileID: 1037769005}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 714d700da1e714d4abd8bb83d57acbc3, type: 3}
@@ -2542,7 +2538,7 @@ PrefabInstance:
     - target: {fileID: 3078692834903363649, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
       propertyPath: InteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 896500312}
     - target: {fileID: 3078692834903363649, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
       propertyPath: InteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PintuDibuka
@@ -2561,6 +2557,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
+--- !u!114 &896500312 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8151078923172803459, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
+  m_PrefabInstance: {fileID: 896500311}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fee95250274a654b83e06ebe814772b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &896500315 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1732224029012310442, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
@@ -2650,103 +2657,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3720324723304111589, guid: 714d700da1e714d4abd8bb83d57acbc3, type: 3}
   m_PrefabInstance: {fileID: 54514949}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &975003011
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2432346947648257861, guid: ee444e910ac65b84488bbb722fc4c904, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2432346947648257861, guid: ee444e910ac65b84488bbb722fc4c904, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2432346947648257861, guid: ee444e910ac65b84488bbb722fc4c904, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2432346947648257861, guid: ee444e910ac65b84488bbb722fc4c904, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2432346947648257861, guid: ee444e910ac65b84488bbb722fc4c904, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2432346947648257861, guid: ee444e910ac65b84488bbb722fc4c904, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2432346947648257861, guid: ee444e910ac65b84488bbb722fc4c904, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2432346947648257861, guid: ee444e910ac65b84488bbb722fc4c904, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2432346947648257861, guid: ee444e910ac65b84488bbb722fc4c904, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2432346947648257861, guid: ee444e910ac65b84488bbb722fc4c904, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2432346947648257861, guid: ee444e910ac65b84488bbb722fc4c904, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2432346947648257861, guid: ee444e910ac65b84488bbb722fc4c904, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2432346947648257861, guid: ee444e910ac65b84488bbb722fc4c904, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2432346947648257861, guid: ee444e910ac65b84488bbb722fc4c904, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2432346947648257861, guid: ee444e910ac65b84488bbb722fc4c904, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2432346947648257861, guid: ee444e910ac65b84488bbb722fc4c904, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2432346947648257861, guid: ee444e910ac65b84488bbb722fc4c904, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2432346947648257861, guid: ee444e910ac65b84488bbb722fc4c904, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2432346947648257861, guid: ee444e910ac65b84488bbb722fc4c904, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2432346947648257861, guid: ee444e910ac65b84488bbb722fc4c904, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4801221368660897624, guid: ee444e910ac65b84488bbb722fc4c904, type: 3}
-      propertyPath: m_Name
-      value: CanvasHealth
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ee444e910ac65b84488bbb722fc4c904, type: 3}
 --- !u!1001 &1032473712
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8270,7 +8180,7 @@ PrefabInstance:
     - target: {fileID: 3078692834903363649, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
       propertyPath: InteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1141045300}
     - target: {fileID: 3078692834903363649, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
       propertyPath: InteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PintuDibuka
@@ -8289,6 +8199,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
+--- !u!114 &1141045300 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8151078923172803459, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
+  m_PrefabInstance: {fileID: 1141045299}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fee95250274a654b83e06ebe814772b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1141045303 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1732224029012310442, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
@@ -8380,7 +8301,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1274261864}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 6.355499, y: 0.20962584, z: 0.041895207}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -13224,6 +13145,107 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1674886365}
   m_CullTransparentMesh: 1
+--- !u!1 &1696517600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1696517603}
+  - component: {fileID: 1696517602}
+  - component: {fileID: 1696517601}
+  m_Layer: 0
+  m_Name: triggerSetelahPunyaAlatPendengar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1696517601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696517600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09797f3e6607c6a4499684da2dbc61e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ngupingsuster:
+    sentences:
+    - ha
+    - hi
+    name:
+    - Suster
+    - docter
+    image:
+    - {fileID: 21300000, guid: 181da1dbef5f8254ba39086d3c18d6fd, type: 3}
+    - {fileID: 21300000, guid: c0f03d262c997b94e9162ee1c1e9804e, type: 3}
+  notifikasi1: Anda belum mempunyai alat pendengar untuk mendengar pembicaraan suster
+--- !u!61 &1696517602
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696517600}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.06391716, y: 0.38350427}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.5113373, y: 1.7670085}
+  m_EdgeRadius: 0
+--- !u!4 &1696517603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696517600}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -30.78, y: 1.6885223, z: 0.010965794}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1727999451
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13354,7 +13376,7 @@ PrefabInstance:
     - target: {fileID: 3078692834903363649, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
       propertyPath: InteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1806118554}
     - target: {fileID: 3078692834903363649, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
       propertyPath: InteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PintuDibuka
@@ -13373,6 +13395,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
+--- !u!114 &1806118554 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8151078923172803459, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
+  m_PrefabInstance: {fileID: 1806118553}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fee95250274a654b83e06ebe814772b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1806118557 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1732224029012310442, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
@@ -13615,6 +13648,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4958533030102676866, guid: ed10eddae83918c498c2537a5fb13d30, type: 3}
+      propertyPath: itemsToCollect.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4958533030102676866, guid: ed10eddae83918c498c2537a5fb13d30, type: 3}
       propertyPath: itemsToCollect.Array.data[0]
       value: 
@@ -14736,6 +14773,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 772578133833535699, guid: 53b68e53f9328864e93e91a540acd54f, type: 3}
+      propertyPath: i_Name
+      value: walkieTalkie
+      objectReference: {fileID: 0}
     - target: {fileID: 6759927402433504489, guid: 53b68e53f9328864e93e91a540acd54f, type: 3}
       propertyPath: m_Name
       value: list_Item
@@ -14837,18 +14878,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3078692834903363649, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
-      propertyPath: InteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 8866543228174634007}
-    - target: {fileID: 3078692834903363649, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
-      propertyPath: InteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PintuDibuka
-      objectReference: {fileID: 0}
-    - target: {fileID: 3078692834903363649, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
-      propertyPath: InteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: sceneController, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 8151078923172803459, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
       propertyPath: SceneTransition
       value: 
@@ -14859,17 +14888,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
---- !u!114 &8866543228174634007 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8151078923172803459, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
-  m_PrefabInstance: {fileID: 8866543228174634004}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fee95250274a654b83e06ebe814772b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &8866543228174634008 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1732224029012310442, guid: 5a00b1132acd9a346aa7e63cff6ce804, type: 3}
@@ -14884,14 +14902,13 @@ SceneRoots:
   - {fileID: 1898416413}
   - {fileID: 703229875}
   - {fileID: 3528510899287396144}
-  - {fileID: 1464269572}
-  - {fileID: 1274261866}
   - {fileID: 3103167}
+  - {fileID: 1274261866}
+  - {fileID: 1464269572}
   - {fileID: 850128404786985951}
   - {fileID: 2021345711}
   - {fileID: 2028964039}
   - {fileID: 2135345444}
-  - {fileID: 975003011}
   - {fileID: 1348487168}
   - {fileID: 8022058235345362621}
   - {fileID: 1139978106}
@@ -14905,3 +14922,4 @@ SceneRoots:
   - {fileID: 439084264}
   - {fileID: 2116059556}
   - {fileID: 1205403796072909888}
+  - {fileID: 1696517603}

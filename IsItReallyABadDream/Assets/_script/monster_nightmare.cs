@@ -83,7 +83,7 @@ public class monster_nightmare : monster
                 playerMovement.knockKanan = false;
             }
 
-            playerHealth.TakeDamage(baseAttack);
+            healthSystem.TakeDamage(baseAttack);
         }
     }
 

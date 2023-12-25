@@ -13,7 +13,7 @@ public class DontDestroy : MonoBehaviour
         {
             persistentObjects[ObjectIndex] = gameObject;// kalau misal gameobject player blm ada berari ditambah ke array
             DontDestroyOnLoad(gameObject);
-        } else if (persistentObjects[ObjectIndex] != gameObject)
+        } else if (persistentObjects[ObjectIndex] != null)
         {
             Destroy(gameObject);
         }

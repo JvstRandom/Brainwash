@@ -4,27 +4,30 @@ using UnityEngine;
 
 public class healthSystem : MonoBehaviour
 {
-    public int health;
-    public int maxHealth = 8;
-    // Start is called before the first frame update
+    // Make health and maxHealth static to ensure persistence across scenes
+    public static int health;
+    public static int maxHealth = 8;
+
     void Start()
     {
         health = maxHealth;
     }
 
-    public void TakeDamage(int damage)
+    public static void TakeDamage(int damage)
     {
         health -= damage;
-        if(health <= 0) {
+        if (health <= 0)
+        {
             Debug.Log("Game Over");
-            // Destroy(gameObject);
+            // Handle game over logic
         }
     }
 
-    public void Healed(int heal)
+    public static void Healed(int heal)
     {
         health += heal;
-        if(health > maxHealth) {
+        if (health > maxHealth)
+        {
             health = maxHealth;
         }
     }

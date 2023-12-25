@@ -21,7 +21,10 @@ public class dialogLevel1 : MonoBehaviour
         instruksi.text = instruksiIsi;
 
         // Start the dialog when the scene starts
-        StartDialog();
+        if(MainMenu.level1)
+        {
+            StartDialog();
+        }
     }
 
     // Method to start the dialog

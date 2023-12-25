@@ -18,6 +18,7 @@ public class InventoryManager : MonoBehaviour
     public Sprite alatImg;
 
     public static bool isclick = false;
+    public static bool haveAlatPendengar = false;
 
     // Start is called before the first frame update
     void Start()
@@ -81,19 +82,23 @@ public class InventoryManager : MonoBehaviour
         // Check if the crafted item is "costume" and if the required items ("blanket" and "marker") are in the inventory
         if (CheckCraftingRequirements("selimut", "spidol"))
         {
+            Debug.Log("kita punya selimut dan spidol");
             // Remove the required items from the inventory
             RemoveItemFromInventory("selimut");
             RemoveItemFromInventory("spidol");
 
             // Add the crafted item to the inventory
             AddItemToInventory("kostum");
-        } else if(CheckCraftingRequirements("walkieTalkie", "isolasi", "benang"))
+        } else if(CheckCraftingRequirements("walkietalkie", "isolasi", "benang"))
         {
-            RemoveItemFromInventory("walkieTalkie");
+            Debug.Log("kita punya 3 hal");
+            RemoveItemFromInventory("walkietalkie");
             RemoveItemFromInventory("isolasi");
             RemoveItemFromInventory("benang");
 
             AddItemToInventory("alatPendengar");
+            haveAlatPendengar = true;
+            Debug.Log("punya ala pendengar " + haveAlatPendengar);
         }
         else
         {
@@ -103,14 +108,18 @@ public class InventoryManager : MonoBehaviour
 
     private bool CheckCraftingRequirements(params string[] requiredItems)
     {
+        Debug.Log("kita sudah ada di checking required items");
         foreach (string item in requiredItems)
         {
+            Debug.Log("required item = "+requiredItems);
             bool itemFound = false;
             for (int i = 0; i < ItemSlot.Length; i++)
             {
+                Debug.Log("item yang ada di inventory = "+ ItemSlot[i].itemName);
                 if (ItemSlot[i].itemName == item)
                 {
                     itemFound = true;
+                    Debug.Log("nemu = " + ItemSlot[i].itemName);
                     break;
                 }
             }
@@ -124,6 +133,7 @@ public class InventoryManager : MonoBehaviour
 
     private void AddItemToInventory(string itemName)
     {
+        Debug.Log("kita sudah ada di add item");
         for (int i = 0; i < ItemSlot.Length; i++)
         {
             if (!ItemSlot[i].isFull)
@@ -142,6 +152,7 @@ public class InventoryManager : MonoBehaviour
 
     private void RemoveItemFromInventory(string itemName)
     {
+        Debug.Log("kita sudah ada di remove");
         for (int i = 0; i < ItemSlot.Length; i++)
         {
             if (ItemSlot[i].itemName == itemName)

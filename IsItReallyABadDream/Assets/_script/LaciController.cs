@@ -10,14 +10,16 @@ public class LaciController : MonoBehaviour
 
     public List<GameObject> itemsToCollect = new List<GameObject>();
 
-    public bool isItemCollected = false;
+    private bool isItemCollected = false;
+    public Text buatnotif;
+    public GameObject t4notif;
 
     private InventoryManager inventoryManager;
-    public GameObject notifbox;
-    public Text notif;
 
     public AudioClip bukaLaci;
     public AudioClip nutupLaci;
+    public AudioClip dapatBarang;
+    private bool sdhnotif = false;
 
     public AudioSource audioSource;
 
@@ -25,6 +27,7 @@ public class LaciController : MonoBehaviour
     {
         inventoryManager = GameObject.Find("Inventory").GetComponent<InventoryManager>();
         audioSource = GetComponent<AudioSource>();
+        t4notif.SetActive(false);
     }
     
 
@@ -37,7 +40,7 @@ public class LaciController : MonoBehaviour
             IsOpen = true;
             Debug.Log("Laci Dibuka");
             animator.SetBool("isOpen", IsOpen);
-            soundControll.PlaySound("openDrawer");
+            
             // if(!isItemCollected){
             //     ItemPicked();
             //     isItemCollected = true;
@@ -48,13 +51,19 @@ public class LaciController : MonoBehaviour
             audioSource.Play();
             IsOpen = false;
             animator.SetBool("isOpen", IsOpen);
-            soundControll.PlaySound("closeDrawer");
+            buatnotif.text = "";
+            t4notif.SetActive(false);
         }
     }
 
     public void ItemPicked()
     {
-        if(!isItemCollected && itemsToCollect.Count > 0)
+        if(itemsToCollect.Count == 0 && !sdhnotif)
+        {
+            ShowEmptyNotification();
+            sdhnotif = true;
+        } 
+        else if(!isItemCollected && itemsToCollect.Count > 0)
         {
             int randomIndex = Random.Range(0, itemsToCollect.Count);
             GameObject randomItem = itemsToCollect[randomIndex];
@@ -65,40 +74,25 @@ public class LaciController : MonoBehaviour
             randomItem.SetActive(false);
             itemsToCollect.RemoveAt(randomIndex);
             isItemCollected = true;
-
-            if (itemsToCollect.Count == 0)
-            {
-                // Display a notification when the list becomes empty
-                ShowEmptyNotification();
-            }
-
-            // int randomIndex = Random.Range(0, itemsToCollect.Count);
-            // GameObject randomItem = itemsToCollect[randomIndex];
-            // Debug.Log("ItemPicked: " + randomItem);
-
-            // int leftOverItems = inventoryManager.AddItem(randomItem);
-            // items ScriptItems = item.GetComponent<items>();
-            // if(leftOverItems <= 0)
-            // {
-            //     randomItem.SetActive(false);
-            //     itemsToCollect.RemoveAt(randomIndex);
-            // } else {
-            //     if(ScriptItems != null){
-            //         ScriptItems.i_quantity = leftOverItems;
-            //     } else {
-            //         Debug.Log("GameObject Item script not found");
-            //     }
-            // }
-            // isItemCollected = true;
+            
+                string notif = "anda sudah mengambil sesuatu";
+                buatnotif.text = notif;
+                t4notif.SetActive(true);
+                Debug.Log("mantab");
+                sdhnotif = true;
+                audioSource.clip = dapatBarang;
+                audioSource.Play();
         }
+
+        // if(sdhnotif)
+        // {
+        //     t4notif.SetActive(false);
+        // }
     }
 
     void ShowEmptyNotification()
     {
-        if(FindObjectOfType<NotificationManager>().notificationAnimator.GetBool("IsOpen"))
-        {
-            FindObjectOfType<NotificationManager>().StartNotification("Tidak ada item untuk diambil disini");
-        }
-        Debug.Log("ga ada notif");
+        buatnotif.text = "tidak ada item untuk diambil disini";
+        t4notif.SetActive(true);
     }
 }
