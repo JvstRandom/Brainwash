@@ -15,7 +15,8 @@ public class SpriteChanger : MonoBehaviour
     public string dialog1;
     public string[] dialogs;
 
-
+    public static int jmlhNyentuhBendaMemori = 0;
+    public static bool sudahLevel3=false;
     public bool playerChoice;
     public bool PlayerInRange;
 
@@ -35,9 +36,9 @@ public class SpriteChanger : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && PlayerInRange)
+        if (Input.GetKeyDown(KeyCode.Space) && PlayerInRange && triggerSleseNM1.level3)
         {
-            Debug.Log("buttonPressed");
+            
             if (dialogChoiceBox.activeInHierarchy)
             {
                 dialogChoiceBox.SetActive(false);
@@ -50,13 +51,25 @@ public class SpriteChanger : MonoBehaviour
                 imageDisplay.enabled = false;
             }
         }
+
+        if(jmlhNyentuhBendaMemori == 3)
+        {
+            sudahLevel3=true;
+            Debug.Log("sjumlah = " + jmlhNyentuhBendaMemori);
+            dialogChoiceBox.SetActive(true);
+            dialogTexts.text = "sepertinya itu sudah semua, mungkin jika aku kembali ke kamar aku akan bangun";
+            if(Input.GetKeyDown(KeyCode.Space))
+            {
+                dialogChoiceBox.SetActive(false);
+            }
+        }
         
     }
 
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("Player"))
+        if (col.CompareTag("Player") && triggerSleseNM1.level3)
         {
             PlayerInRange = true;
         }
@@ -101,6 +114,7 @@ public class SpriteChanger : MonoBehaviour
             {
                 Debug.Log("End of image sequence");
                 spriteRenderer.sprite = newSprite;
+                jmlhNyentuhBendaMemori++;
                 // You can perform any actions here when the sequence ends
             }
         }

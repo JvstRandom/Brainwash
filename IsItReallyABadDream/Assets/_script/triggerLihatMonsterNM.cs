@@ -4,13 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 public class triggerLihatMonsterNM : MonoBehaviour
 {
-    public Image gambarMonsterNM;
+    public GameObject canvasgambar;
     public dialog kaget;
     private bool sdhjumpscare=false;
     // Start is called before the first frame update
     void Start()
     {
-        gambarMonsterNM.gameObject.SetActive(false);
+        canvasgambar.SetActive(false);
     }
 
     // Update is called once per frame
@@ -18,7 +18,17 @@ public class triggerLihatMonsterNM : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space) && triggerTidur.level2 && sdhjumpscare)
         {
-            
+            canvasgambar.SetActive(false);
+
+            if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
+            {
+                FindObjectOfType<DialogManager>().StartDialog(kaget);
+            }
+        
+            if(FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
+            {
+                FindObjectOfType<DialogManager>().DisplayNextSentences();
+            }
         }
     }
 
@@ -26,7 +36,7 @@ public class triggerLihatMonsterNM : MonoBehaviour
     {
         if(col.CompareTag("Player") && triggerTidur.level2 && !sdhjumpscare)
         {
-            gambarMonsterNM.gameObject.SetActive(true);
+            canvasgambar.SetActive(true);
             sdhjumpscare=true;
         }
     } 

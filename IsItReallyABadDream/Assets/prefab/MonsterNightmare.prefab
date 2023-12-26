@@ -198,9 +198,10 @@ MonoBehaviour:
   monsterName: Monster Nightmare
   baseAttack: 1
   moveSpeed: 1.2
-  target: {fileID: 0}
   chaseRadius: 6
   attackRadius: 0
+  MonsterNM: {fileID: 7128007792354684064}
+  target: {fileID: 0}
   spawnPoint: {fileID: 0}
   anim: {fileID: 4745837130224679937}
   playerHealth: {fileID: 0}

@@ -11,6 +11,7 @@ public class triggerTidur : MonoBehaviour
     public VectorValue playerMemorys;
     private bool sdhnotif =false;
     public static bool level2;
+    public static bool level4;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,12 +24,19 @@ public class triggerTidur : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.T) && sdhnotif)
         {
             playerMemorys.initialValue = playerPoss;
-            SceneManager.LoadScene(sceneToLoads);
+            
             if(triggerPercakapandokter.sdhlvl1){
                 MainMenu.level1 = false;
                 triggerPercakapandokter.sdhlvl1 = false;
                 level2 = true;
+                SceneManager.LoadScene("kamar1 NM");
+            }else if(SpriteChanger.sudahLevel3){
+                triggerSleseNM1.level3 = false;
+                SpriteChanger.sudahLevel3 = false;
+                level4 = true;
+                SceneManager.LoadScene("dapurNM");
             }
+            
             FindObjectOfType<NotificationManager>().HideNotification();
         }
     }

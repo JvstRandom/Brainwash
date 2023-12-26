@@ -24,15 +24,13 @@ public class faithnhopeCutsceneTrigger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("FaithnHopeHilang: " + FaithnHopeHilang);
+        
         Debug.Log("ngomongKeNPC.jmlhPerkenalan: " + ngomongKeNPC.jmlhPerkenalan);
        if (ngomongKeNPC.jmlhPerkenalan == 5 && !hasLoadedScene && !sdhBerubah)
         {
             SceneManager.LoadScene(sceneToLoad);
             hasLoadedScene = true;
-            
         }
-
 
         if(FaithnHopeHilang)
         {
