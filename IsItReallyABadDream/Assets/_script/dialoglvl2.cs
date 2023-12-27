@@ -21,7 +21,7 @@ public class dialoglvl2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (FindObjectOfType<DialogManager>().animator.GetBool("isOpen") && lagingomomng)
+        if (FindObjectOfType<DialogManager>().animator.GetBool("isOpen") && lagingomomng && triggerTidur.level2)
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {

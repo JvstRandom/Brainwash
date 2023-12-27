@@ -622,7 +622,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 0.6981132, g: 0.46393925, b: 0.23314342, a: 1}
-  m_Intensity: 0.01
+  m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 000000004ffaf8a9
@@ -767,7 +767,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 182e718b330c373449b9ba4deb4de230, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1606157656}
 --- !u!114 &1421268042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1151,11 +1150,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &1606157656 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3720324723304111589, guid: 714d700da1e714d4abd8bb83d57acbc3, type: 3}
-  m_PrefabInstance: {fileID: 367694246}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1742860129
 GameObject:
   m_ObjectHideFlags: 0

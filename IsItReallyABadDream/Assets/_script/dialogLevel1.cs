@@ -11,20 +11,34 @@ public class dialogLevel1 : MonoBehaviour
     public string instruksiIsi;
     // private bool instructionDisplayed = false;
     public dialog percakapan1;
+    public dialog percakapan5;
+    public dialog percakapan7;
+    private bool ngomong=false;
+    private bool ngomong5=false;
+    private bool ngomong7=false;
 
     public PlayerMovement playerMovement;
 
     // Start is called before the first frame update
     void Start()
     {
-        intruksiBox.SetActive(true);
-        instruksi.text = instruksiIsi;
-
+        
+            if(MainMenu.level1 && !ngomong)
+            {
+                StartDialog();
+                ngomong=true;
+            }else if(bukuZach.level5 && !ngomong5)
+            {
+                FindObjectOfType<DialogManager>().StartDialog(percakapan5);
+                ngomong5=true;
+            } else if(triggerSleseLevel6.level7 && !ngomong7)
+            {
+                FindObjectOfType<DialogManager>().StartDialog(percakapan7);
+                ngomong7=true;
+            }
+            
         // Start the dialog when the scene starts
-        if(MainMenu.level1)
-        {
-            StartDialog();
-        }
+        
     }
 
     // Method to start the dialog
@@ -38,8 +52,6 @@ public class dialogLevel1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (MainMenu.level1 && !faithnhopeCutsceneTrigger.FaithnHopeHilang)
-        {
             // Check if the dialog is still active in the DialogManager
             if (FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
             {
@@ -48,6 +60,6 @@ public class dialogLevel1 : MonoBehaviour
                     FindObjectOfType<DialogManager>().DisplayNextSentences();
                 }
             }
-        }
+        
     }
 }

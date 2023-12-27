@@ -9,9 +9,10 @@ public class ngomongKeNPC : MonoBehaviour
     public static int jmlhPerkenalan = 0;
     public SpriteRenderer characterSpriteRenderer;
 
-
+    public static int jmlhNgobati = 0;
     private bool sudahNgomong=false;
     private bool isSdhNambah=false;
+    public static bool sdhLevel7;
 
     void Starts()
     {
@@ -64,11 +65,26 @@ public class ngomongKeNPC : MonoBehaviour
             
         }
         if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen") && sudahNgomong && !isSdhNambah){
-                jmlhPerkenalan++;
                 isSdhNambah= true;
                 sudahNgomong = false;
+                if(MainMenu.level1)
+                {
+                    jmlhPerkenalan++;
+                }
+                if(triggerSleseLevel6.level7)
+                {
+                    jmlhNgobati++;
+                }
             }
-        
+        if(jmlhNgobati == 4)
+        {
+            FindObjectOfType<NotificationManager>().StartNotification("segera kemabali ke kamar dan tidur sebelum suster notice");
+            sdhLevel7 = true;
+            if(FindObjectOfType<NotificationManager>().notificationAnimator.GetBool("IsOpen"))
+                {
+                    Invoke("HideNotif", 2f);
+                }
+        }
 
 
         if (MainMenu.level1 && SceneT4Bermain1.sceneMulai){
@@ -79,7 +95,15 @@ public class ngomongKeNPC : MonoBehaviour
             DialogManager.sdhdialog = false;
         }
     }
+    void HideNotif()
+    {
+        Debug.Log("sdh ketutup harusnya");
+        FindObjectOfType<NotificationManager>().HideNotification();
+    }
 
 }
+
+
+
 
 

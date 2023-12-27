@@ -15,8 +15,10 @@ public class triggerSleseNM1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log("jumlah nyentuh = "+ bendaMemoriNm.jmlhNyentuhBendaMemoriNM);
         if(bendaMemoriNm.jmlhNyentuhBendaMemoriNM == 3 && triggerTidur.level2)
         {
+            
             SceneManager.LoadScene("kamar1");
             bendaMemoriNm.jmlhNyentuhBendaMemoriNM--;
             level3=true;

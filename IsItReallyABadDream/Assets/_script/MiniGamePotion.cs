@@ -15,6 +15,8 @@ public class MiniGamePotion : MonoBehaviour
 
     private string expression;
     private float result;
+    public string notifikasiPotion;
+    public dialog SuruhCepetNgasiPotion;
     // private string[] elements;
 
     void Start()
@@ -28,7 +30,18 @@ public class MiniGamePotion : MonoBehaviour
         if( result == ketentuanHasil && AllChecked(expression))
         {
             brankasController.isGotRightPotion = true;
-            Debug.Log("Found");
+            PlayerManager.havePotion = true;
+            Debug.Log("dapet potion = " + PlayerManager.havePotion);
+            FindObjectOfType<NotificationManager>().StartNotification(notifikasiPotion);
+        }
+        if(Input.GetKeyDown(KeyCode.Space) && FindObjectOfType<NotificationManager>().notificationAnimator.GetBool("IsOpen") && brankasController.isGotRightPotion)
+        {
+            FindObjectOfType<NotificationManager>().HideNotification();
+            FindObjectOfType<DialogManager>().StartDialog(SuruhCepetNgasiPotion);
+            if(FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
+            {
+                FindObjectOfType<DialogManager>().DisplayNextSentences();
+            }
         }
     }
 

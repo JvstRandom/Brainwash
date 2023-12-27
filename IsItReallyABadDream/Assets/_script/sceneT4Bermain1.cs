@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class SceneT4Bermain1 : MonoBehaviour
 {
     public dialog percakapanMasukT4Bermain;
-
+    public dialog percakapanMauNgobati;
     public static bool sceneMulai;
     private bool isDialogActive = false;
 
@@ -36,16 +36,24 @@ public class SceneT4Bermain1 : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player") && !sdhngomong && !faithnhopeCutsceneTrigger.FaithnHopeHilang)
+        if (collision.gameObject.CompareTag("Player") && !sdhngomong )
         {
-            Debug.Log("huhu");
-            Debug.Log("jumlah:" + ngomongKeNPC.jmlhPerkenalan);
-            if (!sceneMulai && MainMenu.level1)
+            if(!faithnhopeCutsceneTrigger.FaithnHopeHilang)
             {
-                Debug.Log("huha");
-                sceneMulai = true;
+                Debug.Log("huhu");
+                Debug.Log("jumlah:" + ngomongKeNPC.jmlhPerkenalan);
+                if (!sceneMulai && MainMenu.level1)
+                {
+                    Debug.Log("huha");
+                    sceneMulai = true;
+                    isDialogActive = true;
+                    FindObjectOfType<DialogManager>().StartDialog(percakapanMasukT4Bermain);
+                }
+            } else if(triggerSleseLevel6.level7)
+            {
+                FindObjectOfType<DialogManager>().StartDialog(percakapanMauNgobati);
                 isDialogActive = true;
-                FindObjectOfType<DialogManager>().StartDialog(percakapanMasukT4Bermain);
+                Debug.Log("jumlah obat:" + ngomongKeNPC.jmlhNgobati);
             }
         }
     }

@@ -6,15 +6,14 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
-    public int keyCount;
-    public int key;
     public GameObject maplabirin;
-    public ItemSO[] itemSOs;
     public static bool haveKey = false;
+    public static bool haveKeyLabirin = false;
     public static bool haveBattery = false;
     public static bool haveMapLabirin = false;
+    public static bool havePotion=false;
 
-    public bool mapOpen= false;
+    public bool mapOpen = false;
     // public static LightController lightController;
 
     public void Start()
@@ -26,7 +25,7 @@ public class PlayerManager : MonoBehaviour
 
     public void PickUpKey()
     {
-        keyCount++;
+
         haveKey = true;
     }
 
@@ -40,11 +39,13 @@ public class PlayerManager : MonoBehaviour
 
     public void BukaMap()
     {
-        if(haveMapLabirin && !mapOpen)
+        if (haveMapLabirin && !mapOpen)
         {
             maplabirin.SetActive(true);
             mapOpen = true;
-        } else {
+        }
+        else
+        {
             maplabirin.SetActive(false);
             mapOpen = false;
         }

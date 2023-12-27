@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class brankasController : MonoBehaviour
@@ -35,12 +33,12 @@ public class brankasController : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D col) {
-        if(col.gameObject.CompareTag("brankas") && !isSafeOpened) {
+        if(col.gameObject.CompareTag("brankas") && !isSafeOpened && TimerScript.TimerOn) {
             Debug.Log("Player is in range");
             CodePanel.SetActive (true);
         }
 
-        if(col.gameObject.CompareTag("MiniGame") && !isGotRightPotion) {
+        if(col.gameObject.CompareTag("MiniGame") && !isGotRightPotion && TimerScript.TimerOn) {
             Debug.Log("Player is in range");
             MiniGamePanel.SetActive (true);
         }

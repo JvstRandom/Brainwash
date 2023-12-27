@@ -6,12 +6,12 @@ using UnityEngine.SceneManagement;
 public class triggerTidur : MonoBehaviour
 {
     public string notifikasituru;
-    public string sceneToLoads;
-    public Vector2 playerPoss;
     public VectorValue playerMemorys;
     private bool sdhnotif =false;
     public static bool level2;
     public static bool level4;
+    public static bool level6;
+    public static bool level8;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,21 +23,36 @@ public class triggerTidur : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.T) && sdhnotif)
         {
-            playerMemorys.initialValue = playerPoss;
             
+            FindObjectOfType<NotificationManager>().HideNotification();
             if(triggerPercakapandokter.sdhlvl1){
                 MainMenu.level1 = false;
                 triggerPercakapandokter.sdhlvl1 = false;
                 level2 = true;
                 SceneManager.LoadScene("kamar1 NM");
-            }else if(SpriteChanger.sudahLevel3){
-                triggerSleseNM1.level3 = false;
-                SpriteChanger.sudahLevel3 = false;
+                playerMemorys.initialValue = new Vector2(-5.5f, 1.3f);
+            }else if(bendaMemoriNm.sdhsemua){
+                bendaMemoriNm.level3 = false;
                 level4 = true;
+                Debug.Log("level 4 ="+ level4);
                 SceneManager.LoadScene("dapurNM");
+                playerMemorys.initialValue = new Vector2(-4.9f, -3.0f);
+            } else if(triggerSudahSleseLevel5.sdhlvl5)
+            {
+                bukuZach.level5=false;
+                level6 = true;
+                Debug.Log("level 6 ="+ level6);
+                SceneManager.LoadScene("dapurNM");
+                playerMemorys.initialValue = new Vector2(-4.9f, -3.0f);
+            } else if(ngomongKeNPC.sdhLevel7)
+            {
+                triggerSleseLevel6.level7 = false;
+                level8=true;
+                Debug.Log("level 8 ="+ level8);
+                SceneManager.LoadScene("LabirinNM");
+                playerMemorys.initialValue = new Vector2(-20.0f, 1.24f);
             }
             
-            FindObjectOfType<NotificationManager>().HideNotification();
         }
     }
 

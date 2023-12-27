@@ -8,6 +8,7 @@ public class CodePanel : MonoBehaviour
     [SerializeField]
     Text CodeText;
     string KodeBrankas = "";
+    public string notifikasiLabirin;
 
     // Update is called once per frame
     void Update()
@@ -16,6 +17,14 @@ public class CodePanel : MonoBehaviour
 
         if (KodeBrankas == "7315") {
             brankasController.isSafeOpened = true;
+            PlayerManager.haveMapLabirin = true;
+            PlayerManager.haveKeyLabirin = true;
+            FindObjectOfType<NotificationManager>().StartNotification(notifikasiLabirin);
+        }
+
+        if(Input.GetKeyDown(KeyCode.Space) && FindObjectOfType<NotificationManager>().notificationAnimator.GetBool("IsOpen") && brankasController.isSafeOpened)
+        {
+            FindObjectOfType<NotificationManager>().HideNotification();
         }
 
         if (KodeBrankas.Length >= 4) {

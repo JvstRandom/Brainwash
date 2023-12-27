@@ -9,7 +9,7 @@ public class ObjectImage : MonoBehaviour
     public Image PlaceImageToShow;
     public bool UiAktif;
     public AudioSource audioSource;
-
+    public static bool sdhlihatbuku = false;
     public Sprite ImageYoShow;
 
     private void Start(){
@@ -27,12 +27,19 @@ public class ObjectImage : MonoBehaviour
             PlaceImageToShow.enabled = true;
             UiAktif = true;
             audioSource.Play();
+            
         } else if (UiAktif){
             PlaceImageToShow.enabled = false;
             UiAktif = false;
             place.SetActive(false);
+            if(triggerTidur.level4)
+            {
+                sdhlihatbuku = true;
+            }
         }
         
     }
+
+
 }
 

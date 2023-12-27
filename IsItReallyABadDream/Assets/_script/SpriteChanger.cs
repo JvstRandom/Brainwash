@@ -17,6 +17,7 @@ public class SpriteChanger : MonoBehaviour
 
     public static int jmlhNyentuhBendaMemori = 0;
     public static bool sudahLevel3=false;
+    public static bool sdhlihatKipas=false;
     public bool playerChoice;
     public bool PlayerInRange;
 
@@ -36,7 +37,7 @@ public class SpriteChanger : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && PlayerInRange && triggerSleseNM1.level3)
+        if (Input.GetKeyDown(KeyCode.Space) && PlayerInRange && (triggerSleseNM1.level3 || bukuZach.level5))
         {
             
             if (dialogChoiceBox.activeInHierarchy)
@@ -52,15 +53,15 @@ public class SpriteChanger : MonoBehaviour
             }
         }
 
-        if(jmlhNyentuhBendaMemori == 3)
+        if(jmlhNyentuhBendaMemori == 3 && triggerSleseNM1.level3)
         {
             sudahLevel3=true;
             Debug.Log("sjumlah = " + jmlhNyentuhBendaMemori);
-            dialogChoiceBox.SetActive(true);
-            dialogTexts.text = "sepertinya itu sudah semua, mungkin jika aku kembali ke kamar aku akan bangun";
+            FindObjectOfType<NotificationManager>().StartNotification("sepertinya saya sudah mengecek semua barang sebaiknya aku kembali tidur karena sudah larut");
             if(Input.GetKeyDown(KeyCode.Space))
             {
-                dialogChoiceBox.SetActive(false);
+                FindObjectOfType<NotificationManager>().HideNotification();
+                jmlhNyentuhBendaMemori--;
             }
         }
         
@@ -69,7 +70,7 @@ public class SpriteChanger : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("Player") && triggerSleseNM1.level3)
+        if (col.CompareTag("Player") && (triggerSleseNM1.level3 || bukuZach.level5))
         {
             PlayerInRange = true;
         }
@@ -114,7 +115,14 @@ public class SpriteChanger : MonoBehaviour
             {
                 Debug.Log("End of image sequence");
                 spriteRenderer.sprite = newSprite;
-                jmlhNyentuhBendaMemori++;
+                if(triggerSleseNM1.level3)
+                {
+                    jmlhNyentuhBendaMemori++;
+                } else if(bukuZach.level5)
+                {
+                    sdhlihatKipas=true;
+                }
+                
                 // You can perform any actions here when the sequence ends
             }
         }

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class bendaMemoriNm : MonoBehaviour
 {
     public Sprite spriteBaru;
@@ -9,8 +9,12 @@ public class bendaMemoriNm : MonoBehaviour
     public dialog bendaMemoriNMdialog;
     private SpriteRenderer spriteRenderer;
     public static int jmlhNyentuhBendaMemoriNM = 0;
+    public static bool sdhsemua=false;
     private bool ngomong = false;
     private bool increase=false;
+    public static bool level3;
+    public Vector2 playerPos;
+    public VectorValue playerMemory;
 
     // Start is called before the first frame update
     void Start()
@@ -30,7 +34,19 @@ public class bendaMemoriNm : MonoBehaviour
                 spriteRenderer.sprite = spriteBaru;
                 spriteRenderer.material = newMaterial;
                 jmlhNyentuhBendaMemoriNM++;
+                Debug.Log("jumlah memori=" + jmlhNyentuhBendaMemoriNM);
                 increase=true;
+            }
+        }
+
+        if(jmlhNyentuhBendaMemoriNM == 3)
+        {
+            sdhsemua=true;
+            Debug.Log("jumlahsemua="+sdhsemua);
+            FindObjectOfType<NotificationManager>().StartNotification("kamu sudah menemukan semua benda misi selesai, kembali tidur sebelum suster notice");
+            if(Input.GetKeyDown(KeyCode.Space))
+            {
+                FindObjectOfType<NotificationManager>().HideNotification();
             }
         }
     }

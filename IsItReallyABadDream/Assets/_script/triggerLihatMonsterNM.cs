@@ -7,6 +7,7 @@ public class triggerLihatMonsterNM : MonoBehaviour
     public GameObject canvasgambar;
     public dialog kaget;
     private bool sdhjumpscare=false;
+    private bool sdhdialog=false;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,19 +17,19 @@ public class triggerLihatMonsterNM : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space) && triggerTidur.level2 && sdhjumpscare)
+        if(Input.GetKeyDown(KeyCode.Space) && triggerTidur.level2 && sdhjumpscare && !sdhdialog)
         {
             canvasgambar.SetActive(false);
-
-            if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
-            {
-                FindObjectOfType<DialogManager>().StartDialog(kaget);
-            }
+            FindObjectOfType<DialogManager>().StartDialog(kaget);
         
             if(FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
             {
                 FindObjectOfType<DialogManager>().DisplayNextSentences();
+            }else if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
+            {
+                sdhdialog=true;
             }
+            
         }
     }
 

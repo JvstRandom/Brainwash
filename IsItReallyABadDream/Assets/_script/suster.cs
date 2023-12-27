@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class suster : monster
 {
 
@@ -10,7 +11,7 @@ public class suster : monster
     public Animator animS;
     public Vector2 newPosition;
     public bool isPlayerHit;
-
+    public GameObject susterbody;
     public GameObject dialogPanel;
     public Text dialogTxt;
 
@@ -21,6 +22,16 @@ public class suster : monster
         animS = GetComponent<Animator>();
         player = GameObject.FindWithTag("Player").transform;
         dialogPanel.SetActive(false);
+        if(bukuZach.level5)
+        {
+            susterbody.SetActive(false);
+            if(ambilkunci.playersudahambil && TimerScript.TimerOn)
+            {
+                susterbody.SetActive(true);
+            } else{
+                susterbody.SetActive(false);
+            }
+        }
     }
 
     void FixedUpdate()
@@ -72,13 +83,26 @@ public class suster : monster
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        if(col.gameObject.tag == "Player")
+        if(col.gameObject.tag == "Player" && !LokerController.isHiding)
         {
-            Debug.Log("player hit suster");
-            dialogPanel.SetActive(true);
-            dialogTxt.text = "Ngapain kamu di lorong ini? ini bukan waktunya jalan-jalan";
-            Invoke("playerTransfer", 2f);
-            isPlayerHit = true;
+            if(triggerdikejar.dikejar)
+            {
+                isPlayerHit = true;
+                Debug.Log("player hit suster");
+                SceneManager.LoadScene("GameOver");
+            }else if (bukuZach.level5 && TimerScript.TimerOn)
+            {
+                PlayerManager.haveKey=false;
+                SceneManager.LoadScene("hallway");
+            } else 
+            {
+                Debug.Log("player hit suster");
+                dialogPanel.SetActive(true);
+                dialogTxt.text = "Ngapain kamu di lorong ini? ini bukan waktunya jalan-jalan";
+                Invoke("playerTransfer", 2f);
+                isPlayerHit = true;
+            }
+            
         } else {
             isPlayerHit = false;
         }
