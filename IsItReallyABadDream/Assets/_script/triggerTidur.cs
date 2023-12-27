@@ -43,7 +43,7 @@ public class triggerTidur : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player") && (triggerPercakapandokter.sdhlvl1))
+        if (collision.CompareTag("Player") && (triggerPercakapandokter.sdhlvl1))
         {
             Debug.Log("huhueg");
             FindObjectOfType<NotificationManager>().StartNotification(notifikasituru);
