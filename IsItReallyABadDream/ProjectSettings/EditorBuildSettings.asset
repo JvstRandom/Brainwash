@@ -74,4 +74,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CutsceneFNH.unity
     guid: 532b1d4ffe6ccd34e8899e5ed2aaf36d
+  - enabled: 1
+    path: Assets/Scenes/CutsceneMakan.unity
+    guid: d94bc17730f232e4988b11c30eb70e59
   m_configObjects: {}

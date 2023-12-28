@@ -15,33 +15,36 @@ public class triggerSetelaahMakan : MonoBehaviour
     public string SceneEnding1;
     public static bool ending1 = false;
     public static bool milihending1 = false;
+    private bool sdhkak;
 
     // Start is called before the first frame update
     void Start()
     {
         dialogChoicebox.SetActive(false);
-        if(changeCutsceneMakan.cutsceneMakan && !ngomong && triggerTidur.level4 && !milihending1)
-        {
-            FindObjectOfType<DialogManager>().StartDialog(milihHbsMakan);
-            ngomong=true;
-        }
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(changeCutsceneMakan.cutsceneMakan && !ngomong && triggerTidur.level4 && !milihending1)
+        {
+            FindObjectOfType<DialogManager>().StartDialog(milihHbsMakan);
+            ngomong=true;
+        }
+        if(Input.GetKeyDown(KeyCode.Space) && ngomong)
         {
             if(FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
             {
                 FindObjectOfType<DialogManager>().DisplayNextSentences();
+                sdhkak=true;
             }
             if(FindObjectOfType<NotificationManager>().notificationAnimator.GetBool("IsOpen"))
             {
                 FindObjectOfType<NotificationManager>().HideNotification();
             }
         } 
-        if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
+        if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen") && sdhkak)
         {
             Debug.Log("sdh slese");
             dialogChoicebox.SetActive(true);

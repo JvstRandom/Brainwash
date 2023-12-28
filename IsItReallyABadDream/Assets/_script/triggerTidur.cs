@@ -38,7 +38,7 @@ public class triggerTidur : MonoBehaviour
                 level4 = true;
                 Debug.Log("level 4 ="+ level4);
                 SceneManager.LoadScene("dapurNM");
-                playerMemorys.initialValue = new Vector2(-4.9f, -3.0f);
+                playerMemorys.initialValue = new Vector2(2.7f, -8.6f);
             } else if(triggerSudahSleseLevel5.sdhlvl5)
             {
                 bukuZach.level5=false;

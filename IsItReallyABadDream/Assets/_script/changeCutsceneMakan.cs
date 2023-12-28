@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class changeCutsceneMakan : MonoBehaviour
 {
@@ -19,7 +20,12 @@ public class changeCutsceneMakan : MonoBehaviour
         if(triggerCutsceneMakan.hasloadedscene && triggerTidur.level4)
         {
             changetime -= Time.deltaTime;
-            cutsceneMakan = true;
+            
+            if (changetime <= 0)
+            {
+                SceneManager.LoadScene(sceneToload);
+                cutsceneMakan = true;
+            }
         }
     }
 }
