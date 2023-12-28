@@ -16,7 +16,7 @@ public class ngaturSprite : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!faithnhopeCutsceneTrigger.FaithnHopeHilang)
+        if(!faithnhopeCutsceneTrigger.FaithnHopeHilang || triggerPercakapandokter.sdhlvl1)
         {
             characterSR.enabled = true;
         }

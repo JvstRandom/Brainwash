@@ -36,12 +36,13 @@ public class FollowerTrigger : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && percakapanzachikut)
         {
             FindObjectOfType<DialogManager>().DisplayNextSentences();
+            if (!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
+            {
+                StartFollowing();
+                dialogslese = true;
+            }
         }
-        if (!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
-        {
-            StartFollowing();
-            dialogslese = true;
-        }
+
     }
 
     void StartFollowing()

@@ -13,27 +13,24 @@ public class triggerPercakapandokter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space) && lagiDialog){
+        if (Input.GetKeyDown(KeyCode.Space) && lagiDialog)
+        {
             FindObjectOfType<DialogManager>().DisplayNextSentences();
-            if(laginotif)
-            {
-                FindObjectOfType<NotificationManager>().HideNotification();
-                triggerNguping.buatAlatPendengar=false;
-                faithnhopeCutsceneTrigger.FaithnHopeHilang = false;
-                sdhlvl1=true;
-                Debug.Log("status faith hilang = " + faithnhopeCutsceneTrigger.FaithnHopeHilang);
-            }
         }
-        if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen")&&lagiDialog)
+        if (!FindObjectOfType<DialogManager>().animator.GetBool("isOpen") && lagiDialog)
         {
             FindObjectOfType<NotificationManager>().StartNotification(notifikasiSusterDateng);
-            laginotif=true;
+            laginotif = true;
+            triggerNguping.buatAlatPendengar = false;
+            faithnhopeCutsceneTrigger.FaithnHopeHilang = false;
+            sdhlvl1 = true;
+            Debug.Log("status faith hilang = " + faithnhopeCutsceneTrigger.FaithnHopeHilang);
         }
     }
 
@@ -44,11 +41,11 @@ public class triggerPercakapandokter : MonoBehaviour
             Debug.Log("yyty");
             if (MainMenu.level1 && faithnhopeCutsceneTrigger.FaithnHopeHilang && FollowerTrigger.ZachisFollowing && !lagiDialog)
             {
-                
-                    Debug.Log("sudah memenuhi");
-                    FindObjectOfType<DialogManager>().StartDialog(dialogdokterdiRR);
-                    lagiDialog= true;
-                
+
+                Debug.Log("sudah memenuhi");
+                FindObjectOfType<DialogManager>().StartDialog(dialogdokterdiRR);
+                lagiDialog = true;
+
             }
         }
     }

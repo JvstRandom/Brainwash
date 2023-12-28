@@ -27,6 +27,7 @@ public class triggerTidur : MonoBehaviour
             
             FindObjectOfType<NotificationManager>().HideNotification();
             if(triggerPercakapandokter.sdhlvl1){
+                Debug.Log("Halo gasi");
                 MainMenu.level1 = false;
                 triggerPercakapandokter.sdhlvl1 = false;
                 level2 = true;
@@ -55,6 +56,7 @@ public class triggerTidur : MonoBehaviour
             } else {
                 FindObjectOfType<NotificationManager>().StartNotification(notifikasigturu);
                 Invoke("hapusnotif", 2f);
+                Debug.Log("percakapandokter = " + triggerPercakapandokter.sdhlvl1);
             }
             
         }
