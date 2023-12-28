@@ -21,10 +21,10 @@ public class monster_labirin : monster
     // Update is called once per frame
     void FixedUpdate()
     {
-        if(!PlayerManager.useCostume)
+        if(!PlayerManager.haveCostume)
         {
             Chase(chaseRadius);
-        } else if(PlayerManager.useCostume)
+        } else if(PlayerManager.haveCostume)
         {
             float jarakKostum = chaseRadius / 2;
             Chase(jarakKostum);

@@ -11,7 +11,7 @@ public class PlayerManager : MonoBehaviour
     public static bool haveKeyLabirin = false;
     public static bool haveBattery = false;
     public static bool haveMapLabirin = false;
-    public static bool havePotion=false;
+    public static bool havePotion = false;
     public static bool haveCostume;
     public AnimatorOverrideController pakeKostum;
     public bool mapOpen = false;
@@ -25,12 +25,12 @@ public class PlayerManager : MonoBehaviour
 
     public void Update()
     {
-        if(Input.GetKeyDown(KeyCode.M))
+        if (Input.GetKeyDown(KeyCode.M))
         {
             BukaMap();
         }
 
-        if(haveCostume)
+        if (haveCostume)
         {
             GetComponent<Animator>().runtimeAnimatorController = pakeKostum as RuntimeAnimatorController;
         }
