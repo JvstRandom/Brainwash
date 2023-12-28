@@ -12,16 +12,29 @@ public class PlayerManager : MonoBehaviour
     public static bool haveBattery = false;
     public static bool haveMapLabirin = false;
     public static bool havePotion=false;
-
+    public static bool haveCostume;
+    public AnimatorOverrideController pakeKostum;
     public bool mapOpen = false;
     // public static LightController lightController;
 
     public void Start()
     {
         maplabirin.SetActive(false);
+
     }
 
+    public void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.M))
+        {
+            BukaMap();
+        }
 
+        if(haveCostume)
+        {
+            GetComponent<Animator>().runtimeAnimatorController = pakeKostum as RuntimeAnimatorController;
+        }
+    }
 
     public void PickUpKey()
     {
@@ -49,6 +62,11 @@ public class PlayerManager : MonoBehaviour
             maplabirin.SetActive(false);
             mapOpen = false;
         }
+    }
+
+    public void Kostum()
+    {
+
     }
 
 

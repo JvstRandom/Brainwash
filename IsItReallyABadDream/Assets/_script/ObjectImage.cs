@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ObjectImage : MonoBehaviour
 {
@@ -10,7 +11,10 @@ public class ObjectImage : MonoBehaviour
     public bool UiAktif;
     public AudioSource audioSource;
     public static bool sdhlihatbuku = false;
+    public static bool sdhlevel8;
     public Sprite ImageYoShow;
+    public VectorValue playerMemorys;
+    public static bool level9;
 
     private void Start(){
         place.SetActive(false);
@@ -35,6 +39,13 @@ public class ObjectImage : MonoBehaviour
             if(triggerTidur.level4)
             {
                 sdhlihatbuku = true;
+            } else if(triggerTidur.level8)
+            {
+                triggerTidur.level8 = false;
+                sdhlevel8 = true;
+                level9 = true;
+                SceneManager.LoadScene("kamar1");
+                playerMemorys.initialValue = new Vector2(-5.5f, 1.3f);
             }
         }
         

@@ -13,9 +13,11 @@ public class dialogLevel1 : MonoBehaviour
     public dialog percakapan1;
     public dialog percakapan5;
     public dialog percakapan7;
+    public dialog percakapan9;
     private bool ngomong=false;
     private bool ngomong5=false;
     private bool ngomong7=false;
+    private bool ngomong9=false;
 
     public PlayerMovement playerMovement;
 
@@ -35,6 +37,10 @@ public class dialogLevel1 : MonoBehaviour
             {
                 FindObjectOfType<DialogManager>().StartDialog(percakapan7);
                 ngomong7=true;
+            } else if(ObjectImage.level9 && !ngomong9)
+            {
+                FindObjectOfType<DialogManager>().StartDialog(percakapan9);
+                ngomong9=true;
             }
             
         // Start the dialog when the scene starts
