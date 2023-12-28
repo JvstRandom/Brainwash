@@ -22,6 +22,10 @@ public class suster : monster
         animS = GetComponent<Animator>();
         player = GameObject.FindWithTag("Player").transform;
         dialogPanel.SetActive(false);
+        
+    }
+
+    void Update() {
         if(bukuZach.level5)
         {
             susterbody.SetActive(false);
@@ -36,6 +40,7 @@ public class suster : monster
 
     void FixedUpdate()
     {
+        
         if(Vector3.Distance(player.position, transform.position) <= chaseRadius 
         && Vector3.Distance(player.position, transform.position) > attackRadius 
         && !isPlayerHit
@@ -88,15 +93,15 @@ public class suster : monster
             if(triggerdikejar.dikejar)
             {
                 isPlayerHit = true;
-                Debug.Log("player hit suster");
+                Debug.Log("player hit suster dikejar");
                 SceneManager.LoadScene("GameOver");
             }else if (bukuZach.level5 && TimerScript.TimerOn)
             {
                 PlayerManager.haveKey=false;
                 SceneManager.LoadScene("hallway");
-            } else 
+            } else if(bukuZach.level5 && !TimerScript.TimerOn)
             {
-                Debug.Log("player hit suster");
+                Debug.Log("player hit suster biasa");
                 dialogPanel.SetActive(true);
                 dialogTxt.text = "Ngapain kamu di lorong ini? ini bukan waktunya jalan-jalan";
                 Invoke("playerTransfer", 2f);

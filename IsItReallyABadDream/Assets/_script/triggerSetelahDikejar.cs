@@ -25,6 +25,7 @@ public class triggerSetelahDikejar : MonoBehaviour
     {
         if (other.CompareTag("Player") && triggerTidur.level4 && triggerdikejar.dikejar && !sdhngomongya)
         {
+            Debug.Log("sudah selesai dikejar");
             triggerdikejar.dikejar = false;
             FindObjectOfType<DialogManager>().StartDialog(berhasillolos);
             sdhngomongya = true;

@@ -14287,6 +14287,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zach (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5956466274038841545, guid: 36cf755ef2a57d648a14694ab463d4f7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6529731520567431415, guid: 36cf755ef2a57d648a14694ab463d4f7, type: 3}
     m_RemovedGameObjects: []
@@ -14319,6 +14323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterSR: {fileID: 2028964041}
+  Zach1: {fileID: 2028964040}
 --- !u!1 &2045675295
 GameObject:
   m_ObjectHideFlags: 0

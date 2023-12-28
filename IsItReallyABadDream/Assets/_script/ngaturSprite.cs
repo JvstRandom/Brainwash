@@ -5,6 +5,7 @@ using UnityEngine;
 public class ngaturSprite : MonoBehaviour
 {
     public SpriteRenderer characterSR;
+    public GameObject Zach1;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,7 @@ public class ngaturSprite : MonoBehaviour
         if(!faithnhopeCutsceneTrigger.FaithnHopeHilang || triggerPercakapandokter.sdhlvl1)
         {
             characterSR.enabled = true;
+            Destroy(Zach1);
         }
     }
 }

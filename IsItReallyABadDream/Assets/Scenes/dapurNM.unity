@@ -6678,7 +6678,7 @@ MonoBehaviour:
     image:
     - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
     - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
-  dialogChoicebox: {fileID: 1219036762}
+  dialogChoicebox: {fileID: 741163952}
   choicetxtA: {fileID: 1810625348}
   choicetxtB: {fileID: 1457663757}
   notifWarn: Tidak! suster marah, kau harus cepat keluar dari sini

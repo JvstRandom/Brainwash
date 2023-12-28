@@ -194,7 +194,7 @@ PrefabInstance:
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: imageDisplay
       value: 
-      objectReference: {fileID: 20997381}
+      objectReference: {fileID: 0}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: dialogChoiceBox
       value: 
@@ -228,17 +228,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
---- !u!114 &20997381 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8682852689901898348, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
-  m_PrefabInstance: {fileID: 20997380}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &20997382 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8596659226476926821, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
@@ -2601,6 +2590,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2adf6de29693d9a4987d35427e877147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LolosSuster:
+    sentences:
+    - Sepertinya suster sudah pergi
+    - kan
+    name:
+    - Frey
+    - Frey
+    image:
+    - {fileID: 21300000, guid: 9e6f8aa9b7433794e8e79b79839c184e, type: 3}
+    - {fileID: 21300000, guid: 0496ae8df6ccb0a4f8f0a6588912ca13, type: 3}
+  notifSleseLevel5: kamu sudah selesai mencari clue, cepat kembali tidur sebelum
+    suster kembali ngecek
+  notifBlmSleseLevel5: kamu belum mengecek semua clue
+  SceneTransition: {fileID: 1056202494}
 --- !u!4 &455151041
 Transform:
   m_ObjectHideFlags: 0
@@ -2883,6 +2886,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
+--- !u!1 &1056202494 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2233429191872248174, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
+  m_PrefabInstance: {fileID: 1056202493}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1405724648
 GameObject:
   m_ObjectHideFlags: 0
