@@ -11,6 +11,8 @@ public class triggerSudahSleseLevel5 : MonoBehaviour
     private bool sdhnotif=false;
     private bool dialog=false;
     public GameObject SceneTransition;
+    public GameObject susterr;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -20,15 +22,16 @@ public class triggerSudahSleseLevel5 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!TimerScript.TimerOn && !dialog)
+        if(!TimerScript.TimerOn && !dialog && PlayerManager.haveKey && TimerScript.sudahTimer)
         {
             FindObjectOfType<DialogManager>().StartDialog(LolosSuster);
             dialog = true;
-            if(FindObjectOfType<DialogManager>().animator.GetBool("isOpen") && dialog)
+            Destroy(susterr);
+        }
+        if(FindObjectOfType<DialogManager>().animator.GetBool("isOpen") && dialog && Input.GetKeyDown(KeyCode.Space))
             {
                 FindObjectOfType<DialogManager>().DisplayNextSentences();
             }
-        }
         if(sdhnotif && Input.GetKeyDown(KeyCode.Space))
         {
             FindObjectOfType<NotificationManager>().HideNotification();
@@ -40,6 +43,8 @@ public class triggerSudahSleseLevel5 : MonoBehaviour
     {
         if(col.CompareTag("Player") && bukuZach.level5)
         {
+            
+            Debug.Log("punya kunci = " + PlayerManager.haveKey +"sdhlihatKipas = " + SpriteChanger.sdhlihatKipas);
             if(PlayerManager.haveKey && SpriteChanger.sdhlihatKipas)
             {
                 FindObjectOfType<NotificationManager>().StartNotification(notifSleseLevel5);

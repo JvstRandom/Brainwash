@@ -26,16 +26,10 @@ public class suster : monster
     }
 
     void Update() {
-        if(bukuZach.level5)
+        if(TriggerMulaiSceneRS.mulaiSceneRS)
         {
             susterbody.SetActive(false);
-            if(ambilkunci.playersudahambil && TimerScript.TimerOn)
-            {
-                susterbody.SetActive(true);
-            } else{
-                susterbody.SetActive(false);
-            }
-        }
+        } 
     }
 
     void FixedUpdate()

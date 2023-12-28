@@ -6,12 +6,13 @@ public class TimerScript : MonoBehaviour
     public float TimeLeft;
     public GameObject Timer;
     public static bool TimerOn = false;
+    public static bool sudahTimer;
 
     public Text TimerTxt;
    
     void Start()
     {
-        Timer.SetActive(false);
+        
     }
 
     void Update()
@@ -29,6 +30,7 @@ public class TimerScript : MonoBehaviour
                 Debug.Log("Time is UP!");
                 TimeLeft = 0;
                 TimerOn = false;
+                sudahTimer = true;
             }
         }
     }

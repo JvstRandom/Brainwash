@@ -25,6 +25,7 @@ public class SpriteChanger : MonoBehaviour
     public Image imageDisplay; // Reference to the Image UI object
     public Sprite[] imageList; // List of sprites/images to display
     private int currentIndex = 0;
+    private bool sdhterakhir;
 
     // Start is called before the first frame update
     void Start()
@@ -53,7 +54,7 @@ public class SpriteChanger : MonoBehaviour
             }
         }
 
-        if(jmlhNyentuhBendaMemori == 3 && bendaMemoriNm.level3)
+        if(jmlhNyentuhBendaMemori == 3 && bendaMemoriNm.level3 && sdhterakhir)
         {
             sudahLevel3=true;
             Debug.Log("sjumlah = " + jmlhNyentuhBendaMemori);
@@ -73,6 +74,7 @@ public class SpriteChanger : MonoBehaviour
         if (col.CompareTag("Player") )
         {
             PlayerInRange = true;
+            Debug.Log("player in range");
         }
     }
 
@@ -111,10 +113,12 @@ public class SpriteChanger : MonoBehaviour
             currentIndex++;
 
             // Check if it's the end of the image list
-            if (currentIndex == imageList.Length)
+            if (currentIndex >= imageList.Length)
             {
                 Debug.Log("End of image sequence");
                 spriteRenderer.sprite = newSprite;
+                
+                sdhterakhir = true;
                 if(bendaMemoriNm.level3)
                 {
                     jmlhNyentuhBendaMemori++;
@@ -124,6 +128,11 @@ public class SpriteChanger : MonoBehaviour
                 }
                 
                 // You can perform any actions here when the sequence ends
+            }
+            if(currentIndex > imageList.Length)
+            {
+                dialogChoiceBox.SetActive(false);
+                imageDisplay.enabled = false;
             }
         }
     }

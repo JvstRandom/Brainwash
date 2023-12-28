@@ -194,7 +194,7 @@ PrefabInstance:
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: imageDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 20997384}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: dialogChoiceBox
       value: 
@@ -226,8 +226,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4751227996107172152, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 20997385}
   m_SourcePrefab: {fileID: 100100000, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+--- !u!1 &20997381 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4751227996107172152, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+  m_PrefabInstance: {fileID: 20997380}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &20997382 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8596659226476926821, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
@@ -244,6 +252,62 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2958963135197716637, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
   m_PrefabInstance: {fileID: 20997380}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &20997384 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4515289996892812320, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+  m_PrefabInstance: {fileID: 20997380}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &20997385
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20997381}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.8771601}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.0625, y: 1.9375}
+    newSize: {x: 0.75, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0625, y: 2.3188744}
+  m_EdgeRadius: 0
 --- !u!1001 &23197880
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2515,6 +2579,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6938265738200693157, guid: 714d700da1e714d4abd8bb83d57acbc3, type: 3}
   m_PrefabInstance: {fileID: 419256648}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &419256650 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3720324723304111589, guid: 714d700da1e714d4abd8bb83d57acbc3, type: 3}
+  m_PrefabInstance: {fileID: 419256648}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &455151038
 GameObject:
   m_ObjectHideFlags: 0
@@ -2604,6 +2673,7 @@ MonoBehaviour:
     suster kembali ngecek
   notifBlmSleseLevel5: kamu belum mengecek semua clue
   SceneTransition: {fileID: 1056202494}
+  susterr: {fileID: 964881315}
 --- !u!4 &455151041
 Transform:
   m_ObjectHideFlags: 0
@@ -2700,9 +2770,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 419256649}
     - target: {fileID: 5170990236000561687, guid: 57da71deb8e1080498eb11376ef21d00, type: 3}
+      propertyPath: dialogTxt
+      value: 
+      objectReference: {fileID: 964881316}
+    - target: {fileID: 5170990236000561687, guid: 57da71deb8e1080498eb11376ef21d00, type: 3}
+      propertyPath: susterbody
+      value: 
+      objectReference: {fileID: 964881315}
+    - target: {fileID: 5170990236000561687, guid: 57da71deb8e1080498eb11376ef21d00, type: 3}
       propertyPath: chaseRadius
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 5170990236000561687, guid: 57da71deb8e1080498eb11376ef21d00, type: 3}
+      propertyPath: dialogPanel
+      value: 
+      objectReference: {fileID: 964881317}
     - target: {fileID: 6762662085767718045, guid: 57da71deb8e1080498eb11376ef21d00, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.834475
@@ -2752,6 +2834,27 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57da71deb8e1080498eb11376ef21d00, type: 3}
+--- !u!1 &964881315 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7307283064655579479, guid: 57da71deb8e1080498eb11376ef21d00, type: 3}
+  m_PrefabInstance: {fileID: 964881314}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &964881316 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2392971861609246501, guid: 57da71deb8e1080498eb11376ef21d00, type: 3}
+  m_PrefabInstance: {fileID: 964881314}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &964881317 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8609271754855507956, guid: 57da71deb8e1080498eb11376ef21d00, type: 3}
+  m_PrefabInstance: {fileID: 964881314}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1024970374
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2922,7 +3025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   notifkey: Anda Mendapatkan Kunci
-  sudahTimer: 0
+  sustery: {fileID: 964881315}
 --- !u!61 &1405724650
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2952,7 +3055,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.046889067, y: -0.22272253}
@@ -3185,6 +3288,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8376460361340163176, guid: 6d0bd688111d5c5478823cdeb651c052, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 419256650}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5725,6 +5832,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8376460361340163176, guid: 6d0bd688111d5c5478823cdeb651c052, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 419256650}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

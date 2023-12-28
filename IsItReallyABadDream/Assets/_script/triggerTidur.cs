@@ -42,10 +42,11 @@ public class triggerTidur : MonoBehaviour
             } else if(triggerSudahSleseLevel5.sdhlvl5)
             {
                 bukuZach.level5=false;
+                TimerScript.sudahTimer = false;
                 level6 = true;
                 Debug.Log("level 6 ="+ level6);
-                SceneManager.LoadScene("dapurNM");
-                playerMemorys.initialValue = new Vector2(-4.9f, -3.0f);
+                SceneManager.LoadScene("RuangRahasia NM");
+                playerMemorys.initialValue = new Vector2(-7.05f, -4.03f);
             } else if(ngomongKeNPC.sdhLevel7)
             {
                 triggerSleseLevel6.level7 = false;

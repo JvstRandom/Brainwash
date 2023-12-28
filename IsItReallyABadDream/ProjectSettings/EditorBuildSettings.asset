@@ -77,4 +77,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CutsceneMakan.unity
     guid: d94bc17730f232e4988b11c30eb70e59
+  - enabled: 1
+    path: Assets/Scenes/RuangRahasia NM.unity
+    guid: 8a70f4e8d7599a242aed06ac52d15816
   m_configObjects: {}
