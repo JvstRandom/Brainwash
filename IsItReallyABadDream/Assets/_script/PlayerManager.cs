@@ -7,6 +7,7 @@ using UnityEngine;
 public class PlayerManager : MonoBehaviour
 {
     public GameObject maplabirin;
+    
     public static bool haveKey = false;
     public static bool haveKeyLabirin = false;
     public static bool haveBattery = false;

@@ -16,12 +16,12 @@ public class FollowerTrigger : MonoBehaviour
     void Start()
     {
         npcSprite.SetActive(false);
-        
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && !dialogueCompleted && MainMenu.level1 && faithnhopeCutsceneTrigger.FaithnHopeHilang && !percakapanzachikut)
+        if (other.CompareTag("Player") && MainMenu.level1 && faithnhopeCutsceneTrigger.FaithnHopeHilang && !percakapanzachikut && !triggerNguping.sceneEavesdrop)
         {
             Debug.Log("player memenuhi syarat");
             percakapanzachikut = true;
@@ -34,12 +34,12 @@ public class FollowerTrigger : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && percakapanzachikut)
         {
-            FindObjectOfType<DialogManager>().DisplayNextSentences();  
+            FindObjectOfType<DialogManager>().DisplayNextSentences();
         }
-        if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
+        if (!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
         {
             StartFollowing();
-            
+
         }
     }
 

@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class triggerTidur : MonoBehaviour
 {
     public string notifikasituru;
+    public string notifikasigturu;
     public VectorValue playerMemorys;
     private bool sdhnotif =false;
     public static bool level2;
@@ -51,6 +52,9 @@ public class triggerTidur : MonoBehaviour
                 Debug.Log("level 8 ="+ level8);
                 SceneManager.LoadScene("LabirinNM");
                 playerMemorys.initialValue = new Vector2(-20.0f, 1.24f);
+            } else {
+                FindObjectOfType<NotificationManager>().StartNotification(notifikasigturu);
+                Invoke("hapusnotif", 2f);
             }
             
         }
@@ -58,11 +62,17 @@ public class triggerTidur : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && (triggerPercakapandokter.sdhlvl1))
+        if (collision.CompareTag("Player"))
         {
             Debug.Log("huhueg");
+            Debug.Log("status = " + triggerPercakapandokter.sdhlvl1);
             FindObjectOfType<NotificationManager>().StartNotification(notifikasituru);
             sdhnotif=true;
         }
+    }
+
+    void hapusnotif()
+    {
+        FindObjectOfType<NotificationManager>().HideNotification();
     }
 }

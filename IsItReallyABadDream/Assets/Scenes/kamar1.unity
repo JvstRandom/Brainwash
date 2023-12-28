@@ -3204,6 +3204,18 @@ MonoBehaviour:
     - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
     - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
     - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
+  percakapan5:
+    sentences: []
+    name: []
+    image: []
+  percakapan7:
+    sentences: []
+    name: []
+    image: []
+  percakapan9:
+    sentences: []
+    name: []
+    image: []
   playerMovement: {fileID: 4194816039385031293}
 --- !u!4 &393811063
 Transform:
@@ -3842,8 +3854,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   notifikasituru: Ingin tidur? Tekan "T"
-  sceneToLoads: kamar1 NM
-  playerPoss: {x: -5.12, y: 0.78}
+  notifikasigturu: belum waktunya tidur
   playerMemorys: {fileID: 11400000, guid: dca479449dea3cc44ac37ac2f50ce9c1, type: 2}
 --- !u!61 &610111754
 BoxCollider2D:

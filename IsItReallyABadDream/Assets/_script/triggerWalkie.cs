@@ -12,6 +12,7 @@ public class triggerWalkie : MonoBehaviour
     private InventoryManager inventoryManager;
     public AudioSource audioSource;
     private bool sdhambil = false;
+    public GameObject walkie;
 
     // Start is called before the first frame update
     void Start()
@@ -44,6 +45,7 @@ public class triggerWalkie : MonoBehaviour
                 audioSource.Play();
                 FindObjectOfType<NotificationManager>().HideNotification();
                 sdhambil = true;
+                Destroy(walkie);
             }
         }
 

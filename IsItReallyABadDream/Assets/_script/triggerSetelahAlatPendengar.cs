@@ -5,14 +5,14 @@ using UnityEngine;
 public class triggerSetelahAlatPendengar : MonoBehaviour
 {
     public dialog ngupingsuster;
-    public static bool sdhNguping=false;
+    public static bool sdhNguping;
     private bool isDialogActives;
     public string notifikasi1;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -23,13 +23,14 @@ public class triggerSetelahAlatPendengar : MonoBehaviour
             Debug.Log("memenuhi2");
             FindObjectOfType<DialogManager>().DisplayNextSentences();
         }
-        if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
+        if (!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
         {
             sdhNguping = true;
             Debug.Log("status sdh nguping =" + sdhNguping);
             triggerNguping.sceneEavesdrop = false;
         }
-        if(Input.GetKeyDown(KeyCode.Space) && FindObjectOfType<NotificationManager>().notificationAnimator.GetBool("IsOpen")){
+        if (Input.GetKeyDown(KeyCode.Space) && FindObjectOfType<NotificationManager>().notificationAnimator.GetBool("IsOpen"))
+        {
             FindObjectOfType<NotificationManager>().HideNotification();
         }
     }
@@ -40,14 +41,16 @@ public class triggerSetelahAlatPendengar : MonoBehaviour
         {
             Debug.Log("yyty");
             if (MainMenu.level1 && faithnhopeCutsceneTrigger.FaithnHopeHilang && FollowerTrigger.ZachisFollowing
-            && !isDialogActives && triggerNguping.buatAlatPendengar)
+            && !isDialogActives && triggerNguping.buatAlatPendengar && !triggerPercakapandokter.sdhlvl1)
             {
-                if(InventoryManager.haveAlatPendengar)
+                if (InventoryManager.haveAlatPendengar)
                 {
                     Debug.Log("sudah memenuhi");
                     FindObjectOfType<DialogManager>().StartDialog(ngupingsuster);
                     isDialogActives = true;
-                } else {
+                }
+                else
+                {
                     FindObjectOfType<NotificationManager>().StartNotification(notifikasi1);
                 }
             }
