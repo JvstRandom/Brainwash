@@ -50,8 +50,6 @@ public class dialogLevel1 : MonoBehaviour
     // Method to start the dialog
     void StartDialog()
     {
-        // instructionDisplayed = true; // Set the instruction displayed to true
-        intruksiBox.SetActive(false); // Hide instruction box
         FindObjectOfType<DialogManager>().StartDialog(percakapan1);
     }
 

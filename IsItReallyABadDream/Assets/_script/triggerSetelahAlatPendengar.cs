@@ -20,13 +20,13 @@ public class triggerSetelahAlatPendengar : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && isDialogActives && FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
         {
-            Debug.Log("memenuhi2");
+
             FindObjectOfType<DialogManager>().DisplayNextSentences();
         }
         if (!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
         {
             sdhNguping = true;
-            Debug.Log("status sdh nguping =" + sdhNguping);
+
             triggerNguping.sceneEavesdrop = false;
         }
         if (Input.GetKeyDown(KeyCode.Space) && FindObjectOfType<NotificationManager>().notificationAnimator.GetBool("IsOpen"))

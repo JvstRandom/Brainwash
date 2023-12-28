@@ -12,6 +12,7 @@ public class FollowerTrigger : MonoBehaviour
     public dialog ZachikutDialog;
     public GameObject npcSprite;
     public bool percakapanzachikut = false;
+    private bool dialogslese;
 
     void Start()
     {
@@ -21,7 +22,7 @@ public class FollowerTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && MainMenu.level1 && faithnhopeCutsceneTrigger.FaithnHopeHilang && !percakapanzachikut && !triggerNguping.sceneEavesdrop)
+        if (other.CompareTag("Player") && MainMenu.level1 && faithnhopeCutsceneTrigger.FaithnHopeHilang && !percakapanzachikut && !triggerNguping.sceneEavesdrop && !dialogslese)
         {
             Debug.Log("player memenuhi syarat");
             percakapanzachikut = true;
@@ -39,7 +40,7 @@ public class FollowerTrigger : MonoBehaviour
         if (!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
         {
             StartFollowing();
-
+            dialogslese = true;
         }
     }
 
