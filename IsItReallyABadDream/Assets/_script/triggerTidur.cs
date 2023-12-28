@@ -33,7 +33,7 @@ public class triggerTidur : MonoBehaviour
                 level2 = true;
                 SceneManager.LoadScene("kamar1 NM");
                 playerMemorys.initialValue = new Vector2(-5.5f, 1.3f);
-            }else if(bendaMemoriNm.sdhsemua){
+            }else if(SpriteChanger.sudahLevel3){
                 bendaMemoriNm.level3 = false;
                 level4 = true;
                 Debug.Log("level 4 ="+ level4);

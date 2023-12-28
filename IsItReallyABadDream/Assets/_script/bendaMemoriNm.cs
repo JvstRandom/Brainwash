@@ -15,6 +15,7 @@ public class bendaMemoriNm : MonoBehaviour
     public static bool level3;
     public Vector2 playerPos;
     public VectorValue playerMemory;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -43,11 +44,8 @@ public class bendaMemoriNm : MonoBehaviour
         {
             sdhsemua=true;
             Debug.Log("jumlahsemua="+sdhsemua);
-            FindObjectOfType<NotificationManager>().StartNotification("kamu sudah menemukan semua benda misi selesai, kembali tidur sebelum suster notice");
-            if(Input.GetKeyDown(KeyCode.Space))
-            {
-                FindObjectOfType<NotificationManager>().HideNotification();
-            }
+            FindObjectOfType<NotificationManager>().StartNotification("kamu sudah menemukan semua benda misi selesai");
+            Invoke("pindahLvl", 2.3f);
         }
     }
 
@@ -58,5 +56,13 @@ public class bendaMemoriNm : MonoBehaviour
             FindObjectOfType<DialogManager>().StartDialog(bendaMemoriNMdialog);
             ngomong=true;
         }
+    }
+
+    void pindahLvl()
+    {
+        FindObjectOfType<NotificationManager>().HideNotification();
+                SceneManager.LoadScene("kamar1");
+                jmlhNyentuhBendaMemoriNM--;
+                level3=true;
     }
 }

@@ -4646,7 +4646,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1808168932}
-  - component: {fileID: 1808168931}
   - component: {fileID: 1808168930}
   m_Layer: 0
   m_Name: triggerSleseNM1
@@ -4700,18 +4699,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4054222, y: 1.6660511}
   m_EdgeRadius: 0
---- !u!114 &1808168931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1808168929}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1641a351feec70478ec3080c48a66bf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1808168932
 Transform:
   m_ObjectHideFlags: 0
@@ -4744,10 +4731,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb62d5736e6b15c4eaecbcb004322752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyCount: 0
-  key: 0
   maplabirin: {fileID: 0}
-  itemSOs: []
+  pakeKostum: {fileID: 0}
   mapOpen: 0
 --- !u!1001 &1903154256
 PrefabInstance:

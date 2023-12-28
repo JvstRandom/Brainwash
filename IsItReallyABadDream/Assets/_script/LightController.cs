@@ -11,11 +11,11 @@ public class lightController : MonoBehaviour
     public Image LightBatteryBar;
 
     // Battery settings
-    public float maxBatteryEnergy = 100f;
-    public float currentBatteryEnergy;
+    // public float maxBatteryEnergy = 100f;
+    // public float currentBatteryEnergy;
 
-    // Energy consumption rate
-    public float energyConsumptionRate = 2f;
+    // // Energy consumption rate
+    // public float energyConsumptionRate = 2f;
 
     void Start()
     {
@@ -24,7 +24,7 @@ public class lightController : MonoBehaviour
         light2D.intensity = 0.3f;
         light2D.pointLightOuterRadius = 2f;
         lampunyala = false;
-        currentBatteryEnergy = maxBatteryEnergy;
+        // currentBatteryEnergy = maxBatteryEnergy;
     }
     void Update()
     {
@@ -33,21 +33,21 @@ public class lightController : MonoBehaviour
             ToggleLight();
         }
 
-        if (lampunyala && currentBatteryEnergy <= 0)
-        {
-            light2D.intensity = 0.3f;
-            light2D.pointLightOuterRadius = 2f;
-            lampunyala = false;
-        }
+        // if (lampunyala && currentBatteryEnergy <= 0)
+        // {
+        //     light2D.intensity = 0.3f;
+        //     light2D.pointLightOuterRadius = 2f;
+        //     lampunyala = false;
+        // }
 
-        if (lampunyala && currentBatteryEnergy > 0)
-        {
-            // Drain battery energy
-            currentBatteryEnergy -= energyConsumptionRate * Time.deltaTime;
+        // if (lampunyala && currentBatteryEnergy > 0)
+        // {
+        //     // Drain battery energy
+        //     currentBatteryEnergy -= energyConsumptionRate * Time.deltaTime;
 
-            float normalizedEnergy = currentBatteryEnergy / maxBatteryEnergy;
-            LightBatteryBar.fillAmount = normalizedEnergy;
-        }
+        //     float normalizedEnergy = currentBatteryEnergy / maxBatteryEnergy;
+        //     LightBatteryBar.fillAmount = normalizedEnergy;
+        // }
 
     }
 
@@ -70,8 +70,8 @@ public class lightController : MonoBehaviour
 
     }
 
-    public void setBattery()
-    {
-        currentBatteryEnergy = maxBatteryEnergy;
-    }
+    // public void setBattery()
+    // {
+    //     currentBatteryEnergy = maxBatteryEnergy;
+    // }
 }

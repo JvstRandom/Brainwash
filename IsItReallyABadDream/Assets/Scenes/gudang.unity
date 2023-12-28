@@ -208,17 +208,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed10eddae83918c498c2537a5fb13d30, type: 3}
---- !u!114 &358459918 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1475028814083235197, guid: 714d700da1e714d4abd8bb83d57acbc3, type: 3}
-  m_PrefabInstance: {fileID: 819084633}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &440282507
 GameObject:
   m_ObjectHideFlags: 0
@@ -2367,7 +2356,7 @@ GameObject:
   - component: {fileID: 815371208}
   - component: {fileID: 815371207}
   m_Layer: 0
-  m_Name: sprite benda (1)_21
+  m_Name: buku
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2414,7 +2403,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 2065015157, guid: 72f5a33d3205d0c42acce9b5dc72fe74, type: 3}
+  m_Sprite: {fileID: -526569766, guid: 72f5a33d3205d0c42acce9b5dc72fe74, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4913,7 +4902,7 @@ PrefabInstance:
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: imageDisplay
       value: 
-      objectReference: {fileID: 358459918}
+      objectReference: {fileID: 2128830501}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: dialogChoiceBox
       value: 
@@ -4956,6 +4945,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4751227996107172152, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
   m_PrefabInstance: {fileID: 2128830499}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2128830501 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4515289996892812320, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+  m_PrefabInstance: {fileID: 2128830499}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2128830502 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8596659226476926821, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}

@@ -37,7 +37,7 @@ public class SpriteChanger : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && PlayerInRange && (triggerSleseNM1.level3 || bukuZach.level5))
+        if (Input.GetKeyDown(KeyCode.Space) && PlayerInRange && (bendaMemoriNm.level3 || bukuZach.level5))
         {
             
             if (dialogChoiceBox.activeInHierarchy)
@@ -53,7 +53,7 @@ public class SpriteChanger : MonoBehaviour
             }
         }
 
-        if(jmlhNyentuhBendaMemori == 3 && triggerSleseNM1.level3)
+        if(jmlhNyentuhBendaMemori == 3 && bendaMemoriNm.level3)
         {
             sudahLevel3=true;
             Debug.Log("sjumlah = " + jmlhNyentuhBendaMemori);
@@ -70,7 +70,7 @@ public class SpriteChanger : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("Player") && (triggerSleseNM1.level3 || bukuZach.level5))
+        if (col.CompareTag("Player") )
         {
             PlayerInRange = true;
         }
@@ -115,7 +115,7 @@ public class SpriteChanger : MonoBehaviour
             {
                 Debug.Log("End of image sequence");
                 spriteRenderer.sprite = newSprite;
-                if(triggerSleseNM1.level3)
+                if(bendaMemoriNm.level3)
                 {
                     jmlhNyentuhBendaMemori++;
                 } else if(bukuZach.level5)

@@ -3010,7 +3010,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &562854538 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8570628126362293549, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4515289996892812320, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
   m_PrefabInstance: {fileID: 562854536}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
