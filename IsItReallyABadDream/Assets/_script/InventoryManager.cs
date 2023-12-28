@@ -80,15 +80,16 @@ public class InventoryManager : MonoBehaviour
     public void CraftItem()
     {
         // Check if the crafted item is "costume" and if the required items ("blanket" and "marker") are in the inventory
-        if (CheckCraftingRequirements("selimut", "spidol"))
+        if (CheckCraftingRequirements("selimut", "marker"))
         {
-            Debug.Log("kita punya selimut dan spidol");
+            Debug.Log("kita punya selimut dan marker");
             // Remove the required items from the inventory
             RemoveItemFromInventory("selimut");
-            RemoveItemFromInventory("spidol");
+            RemoveItemFromInventory("marker");
 
             // Add the crafted item to the inventory
             AddItemToInventory("kostum");
+            PlayerManager.haveCostume = true;
         } else if(CheckCraftingRequirements("walkietalkie", "isolasi", "benang"))
         {
             Debug.Log("kita punya 3 hal");

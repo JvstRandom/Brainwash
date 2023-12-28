@@ -13,6 +13,7 @@ public class triggerTidur : MonoBehaviour
     public static bool level4;
     public static bool level6;
     public static bool level8;
+    public GameObject timer;
     // Start is called before the first frame update
     void Start()
     {
@@ -50,10 +51,11 @@ public class triggerTidur : MonoBehaviour
             } else if(ngomongKeNPC.sdhLevel7)
             {
                 triggerSleseLevel6.level7 = false;
+                Destroy(timer);
                 level8=true;
                 Debug.Log("level 8 ="+ level8);
-                SceneManager.LoadScene("LabirinNM");
-                playerMemorys.initialValue = new Vector2(-20.0f, 1.24f);
+                SceneManager.LoadScene("Labirin NM");
+                playerMemorys.initialValue = new Vector2(-20.0f, 2.41f);
             } else {
                 FindObjectOfType<NotificationManager>().StartNotification(notifikasigturu);
                 Invoke("hapusnotif", 2f);

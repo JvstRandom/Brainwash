@@ -19,17 +19,19 @@ public class CodePanel : MonoBehaviour
             brankasController.isSafeOpened = true;
             PlayerManager.haveMapLabirin = true;
             PlayerManager.haveKeyLabirin = true;
+            Debug.Log("punya kunci = " + PlayerManager.haveKeyLabirin );
             FindObjectOfType<NotificationManager>().StartNotification(notifikasiLabirin);
-        }
-
-        if(Input.GetKeyDown(KeyCode.Space) && FindObjectOfType<NotificationManager>().notificationAnimator.GetBool("IsOpen") && brankasController.isSafeOpened)
-        {
-            FindObjectOfType<NotificationManager>().HideNotification();
+            Invoke("hilang", 3f);
         }
 
         if (KodeBrankas.Length >= 4) {
             KodeBrankas = "";
         }
+    }
+
+    void hilang()
+    {
+        FindObjectOfType<NotificationManager>().HideNotification();
     }
 
     public void AddNum(string num) {

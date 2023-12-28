@@ -126,14 +126,16 @@ public class SpriteChanger : MonoBehaviour
                 {
                     sdhlihatKipas=true;
                 }
+                Invoke("hilang", 3f);
                 
                 // You can perform any actions here when the sequence ends
             }
-            if(currentIndex > imageList.Length)
-            {
-                dialogChoiceBox.SetActive(false);
-                imageDisplay.enabled = false;
-            }
         }
+    }
+
+    void hilang()
+    {
+        dialogChoiceBox.SetActive(false);
+        imageDisplay.enabled = false;
     }
 }

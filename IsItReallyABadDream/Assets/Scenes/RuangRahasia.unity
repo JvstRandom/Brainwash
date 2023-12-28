@@ -580,11 +580,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hasilTxt: {fileID: 1788508283}
   ketentuanHasil: 20
-  notifikasiPotion: 
+  notifikasiPotion: Anda sudah mendapat potion
   SuruhCepetNgasiPotion:
-    sentences: []
-    name: []
-    image: []
+    sentences:
+    - Yey sebaiknya aku segera memberikan ini ke teman2
+    - Sepertinya mereka ada di tempat bermain
+    name:
+    - Frey
+    - Frey
+    image:
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
 --- !u!1 &242938187
 GameObject:
   m_ObjectHideFlags: 0
@@ -3381,7 +3387,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CodeText: {fileID: 1767811253}
-  notifikasiLabirin: kamu telah mendapatkan Map dan Kunci Labirin
+  notifikasiLabirin: kamu telah mendapatkan Map dan Kunci Labirin, tekan M untuk
+    membuka map
 --- !u!1 &836685416
 GameObject:
   m_ObjectHideFlags: 0
@@ -6712,7 +6719,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
       propertyPath: playerPos.y
-      value: 1.36
+      value: 2.41
       objectReference: {fileID: 0}
     - target: {fileID: 4229744220315421651, guid: 7160ad8895827bf489ed31c8c36dcb62, type: 3}
       propertyPath: sceneToLoad

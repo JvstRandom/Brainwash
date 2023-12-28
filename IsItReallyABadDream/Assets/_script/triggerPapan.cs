@@ -8,6 +8,7 @@ public class triggerPapan : MonoBehaviour
     public Image t4nya;
     public Sprite GambarPapan;
     public dialog dialogpapan;
+    private bool ngomong;
     private bool sdhGambar=false;
     public static bool sdhLevel6 = false;
     // Start is called before the first frame update
@@ -19,18 +20,17 @@ public class triggerPapan : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(sdhGambar && Input.GetKeyDown(KeyCode.Space))
-        {
-            FindObjectOfType<DialogManager>().StartDialog(dialogpapan);
-            if(FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
+        if(FindObjectOfType<DialogManager>().animator.GetBool("isOpen") && ngomong && Input.GetKeyDown(KeyCode.Space))
             {
                 FindObjectOfType<DialogManager>().DisplayNextSentences();
+                if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
+                {
+                    sdhLevel6 = true;
+                    Debug.Log("status sdhlvl6 = " + sdhLevel6);
+                    tempatGambar.SetActive(false);
+                }
             }
-            else if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
-            {
-                changeAppereance();
-            }
-        }
+        
     }
 
     void OnTriggerEnter2D(Collider2D col)
@@ -40,12 +40,14 @@ public class triggerPapan : MonoBehaviour
             tempatGambar.SetActive(true);
             t4nya.sprite = GambarPapan;
             sdhGambar = true;
+            FindObjectOfType<DialogManager>().StartDialog(dialogpapan);
+            ngomong=true;
         }
     }
 
     void changeAppereance()
     {
         tempatGambar.SetActive(false);
-        sdhLevel6 = true;
+        
     }
 }

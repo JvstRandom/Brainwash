@@ -17,6 +17,10 @@ public class TimerScript : MonoBehaviour
 
     void Update()
     {
+        if(triggerSleseLevel6.level7)
+        {
+            DontDestroyOnLoad(Timer);
+        }
         if(TimerOn)
         {
             Timer.SetActive(true);

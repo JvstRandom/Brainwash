@@ -17,6 +17,7 @@ public class MiniGamePotion : MonoBehaviour
     private float result;
     public string notifikasiPotion;
     public dialog SuruhCepetNgasiPotion;
+    private bool dialog;
     // private string[] elements;
 
     void Start()
@@ -33,16 +34,23 @@ public class MiniGamePotion : MonoBehaviour
             PlayerManager.havePotion = true;
             Debug.Log("dapet potion = " + PlayerManager.havePotion);
             FindObjectOfType<NotificationManager>().StartNotification(notifikasiPotion);
+            Invoke("hilang", 2f);
         }
-        if(Input.GetKeyDown(KeyCode.Space) && FindObjectOfType<NotificationManager>().notificationAnimator.GetBool("IsOpen") && brankasController.isGotRightPotion)
+        if(!FindObjectOfType<NotificationManager>().notificationAnimator.GetBool("IsOpen") && brankasController.isGotRightPotion)
         {
-            FindObjectOfType<NotificationManager>().HideNotification();
+            
             FindObjectOfType<DialogManager>().StartDialog(SuruhCepetNgasiPotion);
-            if(FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
+            dialog=true;
+        }
+        if( Input.GetKeyDown(KeyCode.Space) && FindObjectOfType<DialogManager>().animator.GetBool("isOpen") && dialog)
             {
                 FindObjectOfType<DialogManager>().DisplayNextSentences();
             }
-        }
+    }
+
+    void hilang()
+    {
+        FindObjectOfType<NotificationManager>().HideNotification();
     }
 
     public void submitAnswer()
