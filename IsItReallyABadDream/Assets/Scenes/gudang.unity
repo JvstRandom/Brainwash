@@ -208,6 +208,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed10eddae83918c498c2537a5fb13d30, type: 3}
+--- !u!114 &358459918 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1475028814083235197, guid: 714d700da1e714d4abd8bb83d57acbc3, type: 3}
+  m_PrefabInstance: {fileID: 819084633}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &440282507
 GameObject:
   m_ObjectHideFlags: 0
@@ -4902,7 +4913,7 @@ PrefabInstance:
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: imageDisplay
       value: 
-      objectReference: {fileID: 2128830501}
+      objectReference: {fileID: 358459918}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: dialogChoiceBox
       value: 
@@ -4932,7 +4943,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 702f5d2ec6e131e49a07eda628aa222d, type: 3}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 1565379171270153803, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4751227996107172152, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
@@ -4944,17 +4956,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4751227996107172152, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
   m_PrefabInstance: {fileID: 2128830499}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2128830501 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8682852689901898348, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
-  m_PrefabInstance: {fileID: 2128830499}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2128830502 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8596659226476926821, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
