@@ -26,7 +26,7 @@ public class triggerSudahSleseLevel5 : MonoBehaviour
         {
             FindObjectOfType<DialogManager>().StartDialog(LolosSuster);
             dialog = true;
-            Destroy(susterr);
+            susterr.SetActive(false);
         }
         if(FindObjectOfType<DialogManager>().animator.GetBool("isOpen") && dialog && Input.GetKeyDown(KeyCode.Space))
             {

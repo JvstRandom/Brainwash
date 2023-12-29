@@ -93,14 +93,12 @@ public class ngomongKeNPC : MonoBehaviour
                 sudahNgomong2 = false;
             }
         }
-        if (jmlhNgobati == 4)
+        if (jmlhNgobati == 5)
         {
             FindObjectOfType<NotificationManager>().StartNotification("segera kemabali ke kamar dan tidur sebelum suster notice");
             sdhLevel7 = true;
-            if (FindObjectOfType<NotificationManager>().notificationAnimator.GetBool("IsOpen"))
-            {
-                Invoke("HideNotif", 2f);
-            }
+            
+            
         }
 
 

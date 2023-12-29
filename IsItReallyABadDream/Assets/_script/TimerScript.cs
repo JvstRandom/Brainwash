@@ -20,6 +20,9 @@ public class TimerScript : MonoBehaviour
         if(triggerSleseLevel6.level7)
         {
             DontDestroyOnLoad(Timer);
+        }else if (!triggerSleseLevel6.level7)
+        {
+            Destroy(Timer);
         }
         if(TimerOn)
         {
