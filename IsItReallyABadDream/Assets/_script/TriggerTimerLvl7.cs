@@ -57,7 +57,7 @@ public class TriggerTimerLvl7 : MonoBehaviour
     {
         if (col.CompareTag("Player"))
         {
-            if (triggerSleseLevel6.level7 && !sdhTrigger)
+            if (triggerSleseLevel6.level7 && !sdhTrigger && !triggerTidur.level8 && !ObjectImage.level9)
             {
                 Debug.Log("trigger timer level 7");
                 PlayerManager.haveKey = true;

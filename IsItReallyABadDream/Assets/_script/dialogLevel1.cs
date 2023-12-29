@@ -25,7 +25,22 @@ public class dialogLevel1 : MonoBehaviour
     void Start()
     {
         
-            if(MainMenu.level1 && !ngomong)
+            
+            
+        // Start the dialog when the scene starts
+        
+    }
+
+    // Method to start the dialog
+    void StartDialog()
+    {
+        FindObjectOfType<DialogManager>().StartDialog(percakapan1);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if(MainMenu.level1 && !ngomong)
             {
                 StartDialog();
                 ngomong=true;
@@ -43,19 +58,6 @@ public class dialogLevel1 : MonoBehaviour
                 ngomong9=true;
             }
             
-        // Start the dialog when the scene starts
-        
-    }
-
-    // Method to start the dialog
-    void StartDialog()
-    {
-        FindObjectOfType<DialogManager>().StartDialog(percakapan1);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
             // Check if the dialog is still active in the DialogManager
             if (FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
             {

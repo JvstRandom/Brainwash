@@ -414,10 +414,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb62d5736e6b15c4eaecbcb004322752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyCount: 0
-  key: 0
   maplabirin: {fileID: 445725149757052625}
-  itemSOs: []
+  pakeKostum: {fileID: 0}
   mapOpen: 0
 --- !u!81 &7515703506066441342
 AudioListener:
@@ -717,6 +715,3 @@ MonoBehaviour:
   light2D: {fileID: 7768784807156989385}
   lampunyala: 0
   LightBatteryBar: {fileID: 0}
-  maxBatteryEnergy: 100
-  currentBatteryEnergy: 0
-  energyConsumptionRate: 5
