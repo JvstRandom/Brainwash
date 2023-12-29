@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class healthSystem : MonoBehaviour
 {
@@ -19,7 +20,7 @@ public class healthSystem : MonoBehaviour
         if (health <= 0)
         {
             Debug.Log("Game Over");
-            // Handle game over logic
+            SceneManager.LoadScene("GameOver");
         }
     }
 

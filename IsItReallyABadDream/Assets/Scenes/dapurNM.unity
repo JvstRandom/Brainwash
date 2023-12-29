@@ -7022,7 +7022,7 @@ MonoBehaviour:
   choicetxtA: {fileID: 1810625348}
   choicetxtB: {fileID: 1457663757}
   notifWarn: Tidak! suster marah, kau harus cepat keluar dari sini
-  SceneEnding1: ending1
+  SceneEnding1: CutSceneEndingNM2
 --- !u!4 &646528955
 Transform:
   m_ObjectHideFlags: 0
