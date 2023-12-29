@@ -201,28 +201,54 @@ PrefabInstance:
       objectReference: {fileID: 20997383}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: dialogs.Array.size
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: imageList.Array.size
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: dialogs.Array.data[0]
-      value: hahahah
+      value: 'Suster1: Kamu akan kembali sekarang? '
       objectReference: {fileID: 0}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: dialogs.Array.data[1]
-      value: ofbowgbw
+      value: 'Suster2: Tentu saja, atasan kita memanggil. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: dialogs.Array.data[2]
+      value: 'Suster1: Bukankah merepotkan jika harus melewati jalur bawah tanah
+        itu lagi? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: dialogs.Array.data[3]
+      value: 'Suster2: Yah mau bagaimana lagi hanya itu jalan yang bisa kita lewati
+        saat ini,  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: dialogs.Array.data[4]
+      value: "pintu utama tidak boleh dilewati saat mereka semua\_masih\_sadar."
       objectReference: {fileID: 0}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: imageList.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: 9e6f8aa9b7433794e8e79b79839c184e, type: 3}
+      objectReference: {fileID: 21300000, guid: 110a1d0401a941546927dfc7bdf54884, type: 3}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: imageList.Array.data[1]
       value: 
-      objectReference: {fileID: -2087006201, guid: c205f5985c4d23d4c978bf1e817f1080, type: 3}
+      objectReference: {fileID: 21300000, guid: 110a1d0401a941546927dfc7bdf54884, type: 3}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: imageList.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 110a1d0401a941546927dfc7bdf54884, type: 3}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: imageList.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 110a1d0401a941546927dfc7bdf54884, type: 3}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: imageList.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 110a1d0401a941546927dfc7bdf54884, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2662,13 +2688,13 @@ MonoBehaviour:
   LolosSuster:
     sentences:
     - Sepertinya suster sudah pergi
-    - kan
+    - Aku harus segera balik sebelum suster itu mengecek ruangan ini lagi
     name:
     - Frey
     - Frey
     image:
-    - {fileID: 21300000, guid: 9e6f8aa9b7433794e8e79b79839c184e, type: 3}
-    - {fileID: 21300000, guid: 0496ae8df6ccb0a4f8f0a6588912ca13, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
   notifSleseLevel5: kamu sudah selesai mencari clue, cepat kembali tidur sebelum
     suster kembali ngecek
   notifBlmSleseLevel5: kamu belum mengecek semua clue

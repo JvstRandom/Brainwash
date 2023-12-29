@@ -4721,10 +4721,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb62d5736e6b15c4eaecbcb004322752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyCount: 0
-  key: 0
   maplabirin: {fileID: 0}
-  itemSOs: []
+  pakeKostum: {fileID: 0}
   mapOpen: 0
 --- !u!1001 &1903154256
 PrefabInstance:
@@ -4892,8 +4890,36 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: dca479449dea3cc44ac37ac2f50ce9c1, type: 2}
     - target: {fileID: 8891780068639713404, guid: 5db6cc0db3559314bbd2090c187b4699, type: 3}
+      propertyPath: bendaMemoriNMdialog.name.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8891780068639713404, guid: 5db6cc0db3559314bbd2090c187b4699, type: 3}
+      propertyPath: bendaMemoriNMdialog.image.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8891780068639713404, guid: 5db6cc0db3559314bbd2090c187b4699, type: 3}
+      propertyPath: bendaMemoriNMdialog.name.Array.data[1]
+      value: Frey
+      objectReference: {fileID: 0}
+    - target: {fileID: 8891780068639713404, guid: 5db6cc0db3559314bbd2090c187b4699, type: 3}
+      propertyPath: bendaMemoriNMdialog.image.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - target: {fileID: 8891780068639713404, guid: 5db6cc0db3559314bbd2090c187b4699, type: 3}
+      propertyPath: bendaMemoriNMdialog.image.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - target: {fileID: 8891780068639713404, guid: 5db6cc0db3559314bbd2090c187b4699, type: 3}
+      propertyPath: bendaMemoriNMdialog.sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8891780068639713404, guid: 5db6cc0db3559314bbd2090c187b4699, type: 3}
       propertyPath: bendaMemoriNMdialog.sentences.Array.data[0]
-      value: 'boneka hope? '
+      value: ' Hm? Sebuah boneka?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8891780068639713404, guid: 5db6cc0db3559314bbd2090c187b4699, type: 3}
+      propertyPath: bendaMemoriNMdialog.sentences.Array.data[1]
+      value: ' Kenapa ini bercahaya ya?'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -4909,28 +4909,52 @@ PrefabInstance:
       objectReference: {fileID: 2128830503}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: dialogs.Array.size
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: imageList.Array.size
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: dialogs.Array.data[0]
-      value: wat
+      value: " I-ibu\u2026. Bertahanlah\u2026 sebentar lagi bantuan akan datang\u2026"
       objectReference: {fileID: 0}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: dialogs.Array.data[1]
-      value: mantab
+      value: 'Ibu tidak apa-apa Zach.. uhuk '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: dialogs.Array.data[2]
+      value: " Ibu\u2026. Tolong jangan bilang begitu\u2026 "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: dialogs.Array.data[3]
+      value: "Ibu menyayangimu Zach\u2026 selalu\u2026 "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: dialogs.Array.data[4]
+      value: "Ibuu\u2026!!!!! "
       objectReference: {fileID: 0}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: imageList.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: 7f9d6561e3427824686b92a47da4bdc5, type: 3}
+      objectReference: {fileID: 21300000, guid: 423cae56566e9f24587d504036946acc, type: 3}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: imageList.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: 702f5d2ec6e131e49a07eda628aa222d, type: 3}
+      objectReference: {fileID: 21300000, guid: 448f902ed5ebfc445af2b4466a15dfad, type: 3}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: imageList.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 448f902ed5ebfc445af2b4466a15dfad, type: 3}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: imageList.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 448f902ed5ebfc445af2b4466a15dfad, type: 3}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: imageList.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 448f902ed5ebfc445af2b4466a15dfad, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1565379171270153803, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}

@@ -366,8 +366,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -2.847, y: 25.6239}
+  m_SizeDelta: {x: 686.5021, y: 868.7162}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &448867112
 GameObject:
@@ -2197,7 +2197,7 @@ GameObject:
   - component: {fileID: 815371209}
   - component: {fileID: 815371214}
   m_Layer: 0
-  m_Name: sprite benda (1)_21
+  m_Name: buku
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2425,7 +2425,7 @@ MonoBehaviour:
   PlaceImageToShow: {fileID: 87884598}
   UiAktif: 0
   audioSource: {fileID: 815371209}
-  ImageYoShow: {fileID: 21300000, guid: 43807e88ecb1ffb479bbb44fa41db3ab, type: 3}
+  ImageYoShow: {fileID: 21300000, guid: f4168f9cedbbe8c4ab954a10a782b154, type: 3}
   playerMemorys: {fileID: 11400000, guid: dca479449dea3cc44ac37ac2f50ce9c1, type: 2}
 --- !u!61 &815371213
 BoxCollider2D:
@@ -5102,6 +5102,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4781733112910987226, guid: 6a8800b3c8ab0c24f8ac1c0631fd934d, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5665,6 +5669,34 @@ PrefabInstance:
       propertyPath: playerMemory
       value: 
       objectReference: {fileID: 11400000, guid: dca479449dea3cc44ac37ac2f50ce9c1, type: 2}
+    - target: {fileID: 8891780068639713404, guid: 5db6cc0db3559314bbd2090c187b4699, type: 3}
+      propertyPath: bendaMemoriNMdialog.name.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8891780068639713404, guid: 5db6cc0db3559314bbd2090c187b4699, type: 3}
+      propertyPath: bendaMemoriNMdialog.image.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8891780068639713404, guid: 5db6cc0db3559314bbd2090c187b4699, type: 3}
+      propertyPath: bendaMemoriNMdialog.name.Array.data[1]
+      value: Frey
+      objectReference: {fileID: 0}
+    - target: {fileID: 8891780068639713404, guid: 5db6cc0db3559314bbd2090c187b4699, type: 3}
+      propertyPath: bendaMemoriNMdialog.image.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - target: {fileID: 8891780068639713404, guid: 5db6cc0db3559314bbd2090c187b4699, type: 3}
+      propertyPath: bendaMemoriNMdialog.image.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - target: {fileID: 8891780068639713404, guid: 5db6cc0db3559314bbd2090c187b4699, type: 3}
+      propertyPath: bendaMemoriNMdialog.sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8891780068639713404, guid: 5db6cc0db3559314bbd2090c187b4699, type: 3}
+      propertyPath: bendaMemoriNMdialog.sentences.Array.data[1]
+      value: Sepertinya aku harus mengecek benda2 ini saat bangun
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5683,9 +5715,9 @@ SceneRoots:
   - {fileID: 1685383358}
   - {fileID: 817429447}
   - {fileID: 1030110409}
+  - {fileID: 815371208}
   - {fileID: 2031000497}
   - {fileID: 1766561877}
   - {fileID: 1788135148}
   - {fileID: 448867115}
   - {fileID: 5466793029595387557}
-  - {fileID: 815371208}

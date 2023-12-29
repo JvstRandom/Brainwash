@@ -613,18 +613,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   percakapanNpc:
     sentences:
-    - ehddf
-    - sbdsdb
+    - "Halo namaku Frey, aku baru di sini\u2026 Siapa namamu?\r\n"
+    - "Aku\u2026Faith\u2026uhuk, uhuk\r\n"
+    - "Senang berkenalan denganmu Faith\u2026 oh apa kamu sedang sakit?"
+    - 'Uhuk, aku masih tidak apa-apa
+
+
+
+'
+    name:
+    - Frey
+    - Faith
+    - Frey
+    - Faith
+    image:
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: 50d3a94347f23fc48ad9e29c1f1950b9, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: 50d3a94347f23fc48ad9e29c1f1950b9, type: 3}
+  percakapanNgobati:
+    sentences:
+    - ini aku ada obat, minumlah
+    - oke
     name:
     - Frey
     - Faith
     image:
-    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
     - {fileID: 21300000, guid: 50d3a94347f23fc48ad9e29c1f1950b9, type: 3}
-  percakapanNgobati:
-    sentences: []
-    name: []
-    image: []
   characterSpriteRenderer: {fileID: 143116434}
 --- !u!114 &143116438
 MonoBehaviour:
@@ -785,18 +801,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   percakapanNpc:
     sentences:
-    - tn
-    - tmrr
+    - " Halo namaku Frey, aku baru di sini\u2026 Siapa namamu?\r\n"
+    - "HAI\u2026 namaku Hope, aku kembaran Kak Faith\r\n"
+    - 'Senang berkenalan denganmu Hope
+
+'
+    - "Uhuk, uhuk\u2026Iya\u2026\r\n"
+    name:
+    - Frey
+    - Hope
+    - Frey
+    - Hope
+    image:
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: 181da1dbef5f8254ba39086d3c18d6fd, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: 181da1dbef5f8254ba39086d3c18d6fd, type: 3}
+  percakapanNgobati:
+    sentences:
+    - ini aku punya potion untuk mu, minumlah
+    - okayy
     name:
     - Frey
     - Hope
     image:
-    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
-    - {fileID: 21300000, guid: 181da1dbef5f8254ba39086d3c18d6fd, type: 3}
-  percakapanNgobati:
-    sentences: []
-    name: []
-    image: []
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: 7f52881b152eada41946822ed3db25d4, type: 3}
   characterSpriteRenderer: {fileID: 162212470}
 --- !u!58 &162212473
 CircleCollider2D:
@@ -2980,28 +3010,52 @@ PrefabInstance:
       objectReference: {fileID: 562854540}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: dialogs.Array.size
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: imageList.Array.size
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: dialogs.Array.data[0]
-      value: keren
+      value: 'Faith: Lepaskan aku!'
       objectReference: {fileID: 0}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: dialogs.Array.data[1]
-      value: Pesawat
+      value: 'Faith: Hei! Sudah kubilang lepaskan aku!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: dialogs.Array.data[2]
+      value: "Suster: \u2026."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: dialogs.Array.data[3]
+      value: 'Faith: Aku cuma keluar sebentar'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: dialogs.Array.data[4]
+      value: 'Faith: Le-lepaskan aku!!'
       objectReference: {fileID: 0}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: imageList.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: 1a3f9cb0a5b2344489db6a08c54d8d7b, type: 3}
+      objectReference: {fileID: 21300000, guid: 232a02f087fd6c34cb9da2399a50a010, type: 3}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: imageList.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: ef9a3d0f81691eb41a85a25ac47c2d67, type: 3}
+      objectReference: {fileID: 21300000, guid: 232a02f087fd6c34cb9da2399a50a010, type: 3}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: imageList.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 232a02f087fd6c34cb9da2399a50a010, type: 3}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: imageList.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 232a02f087fd6c34cb9da2399a50a010, type: 3}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: imageList.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 232a02f087fd6c34cb9da2399a50a010, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1565379171270153803, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
@@ -3871,18 +3925,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   percakapanMasukT4Bermain:
     sentences:
-    - rshbb
-    - bewh
+    - Karena kalian sudah makan, kalian bisa menghabiskan waku disini
+    - oh aku bisa menyempatkan waktu unutk berkenalan dengan yang lain
     name:
     - Suster
     - Frey
     image:
-    - {fileID: 21300000, guid: 50d3a94347f23fc48ad9e29c1f1950b9, type: 3}
-    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
+    - {fileID: 21300000, guid: 110a1d0401a941546927dfc7bdf54884, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
   percakapanMauNgobati:
-    sentences: []
-    name: []
-    image: []
+    sentences:
+    - Syukurlah mereka berkumpul disini
+    - aku dapat memberi obat dengan mudah
+    name:
+    - Frey
+    - Frey
+    image:
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
 --- !u!61 &939329010
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4194,21 +4254,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   percakapanNpc:
     sentences:
-    - halo
-    - halojuga
+    - "Halo namaku Frey, aku baru di sini\u2026 Siapa namamu?\r\n"
+    - "Namaku\u2026Darla\u2026\r\n"
+    - Senang berkenalan denganmu Darla
+    - "Hmm\u2026 Iya\u2026"
+    name:
+    - Frey
+    - Darla
+    - Frey
+    - Darla
+    image:
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: bf5ab5026292ae2459b63d7a9228b96e, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: bf5ab5026292ae2459b63d7a9228b96e, type: 3}
+  percakapanNgobati:
+    sentences:
+    - ini aku punya obat, minumlah
+    - okay..
     name:
     - Frey
     - Darla
     image:
-    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
-    - {fileID: 21300000, guid: bf5ab5026292ae2459b63d7a9228b96e, type: 3}
-  percakapanNgobati:
-    sentences:
-    - minum obat dulu ya
-    name:
-    - Frey
-    image:
     - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: bf5ab5026292ae2459b63d7a9228b96e, type: 3}
   characterSpriteRenderer: {fileID: 1222668437}
 --- !u!58 &1222668435
 CircleCollider2D:
@@ -4595,18 +4664,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   percakapanNpc:
     sentences:
-    - aha
-    - jj
+    - "Halo namaku Frey, aku baru di sini\u2026 Siapa namamu?\r\n"
+    - "Namaku\u2026Calvin\u2026\r\n"
+    - ' Senang berkenalan denganmu Calvin
+
+'
+    - "Hmm\u2026 Iya\u2026\r\n"
+    name:
+    - Frey
+    - Calvin
+    - Frey
+    - Calvin
+    image:
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: 1962c51b3ac01344b89c0b2cb7f847d1, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: 1962c51b3ac01344b89c0b2cb7f847d1, type: 3}
+  percakapanNgobati:
+    sentences:
+    - ini aku punya obat, minumlah
+    - ok..
     name:
     - Frey
     - Calvin
     image:
-    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
     - {fileID: 21300000, guid: 1962c51b3ac01344b89c0b2cb7f847d1, type: 3}
-  percakapanNgobati:
-    sentences: []
-    name: []
-    image: []
   characterSpriteRenderer: {fileID: 1445362742}
 --- !u!61 &1445362746
 BoxCollider2D:
@@ -8446,18 +8529,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   percakapanNpc:
     sentences:
-    - wbnr
-    - ntrk
+    - hai zach
+    - kenapa?
+    - gpp hanya menyapa
     name:
     - Frey
     - Zach
+    - Frey
     image:
-    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
     - {fileID: 21300000, guid: c0f03d262c997b94e9162ee1c1e9804e, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
   percakapanNgobati:
-    sentences: []
-    name: []
-    image: []
+    sentences:
+    - Hai zach ini obat, minumlah
+    - oh kamu dapet obat ini dari mana
+    - shuush kita g punya waktu banyak, minumlah
+    - makasih
+    name:
+    - Frey
+    - Zach
+    - Frey
+    - Zach
+    image:
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: c0f03d262c997b94e9162ee1c1e9804e, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: c0f03d262c997b94e9162ee1c1e9804e, type: 3}
   characterSpriteRenderer: {fileID: 2007838399}
 --- !u!114 &2007838403
 MonoBehaviour:

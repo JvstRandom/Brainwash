@@ -7662,14 +7662,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   masukLvl4:
     sentences:
-    - What?
-    - De
+    - ' A-apa aku sedang di dapur?'
+    - 'Eh? Faith? Hope? Kenapa kalian ada disini?
+
+'
+    - "\u2026..\r\n"
     name:
     - Frey
     - Frey
+    - Frey
     image:
-    - {fileID: 21300000, guid: 370c3e8141f2dc441862ea8107780f43, type: 3}
-    - {fileID: 21300000, guid: 0496ae8df6ccb0a4f8f0a6588912ca13, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
   sceneToLoad: CutsceneMakan
 --- !u!1 &1716111557
 GameObject:

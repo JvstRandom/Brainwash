@@ -2935,8 +2935,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: dca479449dea3cc44ac37ac2f50ce9c1, type: 2}
     - target: {fileID: 8891780068639713404, guid: 5db6cc0db3559314bbd2090c187b4699, type: 3}
+      propertyPath: bendaMemoriNMdialog.image.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - target: {fileID: 8891780068639713404, guid: 5db6cc0db3559314bbd2090c187b4699, type: 3}
       propertyPath: bendaMemoriNMdialog.sentences.Array.data[0]
-      value: ini.. mainan milik faith?
+      value: "Sebuah pesawat? Hm\u2026kira-kira ini milik siapa ya?"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

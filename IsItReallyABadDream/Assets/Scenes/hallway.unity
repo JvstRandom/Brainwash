@@ -1045,17 +1045,54 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   percakapan:
     sentences:
-    - hai
-    - halio
-    - jlkjl
+    - '(keluar dari kamar) Apa kamu yang membangunkanku tadi?
+
+'
+    - Iya
+    - 'Terimakasih,omong-omong siapa namamu? Namaku Frey
+
+'
+    - 'Namaku Zachary.
+
+'
+    - 'Zachary?Itu nama yang bagus. Bolehkah aku memanggilmu Zach?
+
+'
+    - 'Panggil senyaman mu saja.
+
+'
+    - "Hehe baiklah Zach\u2026 Ah iya, kenapa kamu membangunkanku?\r\n\r\n"
+    - 'Ini waktunya makan.
+
+'
+    - 'Oh begitu, baiklah ayo kita ke ruang makan, Zach
+
+'
+    - 'Hm, ayo.
+
+'
     name:
+    - Frey
+    - ???
+    - Frey
+    - ???
     - Frey
     - Zach
     - Frey
+    - Zach
+    - Frey
+    - Zach
     image:
-    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
     - {fileID: 21300000, guid: c0f03d262c997b94e9162ee1c1e9804e, type: 3}
-    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: c0f03d262c997b94e9162ee1c1e9804e, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: c0f03d262c997b94e9162ee1c1e9804e, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: c0f03d262c997b94e9162ee1c1e9804e, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: c0f03d262c997b94e9162ee1c1e9804e, type: 3}
   orang: {fileID: 2028964040}
 --- !u!4 &439675000 stripped
 Transform:
@@ -9094,14 +9131,14 @@ MonoBehaviour:
   follower: {fileID: 2135345445}
   ZachikutDialog:
     sentences:
-    - Tunggu
-    - Ada apa Zach?
+    - Tunggu! Sepertinya lebih baik aku ikut denganmu
+    - (tersenyum) baiklah kalau begitu, ayo!
     name:
     - Zach
     - Frey
     image:
     - {fileID: 21300000, guid: c0f03d262c997b94e9162ee1c1e9804e, type: 3}
-    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
   npcSprite: {fileID: 2135345446}
   percakapanzachikut: 0
 --- !u!1 &1464269571
@@ -13475,14 +13512,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ngupingsuster:
     sentences:
-    - ha
-    - hi
+    - 'Bagaimana keadaan mereka sekarang?
+
+'
+    - ' ......
+
+'
+    - Tolong awasi mereka berdua, kita masih belum tahu keberadaan anak itu sekarang
+    - Jaga mereka di ruangan itu
     name:
     - Suster
-    - docter
+    - ???
+    - Suster
+    - Suster
     image:
-    - {fileID: 21300000, guid: 181da1dbef5f8254ba39086d3c18d6fd, type: 3}
-    - {fileID: 21300000, guid: c0f03d262c997b94e9162ee1c1e9804e, type: 3}
+    - {fileID: 21300000, guid: 110a1d0401a941546927dfc7bdf54884, type: 3}
+    - {fileID: 21300000, guid: acd2cd0e56b357849935273699b5849a, type: 3}
+    - {fileID: 21300000, guid: 110a1d0401a941546927dfc7bdf54884, type: 3}
+    - {fileID: 21300000, guid: 110a1d0401a941546927dfc7bdf54884, type: 3}
   notifikasi1: Anda belum mempunyai alat pendengar untuk mendengar pembicaraan suster
 --- !u!61 &1696517602
 BoxCollider2D:
@@ -14637,14 +14684,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nguping:
     sentences:
-    - A..Hgkg>>
+    - A.. ja..sekarang
     - '!!!'
+    - "Umm\u2026 ini tidak terdengar jelas\u2026"
+    - oh aku ingat ada walkie talkie di ruang bermain tadi. Mungkin aku bisa menggunakannya
+      jika aku menggabungkannya dengan barang lain.
     name:
     - Suster
     - Frey
+    - Frey
+    - Frey
     image:
-    - {fileID: 21300000, guid: bf5ab5026292ae2459b63d7a9228b96e, type: 3}
-    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
+    - {fileID: 21300000, guid: 110a1d0401a941546927dfc7bdf54884, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
   dialoggbox: {fileID: 178341210}
   choicetxtA: {fileID: 785170411}
   choicetxtB: {fileID: 1916122104}

@@ -3367,46 +3367,60 @@ MonoBehaviour:
   instruksiIsi: Tekan Space untuk berinteraksi
   percakapan1:
     sentences:
-    - Tekan Space untu Interaksi
-    - halo
-    - nama
-    - saya
-    - Frey
+    - '*Frey memasuki panti asuhan untuk pertama kalinya*'
+    - Frey terbangun di atas tempat tidur yang asing baginya.
+    - "\u201CUgh\u2026 apa barusan aku tertidur?\u201D"
+    - "(Melihat makanan di kasur sebelah) \u201CBukankah itu roti yang baru saja
+      aku makan sebelum tertidur?"
+    - "Hm\u2026 kenapa ya aku begitu mengantuk setelah makan ini tadi?\r\n"
+    - "Hm\u2026 kenapa ya aku begitu mengantuk setelah makan ini tadi?\r\n"
+    - 'Tadi sepertinya ada yang membangunkanku, mungkin aku harus keluar sekarang.
+
+'
     name:
+    - ...
     - ...
     - Freu
     - Frey
     - Frey
     - Frey
+    - Frey
     image:
     - {fileID: -1144446156, guid: 292e7ddcd183aea43befad6c3693d6b1, type: 3}
-    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
-    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
-    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
-    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
+    - {fileID: -1144446156, guid: 292e7ddcd183aea43befad6c3693d6b1, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
   percakapan5:
     sentences:
-    - seperinya aku harus ke ruangan suster
-    - right
-    name:
-    - Frey
-    - Frey
-    image:
-    - {fileID: 21300000, guid: 7f52881b152eada41946822ed3db25d4, type: 3}
-    - {fileID: 21300000, guid: c0f03d262c997b94e9162ee1c1e9804e, type: 3}
-  percakapan7:
-    sentences:
-    - aku harus ke ruangan rahasia itu untuk membuat potion
-    - dan aku harus memanfaatkan waktu dengan bail
+    - "Hm\u2026 buku catatan Zach\u2026. Apa mungkin lebih baik aku bertanya pada
+      Zach tentang buku catatan itu ya? \r\n"
+    - 'hmm gausa mungkin aku bisa langsung ke ruang suster '
     name:
     - Frey
     - Frey
     image:
     - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
-    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+  percakapan7:
+    sentences:
+    - aku harus ke ruangan rahasia itu untuk membuat potion
+    - dan aku harus memanfaatkan waktu dengan baik
+    - "Huh? Ini hari yang disebutkan di catatan itu\u2026 sebaiknya aku segera bergegas
+      sebelum terlambat."
+    name:
+    - Frey
+    - Frey
+    - Frey
+    image:
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
   percakapan9:
     sentences:
-    - Hari ini sepertinya aku sudah bisa keluar dari sini
+    - "Jalan keluarnya\u2026 aku akhirnya mengetahuinya"
     - mungkin pertama-tama aku harus membuat kstum
     name:
     - Frey

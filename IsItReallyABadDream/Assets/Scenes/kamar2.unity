@@ -4451,52 +4451,68 @@ PrefabInstance:
       objectReference: {fileID: 1422620613}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: dialogs.Array.size
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: imageList.Array.size
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: dialogs.Array.data[0]
-      value: waw mantabb gilak hehe
+      value: "Hei Teddy\u2026 apa kamu tahu? "
       objectReference: {fileID: 0}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: dialogs.Array.data[1]
-      value: emang bolleh?
+      value: ' Kakak melarang ku memakan makanan kesukaanku '
       objectReference: {fileID: 0}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: dialogs.Array.data[2]
-      value: Lesgo bestie
+      value: ' Ugh.. sudahlah kamu menurut saja.. Apa susahnya sih? '
       objectReference: {fileID: 0}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: dialogs.Array.data[3]
-      value: Yeayyy
+      value: Tapi itu kan makanan kesukaan ku.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: dialogs.Array.data[4]
+      value: 'tidak boleh, pokoknya tidak boleh! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: dialogs.Array.data[5]
+      value: "Huuhh\u2026 kakak jahat! Aku benci kakak! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: dialogs.Array.data[6]
+      value: ' He-heii Hope!!! '
       objectReference: {fileID: 0}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: imageList.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: 7f9d6561e3427824686b92a47da4bdc5, type: 3}
+      objectReference: {fileID: 21300000, guid: e7bcbb25346c6264ca552d4dbb538e05, type: 3}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: imageList.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: 702f5d2ec6e131e49a07eda628aa222d, type: 3}
+      objectReference: {fileID: 21300000, guid: e7bcbb25346c6264ca552d4dbb538e05, type: 3}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: imageList.Array.data[2]
       value: 
-      objectReference: {fileID: 21300000, guid: ef9a3d0f81691eb41a85a25ac47c2d67, type: 3}
+      objectReference: {fileID: 21300000, guid: 26af1492d069e0045befe66d82c811db, type: 3}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: imageList.Array.data[3]
       value: 
-      objectReference: {fileID: 21300000, guid: 1a3f9cb0a5b2344489db6a08c54d8d7b, type: 3}
+      objectReference: {fileID: 21300000, guid: ef6e632a256dbfd4982080640cefb3aa, type: 3}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: imageList.Array.data[4]
       value: 
-      objectReference: {fileID: 1148133815, guid: 25770be591ded3c42a5886b68b2ee18c, type: 3}
+      objectReference: {fileID: 21300000, guid: 26af1492d069e0045befe66d82c811db, type: 3}
     - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: imageList.Array.data[5]
       value: 
-      objectReference: {fileID: 21300000, guid: 7f9d6561e3427824686b92a47da4bdc5, type: 3}
+      objectReference: {fileID: 21300000, guid: ef6e632a256dbfd4982080640cefb3aa, type: 3}
+    - target: {fileID: 7226035604497089477, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
+      propertyPath: imageList.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: 26af1492d069e0045befe66d82c811db, type: 3}
     - target: {fileID: 7604122203463961312, guid: a25b8c3a72dbd1b44b86fdc9d4b47edb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1

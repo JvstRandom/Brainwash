@@ -5054,14 +5054,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogNM1:
     sentences:
-    - ha? dimana ini? apakah aku mimpi?
-    - Sebaiknya aku mencari tahu cara untuk bangun dari mimpi ini
+    - Eh, kenapa disini gelap sekali, eh tunggu kenapa aku membawa senter?
+    - //Tekan F untuk menyalakan flashlight//
+    - ini.. mimpi ya? aku harus mencari tahu mengapa aku disini
+    - mungkin dapat dimulai dengan mengeksplore tempat ini
     name:
     - Frey
     - Frey
+    - Frey
+    - Frey
     image:
-    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
-    - {fileID: 21300000, guid: cf407dd29969c934c917b37661e260b4, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
+    - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
 --- !u!4 &1991963662
 Transform:
   m_ObjectHideFlags: 0
