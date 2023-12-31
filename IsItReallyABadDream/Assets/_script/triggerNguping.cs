@@ -17,6 +17,7 @@ public class triggerNguping : MonoBehaviour
     private bool isDialogActive = false;
     public static bool buatAlatPendengar;
     private static bool sdhmemilih=false;
+    private bool sdhngomong;
 
     // BUAT NGATUR CHOICE
     // public Button optionAButton;
@@ -33,8 +34,9 @@ public class triggerNguping : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isDialogActive)
         {
             FindObjectOfType<DialogManager>().DisplayNextSentences();
+            sdhngomong= true;
         }
-        if (!FindObjectOfType<DialogManager>().animator.GetBool("isOpen") && isDialogActive)
+        if (!FindObjectOfType<DialogManager>().animator.GetBool("isOpen") && isDialogActive && sdhngomong)
         {
             Debug.Log("sdh slese");
             isDialogActive = false;
@@ -57,7 +59,7 @@ public class triggerNguping : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("HAOAOAO");
+            
             if (MainMenu.level1 && faithnhopeCutsceneTrigger.FaithnHopeHilang && FollowerTrigger.ZachisFollowing
             && !isDialogActive && !sdhmemilih)
             {

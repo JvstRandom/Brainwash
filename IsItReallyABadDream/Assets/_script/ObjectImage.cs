@@ -15,11 +15,20 @@ public class ObjectImage : MonoBehaviour
     public Sprite ImageYoShow;
     public VectorValue playerMemorys;
     public static bool level9;
+    private bool playerInRange;
 
     private void Start(){
         place.SetActive(false);
         PlaceImageToShow.enabled = false;
         audioSource = GetComponent<AudioSource>();
+    }
+
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Space) && playerInRange)
+        {
+            imageDilihatin();
+        }
     }
 
     public void imageDilihatin()
@@ -51,6 +60,22 @@ public class ObjectImage : MonoBehaviour
         
     }
 
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.CompareTag("Player"))
+        {
+            playerInRange = true;
+            Debug.Log("Player di dalam range");
+        }
+    }
 
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if(other.CompareTag("Player"))
+        {
+            playerInRange = false;
+            Debug.Log("Player di luar range");
+        }
+    }
 }
 
