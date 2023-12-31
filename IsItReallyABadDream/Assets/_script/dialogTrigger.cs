@@ -8,6 +8,8 @@ public class dialogTrigger : MonoBehaviour
     public static bool isZachDialog1End = false;
     public dialog percakapan;
     public GameObject orang;
+    private bool sudahhh;
+    public GameObject dialohhhh;
     private bool isDialogActive = false; // Track if the dialog is active
 
     void Update()
@@ -24,6 +26,13 @@ public class dialogTrigger : MonoBehaviour
                     isZachDialog1End = true;
                     Debug.Log("status" + isZachDialog1End);
                 }
+                if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
+            {
+                Debug.Log("dadada");
+                Destroy(dialohhhh);
+                orang.SetActive(false);
+                isDialogActive = false;
+            }
             }
 
             if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
@@ -53,11 +62,13 @@ public class dialogTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && MainMenu.level1 && !faithnhopeCutsceneTrigger.FaithnHopeHilang)
+        
+        if (collision.CompareTag("Player") && MainMenu.level1 && !faithnhopeCutsceneTrigger.FaithnHopeHilang && !sudahhh)
         {
             if(MainMenu.level1 && !isZachDialog1End){
                 TriggerDialog();
             }
+            sudahhh=true;
         }
     }
 }
