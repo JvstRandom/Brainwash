@@ -17,7 +17,6 @@ public class triggerNguping : MonoBehaviour
     private bool isDialogActive = false;
     public static bool buatAlatPendengar;
     private static bool sdhmemilih=false;
-    private bool sdhngomong;
 
     // BUAT NGATUR CHOICE
     // public Button optionAButton;
@@ -33,24 +32,23 @@ public class triggerNguping : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && isDialogActive)
         {
-            FindObjectOfType<DialogManager>().DisplayNextSentences();
-            sdhngomong= true;
-        }
-        if (!FindObjectOfType<DialogManager>().animator.GetBool("isOpen") && isDialogActive && sdhngomong)
-        {
-            Debug.Log("sdh slese");
-            isDialogActive = false;
-            dialoggbox.SetActive(true);
-            choicetxtA.text = "A. Lanjut Mencari tahu Faith and Hope";
-            choicetxtB.text = "B. Membuat alat Pendengar";
-            // if (Input.GetKeyDown(KeyCode.Y))
-            // {
-            //     HandleChoice("lanjut");
-            // }
-            // else if (Input.GetKeyDown(KeyCode.N))
-            // {
-            //     HandleChoice("buat");
-            // }
+            if (FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
+            {
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    FindObjectOfType<DialogManager>().DisplayNextSentences();
+                    if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
+                    {
+                        Debug.Log("dadadahhhh");
+                        isDialogActive = false;
+                        dialoggbox.SetActive(true);
+                        choicetxtA.text = "A. Lanjut Mencari tahu Faith and Hope";
+                        choicetxtB.text = "B. Membuat alat Pendengar";
+                    }
+                }
+                
+            }
+            
         }
 
     }

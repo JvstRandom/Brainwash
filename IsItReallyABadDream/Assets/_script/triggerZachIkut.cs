@@ -7,7 +7,6 @@ public class FollowerTrigger : MonoBehaviour
     public Transform follower; // Reference to the character to become the follower
 
     public static bool ZachisFollowing = false;
-    private bool dialogueCompleted = false; // Flag to track if dialogue is completed
 
     public dialog ZachikutDialog;
     public GameObject npcSprite;

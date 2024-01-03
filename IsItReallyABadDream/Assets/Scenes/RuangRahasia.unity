@@ -9507,7 +9507,7 @@ GameObject:
   - component: {fileID: 2054190292}
   - component: {fileID: 2054190296}
   m_Layer: 0
-  m_Name: ointuKeLabirin
+  m_Name: pintuKeLabirin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

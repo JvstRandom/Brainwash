@@ -36,9 +36,9 @@ public class SceneT4Bermain1 : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player") && !sdhngomong )
+        if (collision.CompareTag("Player"))
         {
-            if(!faithnhopeCutsceneTrigger.FaithnHopeHilang)
+            if(!faithnhopeCutsceneTrigger.FaithnHopeHilang && !sdhngomong)
             {
                 Debug.Log("huhu");
                 Debug.Log("jumlah:" + ngomongKeNPC.jmlhPerkenalan);

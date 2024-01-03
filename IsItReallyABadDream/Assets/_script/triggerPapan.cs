@@ -9,7 +9,7 @@ public class triggerPapan : MonoBehaviour
     public Sprite GambarPapan;
     public dialog dialogpapan;
     private bool ngomong;
-    private bool sdhGambar = false;
+    // private bool sdhGambar = false;
     private bool slese;
     public static bool sdhLevel6 = false;
     // Start is called before the first frame update
@@ -41,7 +41,7 @@ public class triggerPapan : MonoBehaviour
         {
             tempatGambar.SetActive(true);
             t4nya.sprite = GambarPapan;
-            sdhGambar = true;
+            // sdhGambar = true;
             FindObjectOfType<DialogManager>().StartDialog(dialogpapan);
             ngomong = true;
         }

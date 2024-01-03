@@ -6,7 +6,7 @@ public class triggerPercakapandokter : MonoBehaviour
 {
     public dialog dialogdokterdiRR;
     private bool lagiDialog = false;
-    private bool laginotif = false;
+    // private bool laginotif = false;
     public string notifikasiSusterDateng;
     public static bool sdhlvl1;
 
@@ -26,7 +26,7 @@ public class triggerPercakapandokter : MonoBehaviour
         if (!FindObjectOfType<DialogManager>().animator.GetBool("isOpen") && lagiDialog)
         {
             FindObjectOfType<NotificationManager>().StartNotification(notifikasiSusterDateng);
-            laginotif = true;
+            // laginotif = true;
             triggerNguping.buatAlatPendengar = false;
             faithnhopeCutsceneTrigger.FaithnHopeHilang = false;
             sdhlvl1 = true;

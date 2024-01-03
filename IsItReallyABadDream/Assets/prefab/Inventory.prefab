@@ -1809,6 +1809,18 @@ PrefabInstance:
       propertyPath: itemDescImage
       value: 
       objectReference: {fileID: 7512742862150085317}
+    - target: {fileID: 8716517221620878043, guid: 7dc18bd208679094f8d9f0e18ee2b828, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716517221620878043, guid: 7dc18bd208679094f8d9f0e18ee2b828, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716517221620878043, guid: 7dc18bd208679094f8d9f0e18ee2b828, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -11,15 +11,16 @@ public class ngaturSprite : MonoBehaviour
     void Start()
     {
         characterSR = GetComponent<SpriteRenderer>();
-        characterSR.enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(!faithnhopeCutsceneTrigger.FaithnHopeHilang || triggerPercakapandokter.sdhlvl1)
+        if((MainMenu.level1 && !SceneT4Bermain1.sceneMulai) || triggerPercakapandokter.sdhlvl1)
         {
-            characterSR.enabled = true;
+            characterSR.enabled = true;   
+        } else {
+            characterSR.enabled = false;
             Destroy(Zach1);
         }
     }

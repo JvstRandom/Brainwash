@@ -49,6 +49,7 @@ public class ngomongKeNPC : MonoBehaviour
         {
             Debug.Log("trigger lvl7 = " + triggerSleseLevel6.level7);
             Debug.Log("sdhngomong2 = " + sudahNgomong2);
+            // dalamRange = true;
             if (SceneT4Bermain1.sceneMulai && MainMenu.level1 && !sudahNgomong)
             {
                 FindObjectOfType<DialogManager>().StartDialog(percakapanNpc);
@@ -97,8 +98,6 @@ public class ngomongKeNPC : MonoBehaviour
         {
             FindObjectOfType<NotificationManager>().StartNotification("segera kemabali ke kamar dan tidur sebelum suster notice");
             sdhLevel7 = true;
-            
-            
         }
 
 

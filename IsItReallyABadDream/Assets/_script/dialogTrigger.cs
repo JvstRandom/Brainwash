@@ -7,7 +7,6 @@ public class dialogTrigger : MonoBehaviour
 {
     public static bool isZachDialog1End = false;
     public dialog percakapan;
-    public GameObject orang;
     private bool sudahhh;
     public GameObject dialohhhh;
     private bool isDialogActive = false; // Track if the dialog is active
@@ -27,21 +26,20 @@ public class dialogTrigger : MonoBehaviour
                     Debug.Log("status" + isZachDialog1End);
                 }
                 if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
-            {
-                Debug.Log("dadada");
-                Destroy(dialohhhh);
-                orang.SetActive(false);
-                isDialogActive = false;
-            }
+                {
+                    Debug.Log("dadada");
+                    dialohhhh.SetActive(false);
+                    isDialogActive = false;
+                }
             }
 
-            if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
-            {
-                Debug.Log("dadada");
-                Destroy(orang);
-                orang.SetActive(false);
-                isDialogActive = false;
-            }
+            // if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
+            // {
+            //     Debug.Log("dadada");
+            //     Destroy(orang);
+            //     orang.SetActive(false);
+            //     isDialogActive = false;
+            // }
 
             // Check if the dialog has ended
             // if (DialogManager.sdhdialog)
@@ -63,9 +61,11 @@ public class dialogTrigger : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         
-        if (collision.CompareTag("Player") && MainMenu.level1 && !faithnhopeCutsceneTrigger.FaithnHopeHilang && !sudahhh)
+        if (collision.CompareTag("Player"))
         {
-            if(MainMenu.level1 && !isZachDialog1End){
+            if(MainMenu.level1 && !isZachDialog1End && MainMenu.level1 && !faithnhopeCutsceneTrigger.FaithnHopeHilang 
+            && !sudahhh && !SceneT4Bermain1.sceneMulai){
+                Debug.Log("kita disini");
                 TriggerDialog();
             }
             sudahhh=true;
