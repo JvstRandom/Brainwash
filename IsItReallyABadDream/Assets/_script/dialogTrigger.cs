@@ -9,6 +9,7 @@ public class dialogTrigger : MonoBehaviour
     public dialog percakapan;
     private bool sudahhh;
     public GameObject dialohhhh;
+    public GameObject zachh;
     private bool isDialogActive = false; // Track if the dialog is active
 
     void Update()
@@ -30,6 +31,9 @@ public class dialogTrigger : MonoBehaviour
                     Debug.Log("dadada");
                     dialohhhh.SetActive(false);
                     isDialogActive = false;
+                    Destroy(dialohhhh);
+                    Destroy(zachh);
+                    zachh.SetActive(false);
                 }
             }
 
@@ -68,7 +72,6 @@ public class dialogTrigger : MonoBehaviour
             {
                 Debug.Log("kita disini");
                 TriggerDialog();
-                Destroy(dialohhhh);
             }
             sudahhh = true;
         }

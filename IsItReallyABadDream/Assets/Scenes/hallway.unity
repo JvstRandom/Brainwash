@@ -1094,6 +1094,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
     - {fileID: 21300000, guid: c0f03d262c997b94e9162ee1c1e9804e, type: 3}
   dialohhhh: {fileID: 439084262}
+  zachh: {fileID: 2028964040}
 --- !u!4 &439675000 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6938265738200693157, guid: 714d700da1e714d4abd8bb83d57acbc3, type: 3}
@@ -14579,7 +14580,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2028964040}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 388017cf57e6a3a4d8bdf674c0672b1f, type: 3}
   m_Name: 
