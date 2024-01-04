@@ -25,7 +25,7 @@ public class dialogTrigger : MonoBehaviour
                     isZachDialog1End = true;
                     Debug.Log("status" + isZachDialog1End);
                 }
-                if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
+                if (!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
                 {
                     Debug.Log("dadada");
                     dialohhhh.SetActive(false);
@@ -60,15 +60,17 @@ public class dialogTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+
         if (collision.CompareTag("Player"))
         {
-            if(MainMenu.level1 && !isZachDialog1End && MainMenu.level1 && !faithnhopeCutsceneTrigger.FaithnHopeHilang 
-            && !sudahhh && !SceneT4Bermain1.sceneMulai){
+            if (MainMenu.level1 && !isZachDialog1End && MainMenu.level1 && !faithnhopeCutsceneTrigger.FaithnHopeHilang
+            && !sudahhh && !SceneT4Bermain1.sceneMulai && ngomongKeNPC.jmlhPerkenalan != 5)
+            {
                 Debug.Log("kita disini");
                 TriggerDialog();
+                Destroy(dialohhhh);
             }
-            sudahhh=true;
+            sudahhh = true;
         }
     }
 }
