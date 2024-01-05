@@ -8,7 +8,7 @@ public class triggerTidur : MonoBehaviour
     public string notifikasituru;
     public string notifikasigturu;
     public VectorValue playerMemorys;
-    private bool sdhnotif =false;
+    private bool sdhnotif = false;
     public static bool level2;
     public static bool level4;
     public static bool level6;
@@ -17,51 +17,59 @@ public class triggerTidur : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.T) && sdhnotif)
+        if (Input.GetKeyDown(KeyCode.T) && sdhnotif)
         {
-            
+
             FindObjectOfType<NotificationManager>().HideNotification();
-            if(triggerPercakapandokter.sdhlvl1){
+            if (triggerPercakapandokter.sdhlvl1)
+            {
                 Debug.Log("Halo gasi");
                 MainMenu.level1 = false;
                 triggerPercakapandokter.sdhlvl1 = false;
                 level2 = true;
                 SceneManager.LoadScene("kamar1 NM");
                 playerMemorys.initialValue = new Vector2(-5.5f, 1.3f);
-            }else if(SpriteChanger.sudahLevel3){
+            }
+            else if (SpriteChanger.sudahLevel3)
+            {
                 bendaMemoriNm.level3 = false;
+                level2 = true;
                 level4 = true;
-                Debug.Log("level 4 ="+ level4);
+                Debug.Log("level 4 =" + level4);
                 SceneManager.LoadScene("dapurNM");
                 playerMemorys.initialValue = new Vector2(2.7f, -8.6f);
-            } else if(triggerSudahSleseLevel5.sdhlvl5)
+            }
+            else if (triggerSudahSleseLevel5.sdhlvl5)
             {
-                bukuZach.level5=false;
+                bukuZach.level5 = false;
                 TimerScript.sudahTimer = false;
                 level6 = true;
-                Debug.Log("level 6 ="+ level6);
+                Debug.Log("level 6 =" + level6);
                 SceneManager.LoadScene("RuangRahasia NM");
                 playerMemorys.initialValue = new Vector2(-7.05f, -4.03f);
-            } else if(ngomongKeNPC.sdhLevel7)
+            }
+            else if (ngomongKeNPC.sdhLevel7)
             {
                 triggerSleseLevel6.level7 = false;
                 Destroy(timer);
-                level8=true;
-                Debug.Log("level 8 ="+ level8);
+                level8 = true;
+                Debug.Log("level 8 =" + level8);
                 SceneManager.LoadScene("Labirin NM");
                 playerMemorys.initialValue = new Vector2(-20.0f, 2.41f);
-            } else {
+            }
+            else
+            {
                 FindObjectOfType<NotificationManager>().StartNotification(notifikasigturu);
                 Invoke("hapusnotif", 2f);
                 Debug.Log("percakapandokter = " + triggerPercakapandokter.sdhlvl1);
             }
-            
+
         }
     }
 
@@ -72,7 +80,7 @@ public class triggerTidur : MonoBehaviour
             Debug.Log("huhueg");
             Debug.Log("status = " + triggerPercakapandokter.sdhlvl1);
             FindObjectOfType<NotificationManager>().StartNotification(notifikasituru);
-            sdhnotif=true;
+            sdhnotif = true;
         }
     }
 
