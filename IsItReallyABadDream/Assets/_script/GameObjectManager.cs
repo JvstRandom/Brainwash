@@ -13,7 +13,9 @@ public class GameObjectManager : MonoBehaviour
     void Start()
     {
         suster.SetActive(false);
-        
+        monsterNM.SetActive(false);
+        monsterNM1.SetActive(false);
+        monsterNM2.SetActive(false);
     }
 
     // Update is called once per frame
@@ -24,12 +26,7 @@ public class GameObjectManager : MonoBehaviour
            suster.SetActive(true); 
         }
 
-        if(!triggerTidur.level2)
-        {
-            monsterNM.SetActive(false);
-            monsterNM1.SetActive(false);
-            monsterNM2.SetActive(false);
-        }else 
+        if(triggerTidur.level2)
         {
             monsterNM.SetActive(true);
             monsterNM1.SetActive(true);
