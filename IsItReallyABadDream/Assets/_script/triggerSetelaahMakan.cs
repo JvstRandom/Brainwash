@@ -59,16 +59,16 @@ public class triggerSetelaahMakan : MonoBehaviour
         {
             case "Makan":
                 ending1=true;
-                dialogChoicebox.SetActive(false);
                 SceneManager.LoadScene(SceneEnding1);
                 Debug.Log("Pressed A - Status ending: " + ending1);
+                dialogChoicebox.SetActive(false);
                 milihending1=true;
                 break;
             case "keluar dari dapur":
                 ending1=false;
-                dialogChoicebox.SetActive(false);
                 FindObjectOfType<NotificationManager>().StartNotification(notifWarn);
                 Debug.Log("Pressed A - Status ending: " + ending1);
+                dialogChoicebox.SetActive(false);
                 milihending1=true;
                 break;
             default:

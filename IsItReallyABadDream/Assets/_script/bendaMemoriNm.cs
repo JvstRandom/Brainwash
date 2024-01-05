@@ -13,7 +13,6 @@ public class bendaMemoriNm : MonoBehaviour
     private bool ngomong = false;
     private bool increase=false;
     public static bool level3;
-    public Vector2 playerPos;
     public VectorValue playerMemory;
     
 
@@ -62,6 +61,7 @@ public class bendaMemoriNm : MonoBehaviour
     {
         FindObjectOfType<NotificationManager>().HideNotification();
                 SceneManager.LoadScene("kamar1");
+                playerMemory.initialValue = new Vector2(-5.4f, 2.3f);
                 jmlhNyentuhBendaMemoriNM--;
                 level3=true;
     }

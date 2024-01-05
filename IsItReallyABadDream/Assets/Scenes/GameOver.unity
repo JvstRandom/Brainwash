@@ -866,7 +866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad2: MainMenu
-  changeTime: 8.5
+  changeTime: 6.5
 --- !u!4 &1548997374
 Transform:
   m_ObjectHideFlags: 0

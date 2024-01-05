@@ -32,9 +32,16 @@ public class dialogTrigger : MonoBehaviour
                     dialohhhh.SetActive(false);
                     isDialogActive = false;
                     Destroy(dialohhhh);
-                    Destroy(zachh);
-                    zachh.SetActive(false);
+                     
                 }
+            }
+
+            if(MainMenu.level1)
+            {
+                zachh.SetActive(true);
+            } else {
+                Destroy(zachh);
+                zachh.SetActive(false);
             }
 
             // if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))

@@ -15,10 +15,11 @@ public class triggerGantiScene1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log("status dialog end zach = " + dialogTrigger.isZachDialog1End);
         if (MainMenu.level1 && dialogTrigger.isZachDialog1End)
         {
             SceneTransition.SetActive(true);
             dialogTrigger.isZachDialog1End = false;
-        }
+        } 
     }
 }

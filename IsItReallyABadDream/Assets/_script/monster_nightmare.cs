@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class monster_nightmare : monster
 {
-    public GameObject MonsterNM;
     private Rigidbody2D rbm;
     public Transform target;
     
@@ -26,13 +25,9 @@ public class monster_nightmare : monster
         anim = GetComponent<Animator>();
         camShake = GameObject.FindGameObjectWithTag("screenShake").GetComponent<shake>();
         target = GameObject.FindWithTag("Player").transform;
-        if(!triggerTidur.level2)
-        {
-            MonsterNM.SetActive(false);
-        }else{
-            MonsterNM.SetActive(true);
-        }
+        
     }
+    
 
     // Update is called once per frame
     void FixedUpdate() 
