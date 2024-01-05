@@ -30,9 +30,9 @@ public class dialogLevel1 : MonoBehaviour
     }
 
     // Method to start the dialog
-    void StartDialog()
+    void StartDialog(dialog dialogkita)
     {
-        FindObjectOfType<DialogManager>().StartDialog(percakapan1);
+        FindObjectOfType<DialogManager>().StartDialog(dialogkita);
     }
 
     // Update is called once per frame
@@ -40,7 +40,7 @@ public class dialogLevel1 : MonoBehaviour
     {
         if (MainMenu.level1 && !ngomong && !SceneT4Bermain1.sceneMulai)
         {
-            StartDialog();
+            StartDialog(percakapan1);
             ngomong = true;
         }
 
@@ -65,7 +65,7 @@ public class dialogLevel1 : MonoBehaviour
             if (bendaMemoriNm.level3 && !ngomong3 && !SpriteChanger.sudahLevel3)
             {
                 Debug.Log("Im here gais, harusnya muncul lvl3");
-                FindObjectOfType<DialogManager>().StartDialog(percakapan3);
+                StartDialog(percakapan3);
                 ngomong3 = true;
             }
 
