@@ -8,6 +8,8 @@ public class changeCutsceneMakan : MonoBehaviour
     public string sceneToload;
     public float changetime;
     public static bool cutsceneMakan;
+    public VectorValue playerMemory;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +26,7 @@ public class changeCutsceneMakan : MonoBehaviour
             if (changetime <= 0)
             {
                 SceneManager.LoadScene(sceneToload);
+                playerMemory.initialValue = new Vector2(-5.0f, 2.66f);
                 cutsceneMakan = true;
             }
         }

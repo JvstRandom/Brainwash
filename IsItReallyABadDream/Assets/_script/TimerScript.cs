@@ -20,9 +20,10 @@ public class TimerScript : MonoBehaviour
         if(triggerSleseLevel6.level7)
         {
             DontDestroyOnLoad(Timer);
-        }else if (!triggerSleseLevel6.level7)
+        }else if (!triggerSleseLevel6.level7 && !bukuZach.level5)
         {
-            Destroy(Timer);
+            // Destroy(Timer);
+            Timer.SetActive(false);
         }
         if(TimerOn)
         {

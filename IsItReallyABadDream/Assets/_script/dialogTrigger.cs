@@ -7,9 +7,9 @@ public class dialogTrigger : MonoBehaviour
 {
     public static bool isZachDialog1End = false;
     public dialog percakapan;
-    public GameObject orang;
     private bool sudahhh;
     public GameObject dialohhhh;
+    public GameObject zachh;
     private bool isDialogActive = false; // Track if the dialog is active
 
     void Update()
@@ -26,22 +26,31 @@ public class dialogTrigger : MonoBehaviour
                     isZachDialog1End = true;
                     Debug.Log("status" + isZachDialog1End);
                 }
-                if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
-            {
-                Debug.Log("dadada");
-                Destroy(dialohhhh);
-                orang.SetActive(false);
-                isDialogActive = false;
-            }
+                if (!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
+                {
+                    Debug.Log("dadada");
+                    dialohhhh.SetActive(false);
+                    isDialogActive = false;
+                    Destroy(dialohhhh);
+                     
+                }
             }
 
-            if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
+            if(MainMenu.level1)
             {
-                Debug.Log("dadada");
-                Destroy(orang);
-                orang.SetActive(false);
-                isDialogActive = false;
+                zachh.SetActive(true);
+            } else {
+                Destroy(zachh);
+                zachh.SetActive(false);
             }
+
+            // if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
+            // {
+            //     Debug.Log("dadada");
+            //     Destroy(orang);
+            //     orang.SetActive(false);
+            //     isDialogActive = false;
+            // }
 
             // Check if the dialog has ended
             // if (DialogManager.sdhdialog)
@@ -62,13 +71,16 @@ public class dialogTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
-        if (collision.CompareTag("Player") && MainMenu.level1 && !faithnhopeCutsceneTrigger.FaithnHopeHilang && !sudahhh)
+
+        if (collision.CompareTag("Player"))
         {
-            if(MainMenu.level1 && !isZachDialog1End){
+            if (MainMenu.level1 && !isZachDialog1End && MainMenu.level1 && !faithnhopeCutsceneTrigger.FaithnHopeHilang
+            && !sudahhh && !SceneT4Bermain1.sceneMulai && ngomongKeNPC.jmlhPerkenalan != 5)
+            {
+                Debug.Log("kita disini");
                 TriggerDialog();
             }
-            sudahhh=true;
+            sudahhh = true;
         }
     }
 }
