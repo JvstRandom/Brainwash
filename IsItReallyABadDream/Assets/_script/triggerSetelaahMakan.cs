@@ -63,6 +63,7 @@ public class triggerSetelaahMakan : MonoBehaviour
                 SceneManager.LoadScene(SceneEnding1);
                 Debug.Log("Pressed A - Status ending: " + ending1);
                 milihending1=true;
+                Destroy(dialogChoicebox);
                 break;
             case "keluar dari dapur":
                 ending1=false;
@@ -70,6 +71,7 @@ public class triggerSetelaahMakan : MonoBehaviour
                 FindObjectOfType<NotificationManager>().StartNotification(notifWarn);
                 Debug.Log("Pressed A - Status ending: " + ending1);
                 milihending1=true;
+                Destroy(dialogChoicebox);
                 break;
             default:
                 break;

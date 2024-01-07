@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class TriggerTimerLvl7 : MonoBehaviour
 {
     public GameObject timerkack;
-    public bool mulaiTimerLvl7;
+    public static bool mulaiTimerLvl7;
     private bool sdhTrigger = false;
     public dialog mulaiLevel7;
     public string notifasiWaktuHabis;
