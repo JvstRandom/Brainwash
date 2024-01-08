@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class triggerSetelaahMakan : MonoBehaviour
 {
     public dialog milihHbsMakan;
-    private bool ngomong=false;
+    private bool ngomong = false;
     public GameObject dialogChoicebox;
     public Text choicetxtA;
     public Text choicetxtB;
@@ -21,30 +21,30 @@ public class triggerSetelaahMakan : MonoBehaviour
     void Start()
     {
         dialogChoicebox.SetActive(false);
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(changeCutsceneMakan.cutsceneMakan && !ngomong && triggerTidur.level4 && !milihending1)
+        if (changeCutsceneMakan.cutsceneMakan && !ngomong && triggerTidur.level4 && !milihending1)
         {
             FindObjectOfType<DialogManager>().StartDialog(milihHbsMakan);
-            ngomong=true;
+            ngomong = true;
         }
-        if(Input.GetKeyDown(KeyCode.Space) && ngomong)
+        if (Input.GetKeyDown(KeyCode.Space) && ngomong)
         {
-            if(FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
+            if (FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
             {
                 FindObjectOfType<DialogManager>().DisplayNextSentences();
-                sdhkak=true;
+                sdhkak = true;
             }
-            if(FindObjectOfType<NotificationManager>().notificationAnimator.GetBool("IsOpen"))
+            if (FindObjectOfType<NotificationManager>().notificationAnimator.GetBool("IsOpen"))
             {
                 FindObjectOfType<NotificationManager>().HideNotification();
             }
-        } 
-        if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen") && sdhkak)
+        }
+        if (!FindObjectOfType<DialogManager>().animator.GetBool("isOpen") && sdhkak)
         {
             Debug.Log("sdh slese");
             dialogChoicebox.SetActive(true);
@@ -58,20 +58,20 @@ public class triggerSetelaahMakan : MonoBehaviour
         switch (choice)
         {
             case "Makan":
-                ending1=true;
-                dialogChoicebox.SetActive(false);
+                ending1 = true;
                 SceneManager.LoadScene(SceneEnding1);
                 Debug.Log("Pressed A - Status ending: " + ending1);
-                milihending1=true;
-                Destroy(dialogChoicebox);
+                milihending1 = true;
+                dialogChoicebox.SetActive(false);
+                // Destroy(dialogChoicebox);
                 break;
             case "keluar dari dapur":
-                ending1=false;
-                dialogChoicebox.SetActive(false);
+                ending1 = false;
                 FindObjectOfType<NotificationManager>().StartNotification(notifWarn);
                 Debug.Log("Pressed A - Status ending: " + ending1);
-                milihending1=true;
-                Destroy(dialogChoicebox);
+                milihending1 = true;
+                dialogChoicebox.SetActive(false);
+                // Destroy(dialogChoicebox);
                 break;
             default:
                 break;
