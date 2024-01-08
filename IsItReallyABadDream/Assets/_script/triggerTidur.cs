@@ -45,6 +45,7 @@ public class triggerTidur : MonoBehaviour
                 bukuZach.level5=false;
                 TimerScript.sudahTimer = false;
                 level6 = true;
+                triggerSudahSleseLevel5.sdhlvl5 = false;
                 Debug.Log("level 6 ="+ level6);
                 SceneManager.LoadScene("RuangRahasia NM");
                 playerMemorys.initialValue = new Vector2(-7.05f, -4.03f);
@@ -53,6 +54,7 @@ public class triggerTidur : MonoBehaviour
                 triggerSleseLevel6.level7 = false;
                 Destroy(timer);
                 level8=true;
+                ngomongKeNPC.sdhLevel7 = false;
                 Debug.Log("level 8 ="+ level8);
                 SceneManager.LoadScene("Labirin NM");
                 playerMemorys.initialValue = new Vector2(-20.0f, 2.41f);
