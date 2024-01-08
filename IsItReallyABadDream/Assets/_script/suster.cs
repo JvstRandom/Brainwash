@@ -93,7 +93,7 @@ public class suster : monster
             {
                 PlayerManager.haveKey=false;
                 SceneManager.LoadScene("hallway");
-            } else if(bukuZach.level5 && !TimerScript.TimerOn)
+            } else if(bukuZach.level5 && !TimerScript.TimerOn && !TriggerMulaiSceneRS.mulaiSceneRS)
             {
                 Debug.Log("player hit suster biasa");
                 dialogPanel.SetActive(true);

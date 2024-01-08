@@ -17,7 +17,7 @@ public class TimerScript : MonoBehaviour
 
     void Update()
     {
-        if(triggerSleseLevel6.level7)
+        if(triggerSleseLevel6.level7 && bukuZach.level5)
         {
             DontDestroyOnLoad(Timer);
         }else if (!triggerSleseLevel6.level7 && !bukuZach.level5)
