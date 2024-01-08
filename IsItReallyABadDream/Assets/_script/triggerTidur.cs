@@ -37,6 +37,7 @@ public class triggerTidur : MonoBehaviour
                 bendaMemoriNm.level3 = false;
                 level4 = true;
                 Debug.Log("level 4 ="+ level4);
+                SpriteChanger.sudahLevel3 = false;
                 SceneManager.LoadScene("dapurNM");
                 playerMemorys.initialValue = new Vector2(2.7f, -8.6f);
             } else if(triggerSudahSleseLevel5.sdhlvl5)

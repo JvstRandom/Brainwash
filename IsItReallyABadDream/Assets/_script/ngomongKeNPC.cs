@@ -97,8 +97,7 @@ public class ngomongKeNPC : MonoBehaviour
         {
             FindObjectOfType<NotificationManager>().StartNotification("segera kemabali ke kamar dan tidur sebelum suster notice");
             sdhLevel7 = true;
-            
-            
+        
         }
 
 

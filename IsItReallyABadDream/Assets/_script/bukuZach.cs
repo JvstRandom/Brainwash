@@ -17,8 +17,8 @@ public class bukuZach : MonoBehaviour
     {
         if (ObjectImage.sdhlihatbuku && triggerTidur.level4)
         {
-            playerMemorys.initialValue = new Vector2(-5.5f, 1.3f);
             SceneManager.LoadScene("kamar1");
+            playerMemorys.initialValue = new Vector2(-5.5f, 1.3f);
             level5=true;
             triggerTidur.level4 = false;
         }

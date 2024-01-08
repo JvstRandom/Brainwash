@@ -88,7 +88,10 @@ public class itemSlot : MonoBehaviour, IPointerClickHandler
         if(isSelected){
             Debug.Log("Im here");
             inventoryManager.useitem(itemName);
-            EmptySlot();
+            if(itemName == "medic")
+            {
+                EmptySlot();
+            }
         }
         else {
             Debug.Log("OnLeftClick");
