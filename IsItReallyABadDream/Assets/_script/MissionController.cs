@@ -133,5 +133,28 @@ public class MissionController : MonoBehaviour
                 misiTxt.text = "kembali tidur";
             }
         }
+
+        if (triggerTidur.level8)
+        {
+            if(!ObjectImage.sdhlevel8)
+            {
+                misiTxt.text = "menelusuri labirin untuk bangun";
+            }
+
+        }
+
+        if(ObjectImage.sdhlevel8)
+        {
+            if(!playerManager.haveCostume)
+            {
+                misiTxt.text = "membuat kostum terdiri dari 2 objek";
+            }
+
+            if(playerManager.haveCostume)
+            {
+                misiTxt.text = "pergi ke labirin";
+            }
+
+        }
     }
 }
