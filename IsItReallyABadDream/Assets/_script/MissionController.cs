@@ -145,12 +145,12 @@ public class MissionController : MonoBehaviour
 
         if(ObjectImage.sdhlevel8)
         {
-            if(!playerManager.haveCostume)
+            if(!PlayerManager.haveCostume)
             {
                 misiTxt.text = "membuat kostum terdiri dari 2 objek";
             }
 
-            if(playerManager.haveCostume)
+            if(PlayerManager.haveCostume)
             {
                 misiTxt.text = "pergi ke labirin";
             }
