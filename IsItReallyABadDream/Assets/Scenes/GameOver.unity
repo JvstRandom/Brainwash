@@ -429,6 +429,10 @@ PlayableDirector:
     value: {fileID: 1111452577}
   - key: {fileID: 1268381667306215850, guid: 4b20b490fed701d47ba894bf907aa474, type: 2}
     value: {fileID: 0}
+  - key: {fileID: -1559574116501334282, guid: 4b20b490fed701d47ba894bf907aa474, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -8716347408868892192, guid: 4b20b490fed701d47ba894bf907aa474, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &656111000
@@ -624,8 +628,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: GAME OVER
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2afce761230dca04fbbd6fc15435afb7, type: 2}
-  m_sharedMaterial: {fileID: 1020954372563748740, guid: 2afce761230dca04fbbd6fc15435afb7, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
