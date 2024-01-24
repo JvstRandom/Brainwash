@@ -36,4 +36,12 @@ public class dialogWhenInterac : MonoBehaviour
             inrange = true;
         }
     }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            inrange = false;
+        }
+    }
 }

@@ -602,9 +602,17 @@ PrefabInstance:
       value: 0.99749184
       objectReference: {fileID: 0}
     - target: {fileID: 1001587647229801120, guid: 06db2c1a6c0d0ad4cabbe79e7a677db8, type: 3}
+      propertyPath: place
+      value: 
+      objectReference: {fileID: 586508074}
+    - target: {fileID: 1001587647229801120, guid: 06db2c1a6c0d0ad4cabbe79e7a677db8, type: 3}
       propertyPath: ImageYoShow
       value: 
       objectReference: {fileID: 21300000, guid: ef9a3d0f81691eb41a85a25ac47c2d67, type: 3}
+    - target: {fileID: 1001587647229801120, guid: 06db2c1a6c0d0ad4cabbe79e7a677db8, type: 3}
+      propertyPath: playerMemorys
+      value: 
+      objectReference: {fileID: 11400000, guid: dca479449dea3cc44ac37ac2f50ce9c1, type: 2}
     - target: {fileID: 2741705244310313816, guid: 06db2c1a6c0d0ad4cabbe79e7a677db8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.8695588
@@ -916,6 +924,11 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 1834b32c4bbb84c4091a62087514abb9, type: 3}
   notifikasiSusterDateng: Suster mau datang! Segera kembali dan tidur di kasur paling
     kiri
+--- !u!1 &586508074 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 673889336610030474, guid: 06db2c1a6c0d0ad4cabbe79e7a677db8, type: 3}
+  m_PrefabInstance: {fileID: 388705593}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &795029790
 GameObject:
   m_ObjectHideFlags: 0
