@@ -16,7 +16,13 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         SceneManager.LoadScene("kamar1");
-        level1 = true;
+        if(!triggerTidur.lvl1completed)
+        {
+            level1 = true;
+        } else 
+        {
+            
+        }
     }
 
     public void QuitGame()

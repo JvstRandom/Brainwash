@@ -62,25 +62,31 @@ public class SpriteChanger : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.Space))
             {
                 FindObjectOfType<NotificationManager>().HideNotification();
-                jmlhNyentuhBendaMemori--;
+                jmlhNyentuhBendaMemori++;
             }
         }
+
         
     }
 
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("Player") )
+        if (col.CompareTag("Player") && (bendaMemoriNm.level3 || bukuZach.level5))
         {
             PlayerInRange = true;
             Debug.Log("player in range");
+            if(spriteRenderer.sprite == newSprite)
+            {
+                PlayerInRange = false;
+            }
         }
+
     }
 
     void OnTriggerExit2D(Collider2D col)
     {
-        if (col.CompareTag("Player"))
+        if (col.CompareTag("Player") && (bendaMemoriNm.level3 || bukuZach.level5))
         {
             PlayerInRange = false;
             dialogChoiceBox.SetActive(false);
@@ -126,7 +132,7 @@ public class SpriteChanger : MonoBehaviour
                 {
                     sdhlihatKipas=true;
                 }
-                Invoke("hilang", 3f);
+                Invoke("hilang", 2f);
                 
                 // You can perform any actions here when the sequence ends
             }

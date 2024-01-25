@@ -13,6 +13,7 @@ public class triggerTidur : MonoBehaviour
     public static bool level4;
     public static bool level6;
     public static bool level8;
+    public static bool lvl1completed;
     public GameObject timer;
     // Start is called before the first frame update
     void Start()
@@ -30,6 +31,7 @@ public class triggerTidur : MonoBehaviour
             if(triggerPercakapandokter.sdhlvl1){
                 MainMenu.level1 = false;
                 triggerPercakapandokter.sdhlvl1 = false;
+                lvl1completed = true;
                 level2 = true;
                 SceneManager.LoadScene("kamar1 NM");
                 playerMemorys.initialValue = new Vector2(-5.5f, 1.3f);

@@ -32,9 +32,14 @@ public class MissionController : MonoBehaviour
                 misiTxt.text = "Mencari tahu keberadaan Faith dan Hope";
             }
 
+            if (triggerNguping.buatAlatPendengar)
+            {
+                misiTxt.text = "Membuat alat pendengar dengan bahan-bahan yang ada di panti asuhan ada 3 total";
+            }
+
             if (triggerNguping.buatAlatPendengar && triggerSetelahAlatPendengar.sdhNguping)
             {
-                misiTxt.text = "Lanjut mencari tahu keberadaan faith dan hope";
+                misiTxt.text = "Lanjut mencari tahu keberadaan faith dan hope di ruangan sebelah ruang suster";
             }
 
             if (triggerPercakapandokter.sdhlvl1 && !triggerTidur.level2)

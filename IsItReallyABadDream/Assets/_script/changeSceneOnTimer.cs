@@ -17,7 +17,6 @@ public class changeSceneOnTimer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
         if(faithnhopeCutsceneTrigger.hasLoadedScene && !faithnhopeCutsceneTrigger.sdhBerubah)
         {
             changeTime -= Time.deltaTime;
@@ -27,7 +26,13 @@ public class changeSceneOnTimer : MonoBehaviour
                 faithnhopeCutsceneTrigger.FaithnHopeHilang = true;
                 faithnhopeCutsceneTrigger.sdhBerubah = true;
             }
+        }else 
+        {
+            changeTime -= Time.deltaTime;
+            if (changeTime <= 0)
+            {
+                SceneManager.LoadScene(sceneToLoad2);
+            }
         }
-        
     }
 }

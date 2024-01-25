@@ -26,7 +26,11 @@ public class dialogLevel1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        if (MainMenu.level1 && !ngomong && !SceneT4Bermain1.sceneMulai && !triggerNguping.buatAlatPendengar && triggerPercakapandokter.sdhlvl1)
+        {
+            StartDialog(percakapan1);
+            ngomong = true;
+        }
     }
 
     // Method to start the dialog
@@ -38,14 +42,7 @@ public class dialogLevel1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (MainMenu.level1 && !ngomong && !SceneT4Bermain1.sceneMulai)
-        {
-            StartDialog(percakapan1);
-            ngomong = true;
-        }
-
-
-
+        
         // Check if the dialog is still active in the DialogManager
         if (FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
         {
