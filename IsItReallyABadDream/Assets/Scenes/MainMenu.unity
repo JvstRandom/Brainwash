@@ -547,7 +547,7 @@ AudioSource:
   m_GameObject: {fileID: 1461496102}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -8075845743548701206, guid: 4922532a6b3e2fc4da70560305aba357, type: 2}
   m_audioClip: {fileID: 8300000, guid: af35efe5bb8f24f4db1f626a831fdfa1, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.393
@@ -1043,10 +1043,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1547858748}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1547858752}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: Settings
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
