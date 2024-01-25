@@ -87,11 +87,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Labirin NM.unity
     guid: 21e28b95b85b6a5469e653118fe04c92
   - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 8c001e74384618240a54541a660d036d
+  - enabled: 1
     path: Assets/Scenes/CutSceneEndingNM2.unity
     guid: b8d888fa8680c4e439b1afdeac880b09
-  - enabled: 0
-    path: Assets/Scenes/GameOver1.unity
-    guid: ec764b114f996f542acaf1610c9c2962
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 9a73b9ea282099e46b38a7f7a73734f6
