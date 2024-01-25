@@ -50,6 +50,7 @@ public class triggerSudahSleseLevel5 : MonoBehaviour
                 FindObjectOfType<NotificationManager>().StartNotification(notifSleseLevel5);
                 SceneTransition.SetActive(true);
                 bukuZach.level5 = false;
+                Destroy(susterr);
                 sdhlvl5 = true;
             } else {
                 FindObjectOfType<NotificationManager>().StartNotification(notifBlmSleseLevel5);

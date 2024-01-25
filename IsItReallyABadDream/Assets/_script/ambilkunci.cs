@@ -9,6 +9,7 @@ public class ambilkunci : MonoBehaviour
     private bool dalamrange=false;
     public static bool playersudahambil=false;
     public static bool sudahTimer=false;
+    public static bool sudahsuster;
     public GameObject sustery;
 
     void Update()
@@ -21,7 +22,7 @@ public class ambilkunci : MonoBehaviour
                 Debug.Log("dapet kunci = " + PlayerManager.haveKey);
                 FindObjectOfType<NotificationManager>().StartNotification(notifkey);
                 sdhmuncul=true;
-            } else if(!sudahTimer && sdhmuncul){
+            } else if(!sudahTimer && sdhmuncul && !sudahsuster){
                 Debug.Log("sudahmati");
                 playersudahambil=true;
                 TimerScript.TimerOn=true;
@@ -29,6 +30,7 @@ public class ambilkunci : MonoBehaviour
                 sustery.SetActive(true);
                 Debug.Log("TimerScript = " + TimerScript.TimerOn);
                 FindObjectOfType<NotificationManager>().HideNotification();
+                sudahsuster=true;
                 // if(!TimerScript.TimerOn)
                 // {
                 //     sudahTimer = true;

@@ -26,7 +26,6 @@ public class triggerTidur : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.T) && sdhnotif)
         {
-            
             FindObjectOfType<NotificationManager>().HideNotification();
             if(triggerPercakapandokter.sdhlvl1){
                 MainMenu.level1 = false;
@@ -77,6 +76,14 @@ public class triggerTidur : MonoBehaviour
             Debug.Log("status = " + triggerPercakapandokter.sdhlvl1);
             FindObjectOfType<NotificationManager>().StartNotification(notifikasituru);
             sdhnotif=true;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            FindObjectOfType<NotificationManager>().HideNotification();
         }
     }
 

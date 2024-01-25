@@ -26,7 +26,7 @@ public class dialogLevel1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (MainMenu.level1 && !ngomong && !SceneT4Bermain1.sceneMulai && !triggerNguping.buatAlatPendengar && triggerPercakapandokter.sdhlvl1)
+        if (MainMenu.level1 && !ngomong && !SceneT4Bermain1.sceneMulai && !triggerNguping.buatAlatPendengar && !triggerPercakapandokter.sdhlvl1)
         {
             StartDialog(percakapan1);
             ngomong = true;
