@@ -31,6 +31,12 @@ public class ObjectImage : MonoBehaviour
             PlaceImageToShow.enabled = true;
             UiAktif = true;
             audioSource.Play();
+            if(triggerTidur.level2)
+            {
+                PlaceImageToShow.enabled = false;
+                UiAktif = false;
+                place.SetActive(false); 
+            }
             
         } else if (UiAktif){
             PlaceImageToShow.enabled = false;

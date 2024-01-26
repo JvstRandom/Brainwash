@@ -62,6 +62,7 @@ public class bendaMemoriNm : MonoBehaviour
     {
         FindObjectOfType<NotificationManager>().HideNotification();
                 SceneManager.LoadScene("kamar1");
+                triggerTidur.level2 = false;
                 playerMemory.initialValue = new Vector2(-5.5f, 1.3f);
                 jmlhNyentuhBendaMemoriNM--;
                 level3=true;

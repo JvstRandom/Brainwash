@@ -56,6 +56,7 @@ public class triggerTidur : MonoBehaviour
                 Destroy(timer);
                 level8=true;
                 ngomongKeNPC.sdhLevel7 = false;
+                TimerScript.TimerOn = false;
                 Debug.Log("level 8 ="+ level8);
                 SceneManager.LoadScene("Labirin NM");
                 playerMemorys.initialValue = new Vector2(-20.0f, 2.41f);
