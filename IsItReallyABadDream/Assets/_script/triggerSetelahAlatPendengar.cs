@@ -22,13 +22,14 @@ public class triggerSetelahAlatPendengar : MonoBehaviour
         {
 
             FindObjectOfType<DialogManager>().DisplayNextSentences();
-        }
-        if (!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
-        {
-            sdhNguping = true;
+            if (!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
+            {
+                sdhNguping = true;
 
-            triggerNguping.sceneEavesdrop = false;
+                triggerNguping.sceneEavesdrop = false;
+            }
         }
+        
         if (Input.GetKeyDown(KeyCode.Space) && FindObjectOfType<NotificationManager>().notificationAnimator.GetBool("IsOpen"))
         {
             FindObjectOfType<NotificationManager>().HideNotification();

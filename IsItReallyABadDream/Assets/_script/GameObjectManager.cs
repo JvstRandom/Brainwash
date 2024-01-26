@@ -13,15 +13,28 @@ public class GameObjectManager : MonoBehaviour
     void Start()
     {
         suster.SetActive(false);
-        if(triggerdikejar.dikejar)
-        {
-           suster.SetActive(true); 
-        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (triggerdikejar.dikejar)
+        {
+            suster.SetActive(true);
+        }
+        if (!triggerTidur.level2)
+        {
+            monsterNM.SetActive(false);
+            monsterNM1.SetActive(false);
+            monsterNM2.SetActive(false);
+            monsterNM3.SetActive(false);
+        }
+        else
+        {
+            monsterNM.SetActive(true);
+            monsterNM1.SetActive(true);
+            monsterNM2.SetActive(true);
+            monsterNM3.SetActive(true);
+        }
     }
 }

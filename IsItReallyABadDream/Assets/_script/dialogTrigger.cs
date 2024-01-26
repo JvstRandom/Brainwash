@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class dialogTrigger : MonoBehaviour
 {
+    public SpriteRenderer spriteRenderer;
     public static bool isZachDialog1End = false;
     public dialog percakapan;
     private bool sudahhh;
@@ -32,17 +33,17 @@ public class dialogTrigger : MonoBehaviour
                     dialohhhh.SetActive(false);
                     isDialogActive = false;
                     Destroy(dialohhhh);
-                     
+                    spriteRenderer.enabled = false;
                 }
             }
 
-            if(MainMenu.level1)
-            {
-                zachh.SetActive(true);
-            } else {
-                Destroy(zachh);
-                zachh.SetActive(false);
-            }
+            // if(MainMenu.level1)
+            // {
+            //     zachh.SetActive(true);
+            // } else {
+            //     Destroy(zachh);
+            //     zachh.SetActive(false);
+            // }
 
             // if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
             // {
@@ -79,6 +80,7 @@ public class dialogTrigger : MonoBehaviour
             {
                 Debug.Log("kita disini");
                 TriggerDialog();
+                spriteRenderer.enabled = true;
             }
             sudahhh = true;
         }

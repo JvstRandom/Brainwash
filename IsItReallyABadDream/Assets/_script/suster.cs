@@ -100,6 +100,8 @@ public class suster : monster
                 dialogTxt.text = "Ngapain kamu di lorong ini? ini bukan waktunya jalan-jalan";
                 Invoke("playerTransfer", 2f);
                 isPlayerHit = true;
+            } else if(!triggerTidur.level2) {
+                susterbody.SetActive(false);
             }
             
         } else {
