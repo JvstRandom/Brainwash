@@ -32,6 +32,7 @@ public class TimerScript : MonoBehaviour
             {
                 TimeLeft -= Time.deltaTime;
                 updateTimer(TimeLeft);
+                DontDestroyOnLoad(Timer);
             }
             else
             {

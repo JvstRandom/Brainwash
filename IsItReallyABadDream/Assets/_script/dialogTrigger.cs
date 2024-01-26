@@ -37,13 +37,12 @@ public class dialogTrigger : MonoBehaviour
                 }
             }
 
-            // if(MainMenu.level1)
-            // {
-            //     zachh.SetActive(true);
-            // } else {
-            //     Destroy(zachh);
-            //     zachh.SetActive(false);
-            // }
+
+            if (!MainMenu.level1)
+            {
+                spriteRenderer.enabled = false;
+                Destroy(zachh);
+            }
 
             // if(!FindObjectOfType<DialogManager>().animator.GetBool("isOpen"))
             // {
