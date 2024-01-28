@@ -23,7 +23,7 @@ public class triggerSetelahDikejar : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && triggerTidur.level4 && triggerdikejar.dikejar && !sdhngomongya)
+        if (other.CompareTag("Player") && triggerdikejar.dikejar)
         {
             Debug.Log("sudah selesai dikejar");
             triggerdikejar.dikejar = false;

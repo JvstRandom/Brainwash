@@ -34,12 +34,12 @@ public class MiniGamePotion : MonoBehaviour
             PlayerManager.havePotion = true;
             Debug.Log("dapet potion = " + PlayerManager.havePotion);
             FindObjectOfType<NotificationManager>().StartNotification(notifikasiPotion);
-            Invoke("hilang", 2f);
-        }
-        if(!FindObjectOfType<NotificationManager>().notificationAnimator.GetBool("IsOpen") && brankasController.isGotRightPotion)
-        {
             
-            FindObjectOfType<DialogManager>().StartDialog(SuruhCepetNgasiPotion);
+        }
+        if(FindObjectOfType<NotificationManager>().notificationAnimator.GetBool("IsOpen") && brankasController.isGotRightPotion && Input.GetKeyDown(KeyCode.Space))
+        {
+            FindObjectOfType<NotificationManager>().HideNotification();
+            // FindObjectOfType<DialogManager>().StartDialog(SuruhCepetNgasiPotion);
             dialog=true;
         }
         if( Input.GetKeyDown(KeyCode.Space) && FindObjectOfType<DialogManager>().animator.GetBool("isOpen") && dialog)

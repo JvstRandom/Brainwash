@@ -5386,7 +5386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToload: dapurNM
-  changetime: 2
+  changetime: 10
   playerMemory: {fileID: 11400000, guid: dca479449dea3cc44ac37ac2f50ce9c1, type: 2}
 --- !u!4 &1232126244
 Transform:

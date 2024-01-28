@@ -63,7 +63,7 @@ public class triggerSetelaahMakan : MonoBehaviour
                 Debug.Log("Pressed A - Status ending: " + ending1);
                 milihending1 = true;
                 dialogChoicebox.SetActive(false);
-                // Destroy(dialogChoicebox);
+                Destroy(dialogChoicebox);
                 break;
             case "keluar dari dapur":
                 ending1 = false;
@@ -71,7 +71,7 @@ public class triggerSetelaahMakan : MonoBehaviour
                 Debug.Log("Pressed A - Status ending: " + ending1);
                 milihending1 = true;
                 dialogChoicebox.SetActive(false);
-                // Destroy(dialogChoicebox);
+                Destroy(dialogChoicebox);
                 break;
             default:
                 break;
